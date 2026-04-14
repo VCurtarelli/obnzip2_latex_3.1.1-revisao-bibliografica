@@ -1,0 +1,4 @@
+PWD C:\Users\VitorLISHA\My Files\0. UFSC\2. OBNZip 1\1. Textos e anotações\2. (Ent 3.1.1) Revisão bibliográfica SoA\setup
+INPUT C:\Users\VitorLISHA\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT 0.RelatorioInfo.tex
+OUTPUT 0.RelatorioInfo.log

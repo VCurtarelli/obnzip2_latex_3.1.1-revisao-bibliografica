@@ -1,0 +1,3922 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{kieffer_sound_1977}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1d8f3831e242e0138b4f637d0d726340}{%
+           family={Kieffer},
+           familyi={K\bibinitperiod},
+           given={Susan\bibnamedelima Werner},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d8f3831e242e0138b4f637d0d726340}
+      \strng{fullhash}{1d8f3831e242e0138b4f637d0d726340}
+      \strng{fullhashraw}{1d8f3831e242e0138b4f637d0d726340}
+      \strng{bibnamehash}{1d8f3831e242e0138b4f637d0d726340}
+      \strng{authorbibnamehash}{1d8f3831e242e0138b4f637d0d726340}
+      \strng{authornamehash}{1d8f3831e242e0138b4f637d0d726340}
+      \strng{authorfullhash}{1d8f3831e242e0138b4f637d0d726340}
+      \strng{authorfullhashraw}{1d8f3831e242e0138b4f637d0d726340}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{10}
+      \field{journaltitle}{Journal of Geophysical Research}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{20}
+      \field{shortjournal}{J. Geophys. Res.}
+      \field{shorttitle}{Sound Speed in Liquid-Gas Mixtures}
+      \field{title}{Sound Speed in Liquid-Gas Mixtures: {{Water-air}} and Water-Steam}
+      \field{volume}{82}
+      \field{year}{1977}
+      \field{dateera}{ce}
+      \field{pages}{2895\bibrangedash 2904}
+      \range{pages}{10}
+      \keyw{ttt}
+    \endentry
+    \entry{trusler_determination_2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=520c33e173b6fec3a91bd31a749ba60e}{%
+           family={Trusler},
+           familyi={T\bibinitperiod},
+           given={J.P.\bibnamedelimi Martin},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=813e75e54260463028a1b953e8b45dcb}{%
+           family={Lemmon},
+           familyi={L\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef32ec6bae648a01420ff676aa1f437b}
+      \strng{fullhash}{ef32ec6bae648a01420ff676aa1f437b}
+      \strng{fullhashraw}{ef32ec6bae648a01420ff676aa1f437b}
+      \strng{bibnamehash}{ef32ec6bae648a01420ff676aa1f437b}
+      \strng{authorbibnamehash}{ef32ec6bae648a01420ff676aa1f437b}
+      \strng{authornamehash}{ef32ec6bae648a01420ff676aa1f437b}
+      \strng{authorfullhash}{ef32ec6bae648a01420ff676aa1f437b}
+      \strng{authorfullhashraw}{ef32ec6bae648a01420ff676aa1f437b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Chemical Thermodynamics}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{The Journal of Chemical Thermodynamics}
+      \field{title}{Determination of the Thermodynamic Properties of Water from the Speed of Sound}
+      \field{volume}{109}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{61\bibrangedash 70}
+      \range{pages}{10}
+      \keyw{ttt}
+    \endentry
+    \entry{li_sound_2015}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=bb85d52a1b990387a1ee1860e0281664}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={ZhengLin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4e4393c76866843ee57a93d2010a7ade}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=847d1c75ded85d26a7d4e6837f59af00}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={RenHe},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f590e85d2ea94f1d8735a96f873ab29d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={FengHua},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7822dddf1ffd72def7142d56c0c89ce6}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={YanXin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c7ae2d140884f8b4761ff9edaae00f95}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{111a6877d31e4589876c62fe71f726c1}
+      \strng{fullhash}{b3edac12d4d2cc4845e5f279a6671712}
+      \strng{fullhashraw}{b3edac12d4d2cc4845e5f279a6671712}
+      \strng{bibnamehash}{b3edac12d4d2cc4845e5f279a6671712}
+      \strng{authorbibnamehash}{b3edac12d4d2cc4845e5f279a6671712}
+      \strng{authornamehash}{111a6877d31e4589876c62fe71f726c1}
+      \strng{authorfullhash}{b3edac12d4d2cc4845e5f279a6671712}
+      \strng{authorfullhashraw}{b3edac12d4d2cc4845e5f279a6671712}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science China Physics, Mechanics \& Astronomy}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Sci. China Phys. Mech. Astron.}
+      \field{title}{Sound Speed Profile Inversion Using a Horizontal Line Array in Shallow Water}
+      \field{volume}{58}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \keyw{ttt}
+    \endentry
+    \entry{pinson_sound_2010}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bae7fb74c579b01ed1e565d1bf0f0198}{%
+           family={Pinson},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a52fbb8c5086901214c06d0131820513}{%
+           family={Guillon},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a98e71e83025709e529a17ed7a7f7fbc}
+      \strng{fullhash}{a98e71e83025709e529a17ed7a7f7fbc}
+      \strng{fullhashraw}{a98e71e83025709e529a17ed7a7f7fbc}
+      \strng{bibnamehash}{a98e71e83025709e529a17ed7a7f7fbc}
+      \strng{authorbibnamehash}{a98e71e83025709e529a17ed7a7f7fbc}
+      \strng{authornamehash}{a98e71e83025709e529a17ed7a7f7fbc}
+      \strng{authorfullhash}{a98e71e83025709e529a17ed7a7f7fbc}
+      \strng{authorfullhashraw}{a98e71e83025709e529a17ed7a7f7fbc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Sound Speed Profile Characterization by the Image Source Method}
+      \field{volume}{128}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{1685\bibrangedash 1693}
+      \range{pages}{9}
+      \keyw{ttt}
+    \endentry
+    \entry{wilson_speed_1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a69ff7abd4c43bf19319b953a87bd360}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Wayne\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{fullhash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{fullhashraw}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{bibnamehash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{authorbibnamehash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{authornamehash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{authorfullhash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{authorfullhashraw}{a69ff7abd4c43bf19319b953a87bd360}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Speed of {{Sound}} in {{Distilled Water}} as a {{Function}} of {{Temperature}} and {{Pressure}}}
+      \field{volume}{31}
+      \field{year}{1959}
+      \field{dateera}{ce}
+      \field{pages}{1067\bibrangedash 1072}
+      \range{pages}{6}
+      \keyw{ttt}
+    \endentry
+    \entry{medwin_fundamentals_1999}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=173e511396ae22172bc4d927b1c30230}{%
+           family={Medwin},
+           familyi={M\bibinitperiod},
+           given={Herman},
+           giveni={H\bibinitperiod}}}%
+        {{hash=476e09f9c3ed2516a7133fcf4245ba98}{%
+           family={Clay},
+           familyi={C\bibinitperiod},
+           given={Clarence\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=fa987f636267a317560627b62d9374c6}{%
+           family={Stanton},
+           familyi={S\bibinitperiod},
+           given={Timothy\bibnamedelima K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Acoustical Society of America (ASA)}%
+      }
+      \strng{namehash}{776069135887a00b4f6a2edab2b69145}
+      \strng{fullhash}{7727ca3dcdfbb832fd840ec49ee8772a}
+      \strng{fullhashraw}{7727ca3dcdfbb832fd840ec49ee8772a}
+      \strng{bibnamehash}{7727ca3dcdfbb832fd840ec49ee8772a}
+      \strng{authorbibnamehash}{7727ca3dcdfbb832fd840ec49ee8772a}
+      \strng{authornamehash}{776069135887a00b4f6a2edab2b69145}
+      \strng{authorfullhash}{7727ca3dcdfbb832fd840ec49ee8772a}
+      \strng{authorfullhashraw}{7727ca3dcdfbb832fd840ec49ee8772a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{\mkbibemph{Fundamentals of }{{\mkbibemph{Acoustical Oceanography}}}}
+      \field{volume}{105}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{2065\bibrangedash 2066}
+      \range{pages}{2}
+    \endentry
+    \entry{mcdougall_getting_2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=5f8bd1c991f4c6374d250eb9a14b2893}{%
+           family={McDougall},
+           familyi={M\bibinitperiod},
+           given={Trevor\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7e91e44ef2b01292089fe85c40fcf626}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Battery Point, Tas.}%
+      }
+      \list{publisher}{1}{%
+        {Trevor J McDougall}%
+      }
+      \strng{namehash}{c055813bae89695058c31ada0915e167}
+      \strng{fullhash}{c055813bae89695058c31ada0915e167}
+      \strng{fullhashraw}{c055813bae89695058c31ada0915e167}
+      \strng{bibnamehash}{c055813bae89695058c31ada0915e167}
+      \strng{authorbibnamehash}{c055813bae89695058c31ada0915e167}
+      \strng{authornamehash}{c055813bae89695058c31ada0915e167}
+      \strng{authorfullhash}{c055813bae89695058c31ada0915e167}
+      \strng{authorfullhashraw}{c055813bae89695058c31ada0915e167}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Getting Started with {{TEOS-10}} and the {{Gibbs Seawater}} ({{GSW}}) {{Oceanographic Toolbox}}}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \keyw{ttt}
+    \endentry
+    \entry{delgrosso_new_1974}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a7e00c8f50fa151062de871256e20186}{%
+           family={Del\bibnamedelima Grosso},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7e00c8f50fa151062de871256e20186}
+      \strng{fullhash}{a7e00c8f50fa151062de871256e20186}
+      \strng{fullhashraw}{a7e00c8f50fa151062de871256e20186}
+      \strng{bibnamehash}{a7e00c8f50fa151062de871256e20186}
+      \strng{authorbibnamehash}{a7e00c8f50fa151062de871256e20186}
+      \strng{authornamehash}{a7e00c8f50fa151062de871256e20186}
+      \strng{authorfullhash}{a7e00c8f50fa151062de871256e20186}
+      \strng{authorfullhashraw}{a7e00c8f50fa151062de871256e20186}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{New Equation for the Speed of Sound in Natural Waters (with Comparisons to Other Equations)}
+      \field{volume}{56}
+      \field{year}{1974}
+      \field{dateera}{ce}
+      \field{pages}{1084\bibrangedash 1091}
+      \range{pages}{8}
+      \keyw{ttt}
+    \endentry
+    \entry{li_acoustic_2019}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=d3679355f8cce79fbe5b635b16183322}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qianqian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=960f26228d54e3b763c59d9ff49c86be}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a289c458ba53c36d2d214d6a8bbcf252}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhenglin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1f0274944522c677ff611900d1b2f4ec}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Fanlin},
+           giveni={F\bibinitperiod}}}%
+        {{hash=accfaf086a407bfb746d7875478d9130}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8844c769dc0a4bbbd32ec22d5346855}
+      \strng{fullhash}{15db13367171fb5940f0bf24abc94986}
+      \strng{fullhashraw}{15db13367171fb5940f0bf24abc94986}
+      \strng{bibnamehash}{15db13367171fb5940f0bf24abc94986}
+      \strng{authorbibnamehash}{15db13367171fb5940f0bf24abc94986}
+      \strng{authornamehash}{d8844c769dc0a4bbbd32ec22d5346855}
+      \strng{authorfullhash}{15db13367171fb5940f0bf24abc94986}
+      \strng{authorfullhashraw}{15db13367171fb5940f0bf24abc94986}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Oceanologica Sinica}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Acta Oceanol. Sin.}
+      \field{title}{Acoustic Sound Speed Profile Inversion Based on Orthogonal Matching Pursuit}
+      \field{volume}{38}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{149\bibrangedash 157}
+      \range{pages}{9}
+      \keyw{ttt}
+    \endentry
+    \entry{chen_speed_1977}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b0e46907ac10d00fada7d2ab2aefa430}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chen-Tung},
+           giveni={C\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=3c07af4ab73b034264dba6b35aa7ccfc}{%
+           family={Millero},
+           familyi={M\bibinitperiod},
+           given={Frank\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e946a3f0f1c2f714528b44ef0294824e}
+      \strng{fullhash}{e946a3f0f1c2f714528b44ef0294824e}
+      \strng{fullhashraw}{e946a3f0f1c2f714528b44ef0294824e}
+      \strng{bibnamehash}{e946a3f0f1c2f714528b44ef0294824e}
+      \strng{authorbibnamehash}{e946a3f0f1c2f714528b44ef0294824e}
+      \strng{authornamehash}{e946a3f0f1c2f714528b44ef0294824e}
+      \strng{authorfullhash}{e946a3f0f1c2f714528b44ef0294824e}
+      \strng{authorfullhashraw}{e946a3f0f1c2f714528b44ef0294824e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{5}
+      \field{title}{Speed of Sound in Seawater at High Pressures}
+      \field{volume}{62}
+      \field{year}{1977}
+      \field{dateera}{ce}
+      \field{pages}{1129\bibrangedash 1135}
+      \range{pages}{7}
+      \keyw{ttt}
+    \endentry
+    \entry{wong_speed_1995}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4696f9b1ff457dd1c3e0cafefcec9d98}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={George\bibnamedelimb S.\bibnamedelimi K.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ad59d1ce3415b963f97907c441d07a79}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Shi-ming},
+           giveni={S\bibinithyphendelim m\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b7aaf988cc40fedd669adfb34c55917}
+      \strng{fullhash}{0b7aaf988cc40fedd669adfb34c55917}
+      \strng{fullhashraw}{0b7aaf988cc40fedd669adfb34c55917}
+      \strng{bibnamehash}{0b7aaf988cc40fedd669adfb34c55917}
+      \strng{authorbibnamehash}{0b7aaf988cc40fedd669adfb34c55917}
+      \strng{authornamehash}{0b7aaf988cc40fedd669adfb34c55917}
+      \strng{authorfullhash}{0b7aaf988cc40fedd669adfb34c55917}
+      \strng{authorfullhashraw}{0b7aaf988cc40fedd669adfb34c55917}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Speed of Sound in Seawater as a Function of Salinity, Temperature, and Pressure}
+      \field{volume}{97}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{pages}{1732\bibrangedash 1736}
+      \range{pages}{5}
+      \keyw{ttt}
+    \endentry
+    \entry{roquet_accurate_2015}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=fc4385e4743aaa460d4bb0972aa71bcb}{%
+           family={Roquet},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=902f2e2bd54368443ae47bf8605e9f2a}{%
+           family={Madec},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5f8bd1c991f4c6374d250eb9a14b2893}{%
+           family={McDougall},
+           familyi={M\bibinitperiod},
+           given={Trevor\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7e91e44ef2b01292089fe85c40fcf626}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccce9ab4a334fb5275ffaf0e2015ed6c}
+      \strng{fullhash}{faa29427d4c7946b80d3ddff8844965a}
+      \strng{fullhashraw}{faa29427d4c7946b80d3ddff8844965a}
+      \strng{bibnamehash}{faa29427d4c7946b80d3ddff8844965a}
+      \strng{authorbibnamehash}{faa29427d4c7946b80d3ddff8844965a}
+      \strng{authornamehash}{ccce9ab4a334fb5275ffaf0e2015ed6c}
+      \strng{authorfullhash}{faa29427d4c7946b80d3ddff8844965a}
+      \strng{authorfullhashraw}{faa29427d4c7946b80d3ddff8844965a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ocean Modelling}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Ocean Modelling}
+      \field{title}{Accurate Polynomial Expressions for the Density and Specific Volume of Seawater Using the {{TEOS-10}} Standard}
+      \field{volume}{90}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{29\bibrangedash 43}
+      \range{pages}{15}
+      \keyw{ttt}
+    \endentry
+    \entry{mackenzie_nineterm_1981}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9f9a7ddc392a4c3b08b0f015e4a438aa}{%
+           family={Mackenzie},
+           familyi={M\bibinitperiod},
+           given={Kenneth\bibnamedelima V.},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f9a7ddc392a4c3b08b0f015e4a438aa}
+      \strng{fullhash}{9f9a7ddc392a4c3b08b0f015e4a438aa}
+      \strng{fullhashraw}{9f9a7ddc392a4c3b08b0f015e4a438aa}
+      \strng{bibnamehash}{9f9a7ddc392a4c3b08b0f015e4a438aa}
+      \strng{authorbibnamehash}{9f9a7ddc392a4c3b08b0f015e4a438aa}
+      \strng{authornamehash}{9f9a7ddc392a4c3b08b0f015e4a438aa}
+      \strng{authorfullhash}{9f9a7ddc392a4c3b08b0f015e4a438aa}
+      \strng{authorfullhashraw}{9f9a7ddc392a4c3b08b0f015e4a438aa}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Nine-Term Equation for Sound Speed in the Oceans}
+      \field{volume}{70}
+      \field{year}{1981}
+      \field{dateera}{ce}
+      \field{pages}{807\bibrangedash 812}
+      \range{pages}{6}
+    \endentry
+    \entry{wilson_equation_1960}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a69ff7abd4c43bf19319b953a87bd360}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Wayne\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{fullhash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{fullhashraw}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{bibnamehash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{authorbibnamehash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{authornamehash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{authorfullhash}{a69ff7abd4c43bf19319b953a87bd360}
+      \strng{authorfullhashraw}{a69ff7abd4c43bf19319b953a87bd360}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Equation for the {{Speed}} of {{Sound}} in {{Sea Water}}}
+      \field{volume}{32}
+      \field{year}{1960}
+      \field{dateera}{ce}
+      \field{pages}{1357\bibrangedash 1357}
+      \range{pages}{1}
+    \endentry
+    \entry{bormann_seismic_2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0dc160016e6911841d92e1cbb5f995b6}{%
+           family={Bormann},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8524f02f97e74cabb549bcfd7f116a68}{%
+           family={Engdahl},
+           familyi={E\bibinitperiod},
+           given={E.\bibnamedelimi Robert},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c7179e2557733af844c29dbc0d93bddd}{%
+           family={Kind},
+           familyi={K\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0dc160016e6911841d92e1cbb5f995b6}{%
+           family={Bormann},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{53fb2991133b4b647605b5de3f934088}
+      \strng{fullhash}{a7f114323602bc538f185009d0217720}
+      \strng{fullhashraw}{a7f114323602bc538f185009d0217720}
+      \strng{bibnamehash}{a7f114323602bc538f185009d0217720}
+      \strng{authorbibnamehash}{a7f114323602bc538f185009d0217720}
+      \strng{authornamehash}{53fb2991133b4b647605b5de3f934088}
+      \strng{authorfullhash}{a7f114323602bc538f185009d0217720}
+      \strng{authorfullhashraw}{a7f114323602bc538f185009d0217720}
+      \strng{editorbibnamehash}{0dc160016e6911841d92e1cbb5f995b6}
+      \strng{editornamehash}{0dc160016e6911841d92e1cbb5f995b6}
+      \strng{editorfullhash}{0dc160016e6911841d92e1cbb5f995b6}
+      \strng{editorfullhashraw}{0dc160016e6911841d92e1cbb5f995b6}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Manual of Seismological Observatory Practice 2 (NMSOP2)}
+      \field{langid}{english}
+      \field{title}{Seismic {{Wave Propagation}} and {{Earth}} Models}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{8 mb\bibrangessep 105 pages}
+      \range{pages}{-1}
+      \keyw{ttt}
+    \endentry
+    \entry{stefanov_travel_2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=cbd1514a7ea7821bd236f3dfbee65b89}{%
+           family={Stefanov},
+           familyi={S\bibinitperiod},
+           given={Plamen},
+           giveni={P\bibinitperiod}}}%
+        {{hash=19ef6a7b6aa2af88b27b92a515afa668}{%
+           family={Uhlmann},
+           familyi={U\bibinitperiod},
+           given={Gunther},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bfc22158e76ec3e13b22dcfef88f718f}{%
+           family={Vasy},
+           familyi={V\bibinitperiod},
+           given={Andras},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b054922316e1e9865c8fc339cb8fd85a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Hanming},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science and Business Media LLC}%
+      }
+      \strng{namehash}{37f94f7c0e74de752c1c39a9af22fd9b}
+      \strng{fullhash}{f46f19af35846b0193e8264bfa731d9c}
+      \strng{fullhashraw}{f46f19af35846b0193e8264bfa731d9c}
+      \strng{bibnamehash}{f46f19af35846b0193e8264bfa731d9c}
+      \strng{authorbibnamehash}{f46f19af35846b0193e8264bfa731d9c}
+      \strng{authornamehash}{37f94f7c0e74de752c1c39a9af22fd9b}
+      \strng{authorfullhash}{f46f19af35846b0193e8264bfa731d9c}
+      \strng{authorfullhashraw}{f46f19af35846b0193e8264bfa731d9c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Mathematica Sinica, English Series}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shortjournal}{Acta. Math. Sin.-English Ser.}
+      \field{title}{Travel {{Time Tomography}}}
+      \field{volume}{35}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{1085\bibrangedash 1114}
+      \range{pages}{30}
+      \keyw{ttt}
+    \endentry
+    \entry{dosso_bayesian_2011}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=24137d12456d93bc06546aa56562a093}{%
+           family={Dosso},
+           familyi={D\bibinitperiod},
+           given={Stan\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=b52d3d4cd9f170240cb44da6b83261f7}{%
+           family={Wilmut},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{20ef05f27f17c6692738e9ab7de3959c}
+      \strng{fullhash}{20ef05f27f17c6692738e9ab7de3959c}
+      \strng{fullhashraw}{20ef05f27f17c6692738e9ab7de3959c}
+      \strng{bibnamehash}{20ef05f27f17c6692738e9ab7de3959c}
+      \strng{authorbibnamehash}{20ef05f27f17c6692738e9ab7de3959c}
+      \strng{authornamehash}{20ef05f27f17c6692738e9ab7de3959c}
+      \strng{authorfullhash}{20ef05f27f17c6692738e9ab7de3959c}
+      \strng{authorfullhashraw}{20ef05f27f17c6692738e9ab7de3959c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Bayesian Multiple-Source Localization in an Uncertain Ocean Environment}
+      \field{volume}{129}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{3577\bibrangedash 3589}
+      \range{pages}{13}
+      \keyw{ttt}
+    \endentry
+    \entry{gemba_adaptive_2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=5dd75b4f369c9959622a12b0bf294389}{%
+           family={Gemba},
+           familyi={G\bibinitperiod},
+           given={Kay\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d1a38e922d4140cf70dde5d417d9e48d}{%
+           family={Hodgkiss},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=656ee498925f8094095f667d1dea6b55}{%
+           family={Gerstoft},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Acoustical Society of America (ASA)}%
+      }
+      \strng{namehash}{67ef5f94ceb746d52b0c50dca482b4e1}
+      \strng{fullhash}{a7d8975ca7b2d69b70e5398d8b1a53fd}
+      \strng{fullhashraw}{a7d8975ca7b2d69b70e5398d8b1a53fd}
+      \strng{bibnamehash}{a7d8975ca7b2d69b70e5398d8b1a53fd}
+      \strng{authorbibnamehash}{a7d8975ca7b2d69b70e5398d8b1a53fd}
+      \strng{authornamehash}{67ef5f94ceb746d52b0c50dca482b4e1}
+      \strng{authorfullhash}{a7d8975ca7b2d69b70e5398d8b1a53fd}
+      \strng{authorfullhashraw}{a7d8975ca7b2d69b70e5398d8b1a53fd}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Adaptive and Compressive Matched Field Processing}
+      \field{volume}{141}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{92\bibrangedash 103}
+      \range{pages}{12}
+      \keyw{ttt}
+    \endentry
+    \entry{schmidt_environmentally_1990}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a3bdb347b34689c6192637aed85f4062}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=13d151edbd0ccead80f89fdc2574002c}{%
+           family={Baggeroer},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=31dffdc7f1c6c296347c8c3de0601076}{%
+           family={Kuperman},
+           familyi={K\bibinitperiod},
+           given={W.\bibnamedelimi A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5d1f8345c15705011a50686363eb6c05}{%
+           family={Scheer},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi K.},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{931d9d49b79838a29478af487b81163c}
+      \strng{fullhash}{c98547ddb037ce5efb9ee3cd57a6a92e}
+      \strng{fullhashraw}{c98547ddb037ce5efb9ee3cd57a6a92e}
+      \strng{bibnamehash}{c98547ddb037ce5efb9ee3cd57a6a92e}
+      \strng{authorbibnamehash}{c98547ddb037ce5efb9ee3cd57a6a92e}
+      \strng{authornamehash}{931d9d49b79838a29478af487b81163c}
+      \strng{authorfullhash}{c98547ddb037ce5efb9ee3cd57a6a92e}
+      \strng{authorfullhashraw}{c98547ddb037ce5efb9ee3cd57a6a92e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{shorttitle}{Environmentally Tolerant Beamforming for High-Resolution Matched Field Processing}
+      \field{title}{Environmentally Tolerant Beamforming for High-Resolution Matched Field Processing: {{Deterministic}} Mismatch}
+      \field{volume}{88}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{pages}{1851\bibrangedash 1862}
+      \range{pages}{12}
+      \keyw{ttt}
+    \endentry
+    \entry{brienzo_broadband_1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e654038321c5cfa71e0096052cbf1ed1}{%
+           family={Brienzo},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=d1a38e922d4140cf70dde5d417d9e48d}{%
+           family={Hodgkiss},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4cddacf3eecfe3d11d23d136d47635e}
+      \strng{fullhash}{d4cddacf3eecfe3d11d23d136d47635e}
+      \strng{fullhashraw}{d4cddacf3eecfe3d11d23d136d47635e}
+      \strng{bibnamehash}{d4cddacf3eecfe3d11d23d136d47635e}
+      \strng{authorbibnamehash}{d4cddacf3eecfe3d11d23d136d47635e}
+      \strng{authornamehash}{d4cddacf3eecfe3d11d23d136d47635e}
+      \strng{authorfullhash}{d4cddacf3eecfe3d11d23d136d47635e}
+      \strng{authorfullhashraw}{d4cddacf3eecfe3d11d23d136d47635e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{5}
+      \field{title}{Broadband Matched-Field Processing}
+      \field{volume}{94}
+      \field{year}{1993}
+      \field{dateera}{ce}
+      \field{pages}{2821\bibrangedash 2831}
+      \range{pages}{11}
+      \keyw{ttt}
+    \endentry
+    \entry{virieux_overview_2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=01da5f2c8fa1cf6ce8f8f42b88728be4}{%
+           family={Virieux},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e4a490d4fa2bd272a99869b256c64de2}{%
+           family={Operto},
+           familyi={O\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Society of Exploration Geophysicists}%
+      }
+      \strng{namehash}{3c44d21d471c6cce35df1960aee3adcb}
+      \strng{fullhash}{3c44d21d471c6cce35df1960aee3adcb}
+      \strng{fullhashraw}{3c44d21d471c6cce35df1960aee3adcb}
+      \strng{bibnamehash}{3c44d21d471c6cce35df1960aee3adcb}
+      \strng{authorbibnamehash}{3c44d21d471c6cce35df1960aee3adcb}
+      \strng{authornamehash}{3c44d21d471c6cce35df1960aee3adcb}
+      \strng{authorfullhash}{3c44d21d471c6cce35df1960aee3adcb}
+      \strng{authorfullhashraw}{3c44d21d471c6cce35df1960aee3adcb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GEOPHYSICS}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{6}
+      \field{title}{An Overview of Full-Waveform Inversion in Exploration Geophysics}
+      \field{volume}{74}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{WCC1\bibrangedash WCC26}
+      \range{pages}{-1}
+      \keyw{ttt}
+    \endentry
+    \entry{fichtner_multiscale_2013}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=c44b844ddb7f3e18c4217fbb70345cde}{%
+           family={Fichtner},
+           familyi={F\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3d0a9ca53d1dc0e25bbffb658caa3b4e}{%
+           family={Trampert},
+           familyi={T\bibinitperiod},
+           given={Jeannot},
+           giveni={J\bibinitperiod}}}%
+        {{hash=74a14aca66ec99d430e0d450967df51a}{%
+           family={Cupillard},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=91b6456e5d59ed854afe1b23a5a43e58}{%
+           family={Saygin},
+           familyi={S\bibinitperiod},
+           given={Erdinc},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d25605d33ec3b75d386044398547488a}{%
+           family={Taymaz},
+           familyi={T\bibinitperiod},
+           given={Tuncay},
+           giveni={T\bibinitperiod}}}%
+        {{hash=af0acd4bb90a7c54b15090cb0db00ab4}{%
+           family={Capdeville},
+           familyi={C\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6ded33833e20a39e1e8b73f29ebee954}{%
+           family={Villaseñor},
+           familyi={V\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press (OUP)}%
+      }
+      \strng{namehash}{a418ce4b14bd36c067dad07a2979273b}
+      \strng{fullhash}{a67324fd038d648130907d44f71a1827}
+      \strng{fullhashraw}{a67324fd038d648130907d44f71a1827}
+      \strng{bibnamehash}{a418ce4b14bd36c067dad07a2979273b}
+      \strng{authorbibnamehash}{a418ce4b14bd36c067dad07a2979273b}
+      \strng{authornamehash}{a418ce4b14bd36c067dad07a2979273b}
+      \strng{authorfullhash}{a67324fd038d648130907d44f71a1827}
+      \strng{authorfullhashraw}{a67324fd038d648130907d44f71a1827}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Geophysical Journal International}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Multiscale Full Waveform Inversion}
+      \field{volume}{194}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{534\bibrangedash 556}
+      \range{pages}{23}
+      \keyw{ttt}
+    \endentry
+    \entry{aki_determination_1976}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bd8de6cffe0dbd778578bbbe0924d3f3}{%
+           family={Aki},
+           familyi={A\bibinitperiod},
+           given={Keiiti},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1697aad716f917cfd8bdea4cff14bf8b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi H.\bibnamedelimi K.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f44eb92f69b587eb2a83ba57249e436}
+      \strng{fullhash}{4f44eb92f69b587eb2a83ba57249e436}
+      \strng{fullhashraw}{4f44eb92f69b587eb2a83ba57249e436}
+      \strng{bibnamehash}{4f44eb92f69b587eb2a83ba57249e436}
+      \strng{authorbibnamehash}{4f44eb92f69b587eb2a83ba57249e436}
+      \strng{authornamehash}{4f44eb92f69b587eb2a83ba57249e436}
+      \strng{authorfullhash}{4f44eb92f69b587eb2a83ba57249e436}
+      \strng{authorfullhashraw}{4f44eb92f69b587eb2a83ba57249e436}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{10}
+      \field{journaltitle}{Journal of Geophysical Research}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{23}
+      \field{shortjournal}{J. Geophys. Res.}
+      \field{shorttitle}{Determination of Three-Dimensional Velocity Anomalies under a Seismic Array Using First {{P}} Arrival Times from Local Earthquakes}
+      \field{title}{Determination of Three-Dimensional Velocity Anomalies under a Seismic Array Using First {{P}} Arrival Times from Local Earthquakes: 1. {{A}} Homogeneous Initial Model}
+      \field{volume}{81}
+      \field{year}{1976}
+      \field{dateera}{ce}
+      \field{pages}{4381\bibrangedash 4399}
+      \range{pages}{19}
+      \keyw{ttt}
+    \endentry
+    \entry{aki_determination_1977}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=bd8de6cffe0dbd778578bbbe0924d3f3}{%
+           family={Aki},
+           familyi={A\bibinitperiod},
+           given={Keiiti},
+           giveni={K\bibinitperiod}}}%
+        {{hash=40de5e99bea1b2ff75e42ab930ec022c}{%
+           family={Christoffersson},
+           familyi={C\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9ae7f559f5549efdc4236e74fcfed3d9}{%
+           family={Husebye},
+           familyi={H\bibinitperiod},
+           given={Eystein\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{487820ef9e32211a83073b5a2bae8688}
+      \strng{fullhash}{7c3bb3b72643a1ed1fb3cf49b254e80a}
+      \strng{fullhashraw}{7c3bb3b72643a1ed1fb3cf49b254e80a}
+      \strng{bibnamehash}{7c3bb3b72643a1ed1fb3cf49b254e80a}
+      \strng{authorbibnamehash}{7c3bb3b72643a1ed1fb3cf49b254e80a}
+      \strng{authornamehash}{487820ef9e32211a83073b5a2bae8688}
+      \strng{authorfullhash}{7c3bb3b72643a1ed1fb3cf49b254e80a}
+      \strng{authorfullhashraw}{7c3bb3b72643a1ed1fb3cf49b254e80a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Journal of Geophysical Research}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shortjournal}{J. Geophys. Res.}
+      \field{title}{Determination of the Three-Dimensional Seismic Structure of the Lithosphere}
+      \field{volume}{82}
+      \field{year}{1977}
+      \field{dateera}{ce}
+      \field{pages}{277\bibrangedash 296}
+      \range{pages}{20}
+      \keyw{ttt}
+    \endentry
+    \entry{ali_opensource_2019}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=ab92bb53f23097097c6b42e2ad7ac133}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Rehman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=edb756e44e73e1f021a7231472b90b1a}{%
+           family={Hsieh},
+           familyi={H\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5f0be7f7fe00bfc8e57d54d951388559}{%
+           family={Dahl},
+           familyi={D\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=151ceb8df1ba653f540ea9d1d89dfa65}{%
+           family={Ruiter},
+           familyi={R\bibinitperiod},
+           given={Nicole\bibnamedelima V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=5bee4debea73c71db87ca139e2c13675}{%
+           family={Byram},
+           familyi={B\bibinitperiod},
+           given={Brett\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego, United States}%
+      }
+      \list{publisher}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{6fe116e01b7434eeb04f69b1a83018cb}
+      \strng{fullhash}{491400f39f5fb09b690fc88db93a5acf}
+      \strng{fullhashraw}{491400f39f5fb09b690fc88db93a5acf}
+      \strng{bibnamehash}{491400f39f5fb09b690fc88db93a5acf}
+      \strng{authorbibnamehash}{491400f39f5fb09b690fc88db93a5acf}
+      \strng{authornamehash}{6fe116e01b7434eeb04f69b1a83018cb}
+      \strng{authorfullhash}{491400f39f5fb09b690fc88db93a5acf}
+      \strng{authorfullhashraw}{491400f39f5fb09b690fc88db93a5acf}
+      \strng{editorbibnamehash}{88d286f16704453af7ff8b89ad9d5be5}
+      \strng{editornamehash}{88d286f16704453af7ff8b89ad9d5be5}
+      \strng{editorfullhash}{88d286f16704453af7ff8b89ad9d5be5}
+      \strng{editorfullhashraw}{88d286f16704453af7ff8b89ad9d5be5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Medical {{Imaging}} 2019: {{Ultrasonic Imaging}} and {{Tomography}}}
+      \field{day}{15}
+      \field{eventtitle}{Ultrasonic {{Imaging}} and {{Tomography}}}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Open-Source {{Gauss-Newton-based}} Methods for Refraction-Corrected Ultrasound Computed Tomography}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{7}
+      \range{pages}{1}
+      \keyw{ttt}
+    \endentry
+    \entry{hormati_robust_2010}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=737b58b23500ee2c90c87ad7d4b0e8e0}{%
+           family={Hormati},
+           familyi={H\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2b4c9346164feae0f6568e1cd8f91e6e}{%
+           family={Jovanović},
+           familyi={J\bibinitperiod},
+           given={Ivana},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e963ebbeb84e66462245bfe8e4b6639a}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=75e722dac26b8548b09550c9c47606ab}{%
+           family={Vetterli},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=778bdf3f40093f99d60c8d19f31387f5}{%
+           family={D'hooge},
+           familyi={D\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ad25fde4d59982d86cde757970f6ae57}{%
+           family={McAleavey},
+           familyi={M\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego, California, USA}%
+      }
+      \strng{namehash}{0e31d2d9acf07ac97c018ebee20790b1}
+      \strng{fullhash}{d5c972d33c161ee3a9a4507f31e44994}
+      \strng{fullhashraw}{d5c972d33c161ee3a9a4507f31e44994}
+      \strng{bibnamehash}{d5c972d33c161ee3a9a4507f31e44994}
+      \strng{authorbibnamehash}{d5c972d33c161ee3a9a4507f31e44994}
+      \strng{authornamehash}{0e31d2d9acf07ac97c018ebee20790b1}
+      \strng{authorfullhash}{d5c972d33c161ee3a9a4507f31e44994}
+      \strng{authorfullhashraw}{d5c972d33c161ee3a9a4507f31e44994}
+      \strng{editorbibnamehash}{2ed5664f998f2cf0a272bf2e304989af}
+      \strng{editornamehash}{2ed5664f998f2cf0a272bf2e304989af}
+      \strng{editorfullhash}{2ed5664f998f2cf0a272bf2e304989af}
+      \strng{editorfullhashraw}{2ed5664f998f2cf0a272bf2e304989af}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{eventtitle}{{{SPIE Medical Imaging}}}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Robust Ultrasound Travel-Time Tomography Using the Bent Ray Model}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{76290I}
+      \range{pages}{1}
+      \keyw{ttt}
+    \endentry
+    \entry{jeong_investigating_2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=5f0480754365469905b49cf055108d99}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Gangwon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dc2b8ed5cfa2d4c57a22716a30346285}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Fu},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bdd253e54f49f94a7e78bf9108ea38ff}{%
+           family={Mitcham},
+           familyi={M\bibinitperiod},
+           given={Trevor\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4341129c7f13b53564d7184a1e5908ea}{%
+           family={Villa},
+           familyi={V\bibinitperiod},
+           given={Umberto},
+           giveni={U\bibinitperiod}}}%
+        {{hash=e8918eee2baf6d7b87b3c016cfe001b5}{%
+           family={Duric},
+           familyi={D\bibinitperiod},
+           given={Nebojsa},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a113e450146e505a8e2a5724ea5ecda1}{%
+           family={Anastasio},
+           familyi={A\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6953264e76ac1dc8f01a2b5380eff032}
+      \strng{fullhash}{c595f0293c3c2d8390b4152a649eb740}
+      \strng{fullhashraw}{c595f0293c3c2d8390b4152a649eb740}
+      \strng{bibnamehash}{c595f0293c3c2d8390b4152a649eb740}
+      \strng{authorbibnamehash}{c595f0293c3c2d8390b4152a649eb740}
+      \strng{authornamehash}{6953264e76ac1dc8f01a2b5380eff032}
+      \strng{authorfullhash}{c595f0293c3c2d8390b4152a649eb740}
+      \strng{authorfullhashraw}{c595f0293c3c2d8390b4152a649eb740}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{IEEE Trans. Ultrason., Ferroelect., Freq. Contr.}
+      \field{title}{Investigating the {{Use}} of {{Traveltime}} and {{Reflection Tomography}} for {{Deep Learning-Based Sound-Speed Estimation}} in {{Ultrasound Computed Tomography}}}
+      \field{volume}{71}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1358\bibrangedash 1376}
+      \range{pages}{19}
+      \keyw{ttt}
+    \endentry
+    \entry{hellmann_borehole_2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=aaa7f45375892594264f2815449fc349}{%
+           family={Hellmann},
+           familyi={H\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4e5a47cc28ab3ef8081e42006acdc715}{%
+           family={Grab},
+           familyi={G\bibinitperiod},
+           given={Melchior},
+           giveni={M\bibinitperiod}}}%
+        {{hash=db30a0557c290a5ceadf78ea57783f37}{%
+           family={Patzer},
+           familyi={P\bibinitperiod},
+           given={Cedric},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2f334d890bb489ceafc35dad86505191}{%
+           family={Bauder},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6a252cf3e10314efc0e5552063e72f6b}{%
+           family={Maurer},
+           familyi={M\bibinitperiod},
+           given={Hansruedi},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d9879142faf90f1dd84071e6b3dafc4}
+      \strng{fullhash}{68a2c1078d3505810a48cdfb4f402b99}
+      \strng{fullhashraw}{68a2c1078d3505810a48cdfb4f402b99}
+      \strng{bibnamehash}{68a2c1078d3505810a48cdfb4f402b99}
+      \strng{authorbibnamehash}{68a2c1078d3505810a48cdfb4f402b99}
+      \strng{authornamehash}{4d9879142faf90f1dd84071e6b3dafc4}
+      \strng{authorfullhash}{68a2c1078d3505810a48cdfb4f402b99}
+      \strng{authorfullhashraw}{68a2c1078d3505810a48cdfb4f402b99}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{journaltitle}{Solid Earth}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shortjournal}{Solid Earth}
+      \field{title}{A Borehole Trajectory Inversion Scheme to Adjust the Measurement Geometry for {{3D}} Travel-Time Tomography on Glaciers}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{805\bibrangedash 821}
+      \range{pages}{17}
+      \keyw{ttt}
+    \endentry
+    \entry{dines_computerized_1979}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=94e0333e2870cce36fc8c4ae5f2e6aeb}{%
+           family={Dines},
+           familyi={D\bibinitperiod},
+           given={K.A.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c7f2d35da65cfbbaa5668180ee996add}{%
+           family={Lytle},
+           familyi={L\bibinitperiod},
+           given={R.J.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{dccee3f1d6fab905b33a7e771268599f}
+      \strng{fullhash}{dccee3f1d6fab905b33a7e771268599f}
+      \strng{fullhashraw}{dccee3f1d6fab905b33a7e771268599f}
+      \strng{bibnamehash}{dccee3f1d6fab905b33a7e771268599f}
+      \strng{authorbibnamehash}{dccee3f1d6fab905b33a7e771268599f}
+      \strng{authornamehash}{dccee3f1d6fab905b33a7e771268599f}
+      \strng{authorfullhash}{dccee3f1d6fab905b33a7e771268599f}
+      \strng{authorfullhashraw}{dccee3f1d6fab905b33a7e771268599f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{langid}{english}
+      \field{number}{7}
+      \field{shortjournal}{Proc. IEEE}
+      \field{title}{Computerized Geophysical Tomography}
+      \field{volume}{67}
+      \field{year}{1979}
+      \field{dateera}{ce}
+      \field{pages}{1065\bibrangedash 1073}
+      \range{pages}{9}
+      \keyw{ttt}
+    \endentry
+    \entry{phillips_traveltime_1991}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c242212eac20b4f6d25a0f60b67cd14e}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={W.\bibnamedelimi Scott},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ec85730a7366a1c825353c34aab2c131}{%
+           family={Fehler},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{02bdf3ec48725067aef26184a9480988}
+      \strng{fullhash}{02bdf3ec48725067aef26184a9480988}
+      \strng{fullhashraw}{02bdf3ec48725067aef26184a9480988}
+      \strng{bibnamehash}{02bdf3ec48725067aef26184a9480988}
+      \strng{authorbibnamehash}{02bdf3ec48725067aef26184a9480988}
+      \strng{authornamehash}{02bdf3ec48725067aef26184a9480988}
+      \strng{authorfullhash}{02bdf3ec48725067aef26184a9480988}
+      \strng{authorfullhashraw}{02bdf3ec48725067aef26184a9480988}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{GEOPHYSICS}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{shortjournal}{GEOPHYSICS}
+      \field{shorttitle}{Traveltime Tomography}
+      \field{title}{Traveltime Tomography: {{A}} Comparison of Popular Methods}
+      \field{volume}{56}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{1639\bibrangedash 1649}
+      \range{pages}{11}
+      \keyw{ttt}
+    \endentry
+    \entry{tang_travel_2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=d527c2cc58df5b64d2e3a84106b993fc}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Huai-gu},
+           giveni={H\bibinithyphendelim g\bibinitperiod}}}%
+        {{hash=ebf96da76cab366c82c5bca75c01461b}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Ren-jun},
+           giveni={R\bibinithyphendelim j\bibinitperiod}}}%
+        {{hash=e2101a0f6a72a2fb022cd3e2d45461e1}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=049c9be738208264814d4bd7e6e3daa9}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Chang-suo},
+           giveni={C\bibinithyphendelim s\bibinitperiod}}}%
+        {{hash=cb91445a9bf3f6b0a688f719d878437d}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Jun-liang},
+           giveni={J\bibinithyphendelim l\bibinitperiod}}}%
+        {{hash=75d0d84e76d4ec3d324128a735816970}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e69af9b3b00beeb0344c4a66279cd17}
+      \strng{fullhash}{0c30e2b31b0d0460962f5b5014af9fa1}
+      \strng{fullhashraw}{0c30e2b31b0d0460962f5b5014af9fa1}
+      \strng{bibnamehash}{0c30e2b31b0d0460962f5b5014af9fa1}
+      \strng{authorbibnamehash}{0c30e2b31b0d0460962f5b5014af9fa1}
+      \strng{authornamehash}{1e69af9b3b00beeb0344c4a66279cd17}
+      \strng{authorfullhash}{0c30e2b31b0d0460962f5b5014af9fa1}
+      \strng{authorfullhashraw}{0c30e2b31b0d0460962f5b5014af9fa1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Geophysics}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{Appl. Geophys.}
+      \field{title}{Travel Time Tomography by Ray Tracing Using the Fast Sweeping Method}
+      \field{volume}{21}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{697\bibrangedash 714}
+      \range{pages}{18}
+      \keyw{ttt}
+    \endentry
+    \entry{zhang_inversion_2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7a56aedb5f6ad175a5340edc7bf6267e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=29646fbda445b17c180c2adb4cf81ac9}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yuanxin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba74f87e450a81f66b6385e119340680}
+      \strng{fullhash}{ba74f87e450a81f66b6385e119340680}
+      \strng{fullhashraw}{ba74f87e450a81f66b6385e119340680}
+      \strng{bibnamehash}{ba74f87e450a81f66b6385e119340680}
+      \strng{authorbibnamehash}{ba74f87e450a81f66b6385e119340680}
+      \strng{authornamehash}{ba74f87e450a81f66b6385e119340680}
+      \strng{authorfullhash}{ba74f87e450a81f66b6385e119340680}
+      \strng{authorfullhashraw}{ba74f87e450a81f66b6385e119340680}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Oceanic Engineering}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{IEEE J. Oceanic Eng.}
+      \field{title}{Inversion of the {{Sound Speed With Radiated Noise}} of an {{Autonomous Underwater Vehicle}} in {{Shallow Water Waveguides}}}
+      \field{volume}{41}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{204\bibrangedash 216}
+      \range{pages}{13}
+      \keyw{ssfinv}
+    \endentry
+    \entry{agata_bayesian_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=847270152abb26ed005654308f594e27}{%
+           family={Agata},
+           familyi={A\bibinitperiod},
+           given={Ryoichiro},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d44356d70eb874ef863c2e82c35bda0f}{%
+           family={Shiraishi},
+           familyi={S\bibinitperiod},
+           given={Kazuya},
+           giveni={K\bibinitperiod}}}%
+        {{hash=97118cc5dc7b569c818ca979de2ce051}{%
+           family={Fujie},
+           familyi={F\bibinitperiod},
+           given={Gou},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b15ee5cc40064ee17912296a93ee5c0}
+      \strng{fullhash}{6b67eb7e670db1691064c8a23c18ee22}
+      \strng{fullhashraw}{6b67eb7e670db1691064c8a23c18ee22}
+      \strng{bibnamehash}{6b67eb7e670db1691064c8a23c18ee22}
+      \strng{authorbibnamehash}{6b67eb7e670db1691064c8a23c18ee22}
+      \strng{authornamehash}{0b15ee5cc40064ee17912296a93ee5c0}
+      \strng{authorfullhash}{6b67eb7e670db1691064c8a23c18ee22}
+      \strng{authorfullhashraw}{6b67eb7e670db1691064c8a23c18ee22}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{Bayesian {{Seismic Tomography Based}} on {{Velocity-Space Stein Variational Gradient Descent}} for {{Physics-Informed Neural Network}}}
+      \field{volume}{61}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \keyw{tomography}
+    \endentry
+    \entry{bao_online_2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2de62cd1de2835065cb6b048e46202c8}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=589b22236334b28fc2feb544c66c0254}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Jiabin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{903202ccfc65050731a64d69f9975398}
+      \strng{fullhash}{903202ccfc65050731a64d69f9975398}
+      \strng{fullhashraw}{903202ccfc65050731a64d69f9975398}
+      \strng{bibnamehash}{903202ccfc65050731a64d69f9975398}
+      \strng{authorbibnamehash}{903202ccfc65050731a64d69f9975398}
+      \strng{authornamehash}{903202ccfc65050731a64d69f9975398}
+      \strng{authorfullhash}{903202ccfc65050731a64d69f9975398}
+      \strng{authorfullhashraw}{903202ccfc65050731a64d69f9975398}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
+      \field{title}{Online {{Time-Resolved Reconstruction Method}} for {{Acoustic Tomography System}}}
+      \field{volume}{69}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{4033\bibrangedash 4041}
+      \range{pages}{9}
+      \keyw{tomography}
+    \endentry
+    \entry{carriere_featureoriented_2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=66d274212a0b4a9c986e3de3caae23e1}{%
+           family={Carriere},
+           familyi={C\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=7a62e9ea59ecb384840f246662928004}{%
+           family={Hermand},
+           familyi={H\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{642373abb6fdbce2838f1b208c5b9687}
+      \strng{fullhash}{642373abb6fdbce2838f1b208c5b9687}
+      \strng{fullhashraw}{642373abb6fdbce2838f1b208c5b9687}
+      \strng{bibnamehash}{642373abb6fdbce2838f1b208c5b9687}
+      \strng{authorbibnamehash}{642373abb6fdbce2838f1b208c5b9687}
+      \strng{authornamehash}{642373abb6fdbce2838f1b208c5b9687}
+      \strng{authorfullhash}{642373abb6fdbce2838f1b208c5b9687}
+      \strng{authorfullhashraw}{642373abb6fdbce2838f1b208c5b9687}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Oceanic Engineering}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{3}
+      \field{shortjournal}{IEEE J. Oceanic Eng.}
+      \field{title}{Feature-{{Oriented Acoustic Tomography}} for {{Coastal Ocean Observatories}}}
+      \field{volume}{38}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{534\bibrangedash 546}
+      \range{pages}{13}
+      \keyw{tomography}
+    \endentry
+    \entry{djikpesse_reducing_2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=8cbdc15fd08eee2090f081b3b6f53772}{%
+           family={Djikpesse},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6ab92fe8a02ade6454a5f3c1f8c21f21}{%
+           family={Armstrong},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=96f51f342ac4d5da2a5570b8e2bba75f}{%
+           family={Rufino},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=178c1e2946d4a7787987d064e90007f1}{%
+           family={Hawthorn},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8fa77d080142629254fb095d02e1a08}
+      \strng{fullhash}{ef847d452b4e91a96ad37db739735305}
+      \strng{fullhashraw}{ef847d452b4e91a96ad37db739735305}
+      \strng{bibnamehash}{ef847d452b4e91a96ad37db739735305}
+      \strng{authorbibnamehash}{ef847d452b4e91a96ad37db739735305}
+      \strng{authornamehash}{b8fa77d080142629254fb095d02e1a08}
+      \strng{authorfullhash}{ef847d452b4e91a96ad37db739735305}
+      \strng{authorfullhashraw}{ef847d452b4e91a96ad37db739735305}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
+      \field{title}{Reducing {{Uncertainty With Seismic Measurements While Drilling}}}
+      \field{volume}{59}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{4\bibrangedash 14}
+      \range{pages}{11}
+      \keyw{tomography}
+    \endentry
+    \entry{goyal_ultrasound_2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7546b54ee956a1fef1424126c5bd3b80}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Rinki},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2c5a05a9ae7603d78948f60e8b4840cd}{%
+           family={Rymarczyk},
+           familyi={R\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=00575c4e9e8383785017d60d65725347}{%
+           family={Soleimani},
+           familyi={S\bibinitperiod},
+           given={Manuchehr},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4afc16275008d31019bb52a2c29bc87}
+      \strng{fullhash}{c850d2cb47724640a5777ddcd30eae25}
+      \strng{fullhashraw}{c850d2cb47724640a5777ddcd30eae25}
+      \strng{bibnamehash}{c850d2cb47724640a5777ddcd30eae25}
+      \strng{authorbibnamehash}{c850d2cb47724640a5777ddcd30eae25}
+      \strng{authornamehash}{e4afc16275008d31019bb52a2c29bc87}
+      \strng{authorfullhash}{c850d2cb47724640a5777ddcd30eae25}
+      \strng{authorfullhashraw}{c850d2cb47724640a5777ddcd30eae25}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
+      \field{title}{Ultrasound {{Computed Tomography}} for {{In Vivo Lung Imaging}}}
+      \field{volume}{74}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \keyw{tomography}
+    \endentry
+    \entry{gras_practical_2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=af27452301fbb9c7e0a3a7e24ce44089}{%
+           family={Gras},
+           familyi={G\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d5742d8446f4134bc8477b1729de1b16}{%
+           family={Jimenez-Tejero},
+           familyi={J\bibinithyphendelim T\bibinitperiod},
+           given={Clara\bibnamedelima Estela},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=cd32fd63e70f24cad6c56ba277c5aa50}{%
+           family={Sallares},
+           familyi={S\bibinitperiod},
+           given={Valenti},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c0de27c3d5624eb85697324f561c6793}{%
+           family={Melendez},
+           familyi={M\bibinitperiod},
+           given={Adria},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ae03e3375609b826e27e3385845bcc5b}{%
+           family={Ranero},
+           familyi={R\bibinitperiod},
+           given={Cesar\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{46d375e1bd511165e6287b25442fcca3}
+      \strng{fullhash}{c02acb2af5da9de2d368d9061d319791}
+      \strng{fullhashraw}{c02acb2af5da9de2d368d9061d319791}
+      \strng{bibnamehash}{c02acb2af5da9de2d368d9061d319791}
+      \strng{authorbibnamehash}{c02acb2af5da9de2d368d9061d319791}
+      \strng{authornamehash}{46d375e1bd511165e6287b25442fcca3}
+      \strng{authorfullhash}{c02acb2af5da9de2d368d9061d319791}
+      \strng{authorfullhashraw}{c02acb2af5da9de2d368d9061d319791}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{Toward a {{Practical Appraisal}} for {{Waveform Tomography}} of {{Band-}} and {{Offset-Limited Marine Seismic Data}}}
+      \field{volume}{60}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \keyw{tomography}
+    \endentry
+    \entry{han_realtime_2014}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=2de30b92eca05c3ad6ccbf551674bc6e}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yeqiang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c5f1dd303327562569be96bf04a7f8b5}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=226939c93cb08aaf817cfa1f097f8fbb}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=fb11e31af134f5e9d2e7bf5078e0dfd0}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Rongxin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=af6668ed4191cdd059e65e2bd25f256b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yaowu},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{aca5913339da1a9b9360df3c6a010397}
+      \strng{fullhash}{55a58a6b123de1471946f4fd8b311701}
+      \strng{fullhashraw}{55a58a6b123de1471946f4fd8b311701}
+      \strng{bibnamehash}{55a58a6b123de1471946f4fd8b311701}
+      \strng{authorbibnamehash}{55a58a6b123de1471946f4fd8b311701}
+      \strng{authornamehash}{aca5913339da1a9b9360df3c6a010397}
+      \strng{authorfullhash}{55a58a6b123de1471946f4fd8b311701}
+      \strng{authorfullhashraw}{55a58a6b123de1471946f4fd8b311701}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Oceanic Engineering}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{shortjournal}{IEEE J. Oceanic Eng.}
+      \field{title}{A {{Real-Time}} 3-{{D Underwater Acoustical Imaging System}}}
+      \field{volume}{39}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{620\bibrangedash 629}
+      \range{pages}{10}
+      \keyw{tomography}
+    \endentry
+    \entry{jo_seismic_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8f6605ef2cf802a4b85785e78a7d817a}{%
+           family={Jo},
+           familyi={J\bibinitperiod},
+           given={Jun\bibnamedelima Hyeon},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=bab6883ec5b70dedb6b6dc618c18a677}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Wansoo},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{fullhash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{fullhashraw}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{bibnamehash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{authorbibnamehash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{authornamehash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{authorfullhash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{authorfullhashraw}{1d678255d09a4c86113f9a68ef16c33b}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{Seismic {{Traveltime Tomography Using Deep Learning}}}
+      \field{volume}{61}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \keyw{tomography}
+    \endentry
+    \entry{jo_seismic_2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8f6605ef2cf802a4b85785e78a7d817a}{%
+           family={Jo},
+           familyi={J\bibinitperiod},
+           given={Jun\bibnamedelima Hyeon},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=bab6883ec5b70dedb6b6dc618c18a677}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Wansoo},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{fullhash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{fullhashraw}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{bibnamehash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{authorbibnamehash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{authornamehash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{authorfullhash}{1d678255d09a4c86113f9a68ef16c33b}
+      \strng{authorfullhashraw}{1d678255d09a4c86113f9a68ef16c33b}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{Seismic {{Traveltime Tomography Using Transfer Learning}}}
+      \field{volume}{62}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \keyw{tomography}
+    \endentry
+    \entry{li_multiscale_2024}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=78be8ea0cb80e4e1b59bf06100942e90}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=abc968d0579be1e19794eb819421f46f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Gulan},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8856101628ae7b86b814bdb7d4d4743a}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Guanghui},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8c7dfe396ef0c9b8edd9441000322632}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Jiachun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b317deb0fe7e61a80dfb523e39801e48}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a958be21bcfe9ddf8eaa650a98f93536}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Jianlong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bc5b4ac811e7a38e7a202edd3aa36502}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yiliang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9aa14727f09fbbde345117a029fbd163}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Chenxi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=96ff81e0cd1422a3083e39040407d1b0}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Qihong},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=848be44b3a374a12c3acda912ac1eaac}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Fengchi},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cdb3797d3d168edfb0c22148c40c49d}
+      \strng{fullhash}{869e10a2a8a99f8cd0f15c094352ab0b}
+      \strng{fullhashraw}{869e10a2a8a99f8cd0f15c094352ab0b}
+      \strng{bibnamehash}{4cdb3797d3d168edfb0c22148c40c49d}
+      \strng{authorbibnamehash}{4cdb3797d3d168edfb0c22148c40c49d}
+      \strng{authornamehash}{4cdb3797d3d168edfb0c22148c40c49d}
+      \strng{authorfullhash}{869e10a2a8a99f8cd0f15c094352ab0b}
+      \strng{authorfullhashraw}{869e10a2a8a99f8cd0f15c094352ab0b}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{Multiscale {{Staggered-Grid Adjoint-State First-Arrival Slope Tomography Seismic Velocity Inversion}}}
+      \field{volume}{62}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \keyw{tomography,selec}
+    \endentry
+    \entry{mei_uncertainty_2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=d82afbefea3152b856da1947fcf8404f}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7efe93a67e9b41bb603137a8b119974b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yijie},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f6a4ba12303912ec21103adc3a86444c}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xueyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=fee4747d4244df22c13f54e4411ed68c}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jinghuai},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b600c227f55c72c94c1272cdfe006e0a}
+      \strng{fullhash}{409054cead0a4c1573e4381eb4c1be4e}
+      \strng{fullhashraw}{409054cead0a4c1573e4381eb4c1be4e}
+      \strng{bibnamehash}{409054cead0a4c1573e4381eb4c1be4e}
+      \strng{authorbibnamehash}{409054cead0a4c1573e4381eb4c1be4e}
+      \strng{authornamehash}{b600c227f55c72c94c1272cdfe006e0a}
+      \strng{authorfullhash}{409054cead0a4c1573e4381eb4c1be4e}
+      \strng{authorfullhashraw}{409054cead0a4c1573e4381eb4c1be4e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{Uncertainty {{Quantification}} for {{Travel-Time Tomography Using Deep Operator Networks With Randomized Priors}}}
+      \field{volume}{63}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \keyw{tomography}
+    \endentry
+    \entry{othmani_acoustic_2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5d3c792a445b68b107c30c1c18b9c58b}{%
+           family={Othmani},
+           familyi={O\bibinitperiod},
+           given={Cherif},
+           giveni={C\bibinitperiod}}}%
+        {{hash=51473ec480f1cf3e570ca2ad8eaef868}{%
+           family={Merchel},
+           familyi={M\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=786520b320fefc2c4949d5350fdebfa4}{%
+           family={Altinsoy},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Ercan},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=97882653c9fb3296246c3d2520986825}{%
+           family={Takali},
+           familyi={T\bibinitperiod},
+           given={Farid},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1dce2d7aa445da337b89d296af34a1dc}
+      \strng{fullhash}{5d4f3c941403fd70abb33cb52f29940b}
+      \strng{fullhashraw}{5d4f3c941403fd70abb33cb52f29940b}
+      \strng{bibnamehash}{5d4f3c941403fd70abb33cb52f29940b}
+      \strng{authorbibnamehash}{5d4f3c941403fd70abb33cb52f29940b}
+      \strng{authornamehash}{1dce2d7aa445da337b89d296af34a1dc}
+      \strng{authorfullhash}{5d4f3c941403fd70abb33cb52f29940b}
+      \strng{authorfullhashraw}{5d4f3c941403fd70abb33cb52f29940b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
+      \field{shorttitle}{Acoustic {{Travel-Time TOMography Technique}} to {{Reconstruct}} the {{Indoor Temperature}}}
+      \field{title}{Acoustic {{Travel-Time TOMography Technique}} to {{Reconstruct}} the {{Indoor Temperature}}: {{How}} to {{Improve}} the {{Field Reconstruction Quality}}?}
+      \field{volume}{73}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \keyw{tomography}
+    \endentry
+    \entry{shin_distributed_2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=dd0da5c97010b34ad756eacfa24460f1}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Ban-Sok},
+           giveni={B\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=9eb1608fd9648e80049c929939ab8dab}{%
+           family={Shutin},
+           familyi={S\bibinitperiod},
+           given={Dmitriy},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1825686dc29c21203c75e1061acba612}
+      \strng{fullhash}{1825686dc29c21203c75e1061acba612}
+      \strng{fullhashraw}{1825686dc29c21203c75e1061acba612}
+      \strng{bibnamehash}{1825686dc29c21203c75e1061acba612}
+      \strng{authorbibnamehash}{1825686dc29c21203c75e1061acba612}
+      \strng{authornamehash}{1825686dc29c21203c75e1061acba612}
+      \strng{authorfullhash}{1825686dc29c21203c75e1061acba612}
+      \strng{authorfullhashraw}{1825686dc29c21203c75e1061acba612}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Geoscience and Remote Sensing Letters}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Geosci. Remote Sensing Lett.}
+      \field{title}{Distributed {{Traveltime Tomography Using Kernel-Based Regression}} in {{Seismic Networks}}}
+      \field{volume}{19}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \keyw{tomography,selec}
+    \endentry
+    \entry{wang_seismic_2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=ee2b4a15025ecfaafcb95983b2d2623d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d6f2b26e2b50e389f737db615a2d7427}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b3a247e63c675d58ac2eaad13346cc50}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Renfang},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4c62221af83caf2234c2aff0f584896c}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fad24a73fd343b446f9bae8b7b79d4a}
+      \strng{fullhash}{bcca457e8c16ed761c5b8139ab86d86f}
+      \strng{fullhashraw}{bcca457e8c16ed761c5b8139ab86d86f}
+      \strng{bibnamehash}{bcca457e8c16ed761c5b8139ab86d86f}
+      \strng{authorbibnamehash}{bcca457e8c16ed761c5b8139ab86d86f}
+      \strng{authornamehash}{4fad24a73fd343b446f9bae8b7b79d4a}
+      \strng{authorfullhash}{bcca457e8c16ed761c5b8139ab86d86f}
+      \strng{authorfullhashraw}{bcca457e8c16ed761c5b8139ab86d86f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{Seismic {{Traveltime Tomography With Label-Free Learning}}}
+      \field{volume}{62}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \keyw{tomography}
+    \endentry
+    \entry{wo_firstarrival_2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=f5134cd3e6b6609a797267512b8e3ed2}{%
+           family={Wo},
+           familyi={W\bibinitperiod},
+           given={Yukai},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=88c49f70822f1710409816311841eaa2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Hua-Wei},
+           giveni={H\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=59ea3e0d91f4bb3eae0799c7826f3a14}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xuri},
+           giveni={X\bibinitperiod}}}%
+        {{hash=97e21d3fe03b0a03e6a0dcbc6c0ea058}{%
+           family={Yue},
+           familyi={Y\bibinitperiod},
+           given={Yubo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e0d2c4ec19a6520a2bcde0c1a37ce20c}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Zhihui},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{74b9f0c3f201980d84e34d2787754b3c}
+      \strng{fullhash}{5e52bb7159423dc97f9d0ebdc55435d3}
+      \strng{fullhashraw}{5e52bb7159423dc97f9d0ebdc55435d3}
+      \strng{bibnamehash}{5e52bb7159423dc97f9d0ebdc55435d3}
+      \strng{authorbibnamehash}{5e52bb7159423dc97f9d0ebdc55435d3}
+      \strng{authornamehash}{74b9f0c3f201980d84e34d2787754b3c}
+      \strng{authorfullhash}{5e52bb7159423dc97f9d0ebdc55435d3}
+      \strng{authorfullhashraw}{5e52bb7159423dc97f9d0ebdc55435d3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{First-{{Arrival Traveltime Tomography With Near-Surface Structural Regularization}}}
+      \field{volume}{62}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \keyw{tomography}
+    \endentry
+    \entry{yu_krylov_2021}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=75594a36c9e87e8371563bdee878f58b}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=94caff9d51285f985f970617ef1d871f}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Qingyu},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=a1763fca75a6f4cdb2b642548eaad89d}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Mei},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ee067c6f3bec8b7a005d92f1ea46fbcb}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=889148ba80ff3b0b813339f4cce21eaf}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Qiwu},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=b7567123ad8063ff975519a285490851}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=fe96994b6b577cf98185a06d9ba0afc3}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f43117c93c340a694f8b18b5b5f5fc3}
+      \strng{fullhash}{55b1967a2ac93e6cec5346fd50fc49cc}
+      \strng{fullhashraw}{55b1967a2ac93e6cec5346fd50fc49cc}
+      \strng{bibnamehash}{4f43117c93c340a694f8b18b5b5f5fc3}
+      \strng{authorbibnamehash}{4f43117c93c340a694f8b18b5b5f5fc3}
+      \strng{authornamehash}{4f43117c93c340a694f8b18b5b5f5fc3}
+      \strng{authorfullhash}{55b1967a2ac93e6cec5346fd50fc49cc}
+      \strng{authorfullhashraw}{55b1967a2ac93e6cec5346fd50fc49cc}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
+      \field{title}{Krylov {{Subspace Methods}} for {{Regularized Models}} in {{Acoustic Temperature Reconstruction From Simulated}} and {{Real Measurements}}}
+      \field{volume}{70}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \keyw{tomography,selec}
+    \endentry
+    \entry{yu_review_2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=75594a36c9e87e8371563bdee878f58b}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=94caff9d51285f985f970617ef1d871f}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Qingyu},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=fec11d722e463c04082c34bc9cb54a5c}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Zhi-Sheng},
+           giveni={Z\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=d0873ca9c19bccaa25eb98dfa50327c5}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xingchen},
+           giveni={X\bibinitperiod}}}%
+        {{hash=80dcaa64934d73f31fd244a0f75e60b4}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qiude},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=b7567123ad8063ff975519a285490851}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f43117c93c340a694f8b18b5b5f5fc3}
+      \strng{fullhash}{215d1e946e2c125d4980190b17f0ebc0}
+      \strng{fullhashraw}{215d1e946e2c125d4980190b17f0ebc0}
+      \strng{bibnamehash}{215d1e946e2c125d4980190b17f0ebc0}
+      \strng{authorbibnamehash}{215d1e946e2c125d4980190b17f0ebc0}
+      \strng{authornamehash}{4f43117c93c340a694f8b18b5b5f5fc3}
+      \strng{authorfullhash}{215d1e946e2c125d4980190b17f0ebc0}
+      \strng{authorfullhashraw}{215d1e946e2c125d4980190b17f0ebc0}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
+      \field{shorttitle}{A {{Review}} on {{Acoustic Reconstruction}} of {{Temperature Profiles}}}
+      \field{title}{A {{Review}} on {{Acoustic Reconstruction}} of {{Temperature Profiles}}: {{From Time Measurement}} to {{Reconstruction Algorithm}}}
+      \field{volume}{71}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+      \keyw{tomography,selec}
+    \endentry
+    \entry{zhang_optimization_2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=6f9837a8e43e27722923697fb4919fdb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Juqi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0218aced4aaabd72bb10f8f4aeec4e5f}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=364d2064ec69b4aed7349c3792c466f4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Baohai},
+           giveni={B\bibinitperiod}}}%
+        {{hash=00fdad5111502bb246b0f1cefca914ad}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Mingjian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bc4bbe7a8130cce8817b1cda7e2f1fa7}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Yatao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=18a0fc7bad6f9934af4013bc794e2ad3}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Mingxu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef6cb99e6131c1fbf565f7b8dd148d1d}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Xiaoshu},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{96f151ee621807be4d7ec74e317a2348}
+      \strng{fullhash}{ffa97fcd5ca132a97543ceb4b4a2f902}
+      \strng{fullhashraw}{ffa97fcd5ca132a97543ceb4b4a2f902}
+      \strng{bibnamehash}{96f151ee621807be4d7ec74e317a2348}
+      \strng{authorbibnamehash}{96f151ee621807be4d7ec74e317a2348}
+      \strng{authornamehash}{96f151ee621807be4d7ec74e317a2348}
+      \strng{authorfullhash}{ffa97fcd5ca132a97543ceb4b4a2f902}
+      \strng{authorfullhashraw}{ffa97fcd5ca132a97543ceb4b4a2f902}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
+      \field{title}{Optimization of {{Transducer Array}} for {{Cross-Sectional Velocity Field Reconstruction}} in {{Acoustic Tomography}}}
+      \field{volume}{72}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \keyw{tomography}
+    \endentry
+    \entry{zhang_nonlinear_2022}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=6f9837a8e43e27722923697fb4919fdb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Juqi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0218aced4aaabd72bb10f8f4aeec4e5f}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=eb7eeb32a90cee5b2c9431760233b6dd}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Yukun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bc4bbe7a8130cce8817b1cda7e2f1fa7}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Yatao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=00fdad5111502bb246b0f1cefca914ad}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Mingjian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=18a0fc7bad6f9934af4013bc794e2ad3}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Mingxu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef6cb99e6131c1fbf565f7b8dd148d1d}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Xiaoshu},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{96f151ee621807be4d7ec74e317a2348}
+      \strng{fullhash}{480ed48e0db811a43e15f8fd6d92d873}
+      \strng{fullhashraw}{480ed48e0db811a43e15f8fd6d92d873}
+      \strng{bibnamehash}{96f151ee621807be4d7ec74e317a2348}
+      \strng{authorbibnamehash}{96f151ee621807be4d7ec74e317a2348}
+      \strng{authornamehash}{96f151ee621807be4d7ec74e317a2348}
+      \strng{authorfullhash}{480ed48e0db811a43e15f8fd6d92d873}
+      \strng{authorfullhashraw}{480ed48e0db811a43e15f8fd6d92d873}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
+      \field{title}{Nonlinear {{Acoustic Tomography}} for {{Measuring}} the {{Temperature}} and {{Velocity Fields}} by {{Using}} the {{Covariance Matrix Adaptation Evolution Strategy Algorithm}}}
+      \field{volume}{71}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \keyw{tomography,selec}
+    \endentry
+    \entry{abakumov_timelapse_2019}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=8b39c26f900ca99109e9f185717d2484}{%
+           family={Abakumov},
+           familyi={A\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, UK,}%
+      }
+      \list{publisher}{1}{%
+        {European Association of Geoscientists \& Engineers}%
+      }
+      \strng{namehash}{8b39c26f900ca99109e9f185717d2484}
+      \strng{fullhash}{8b39c26f900ca99109e9f185717d2484}
+      \strng{fullhashraw}{8b39c26f900ca99109e9f185717d2484}
+      \strng{bibnamehash}{8b39c26f900ca99109e9f185717d2484}
+      \strng{authorbibnamehash}{8b39c26f900ca99109e9f185717d2484}
+      \strng{authornamehash}{8b39c26f900ca99109e9f185717d2484}
+      \strng{authorfullhash}{8b39c26f900ca99109e9f185717d2484}
+      \strng{authorfullhashraw}{8b39c26f900ca99109e9f185717d2484}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{81st {{EAGE Conference}} and {{Exhibition}} 2019}
+      \field{eventtitle}{81st {{EAGE Conference}} and {{Exhibition}} 2019}
+      \field{langid}{english}
+      \field{title}{Time-{{Lapse Shallow Velocity Anomaly Inversion}} for {{Deep-Water OBN Data}}}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \keyw{ssfinv}
+    \endentry
+    \entry{amini_joint_2016}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=cd150cf3494197f772d13ce9b6ff66bd}{%
+           family={Amini},
+           familyi={A\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a7a55881cb261787fefdc7f2311dab03}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=56bda333ab85070cdf1934ac222e12aa}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ff763790d545f1cbb295f46f668226fd}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Rongxin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=590e4e39e560d4f5c33781113cd98b41}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dallas, Texas}%
+      }
+      \list{publisher}{1}{%
+        {Society of Exploration Geophysicists}%
+      }
+      \strng{namehash}{ea123cfe960762fec40ba8bf1c1c1c5e}
+      \strng{fullhash}{aef5e4b07508709e11c372788d9cafa3}
+      \strng{fullhashraw}{aef5e4b07508709e11c372788d9cafa3}
+      \strng{bibnamehash}{aef5e4b07508709e11c372788d9cafa3}
+      \strng{authorbibnamehash}{aef5e4b07508709e11c372788d9cafa3}
+      \strng{authornamehash}{ea123cfe960762fec40ba8bf1c1c1c5e}
+      \strng{authorfullhash}{aef5e4b07508709e11c372788d9cafa3}
+      \strng{authorfullhashraw}{aef5e4b07508709e11c372788d9cafa3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{{SEG Technical Program Expanded Abstracts}} 2016}
+      \field{day}{1}
+      \field{eventtitle}{{{SEG Technical Program Expanded Abstracts}} 2016}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{title}{Joint Inversion of Water Velocity and Node Position for Ocean-Bottom Node Data}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{5490\bibrangedash 5494}
+      \range{pages}{5}
+      \keyw{ssfinv}
+    \endentry
+    \entry{ashley_inverted_1998}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=8cb1c3975088a1290efd312f55930e84}{%
+           family={Ashley},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=05c10d2fd879456ee343c0e0a1f6874a}{%
+           family={Spencer},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=79641ffd41b795032fb8441eb4af0045}{%
+           family={Vassie},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nice, France}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{201a77d2862fbe0cbc3a3c790ede1232}
+      \strng{fullhash}{578f255e39f325f850cf8fb3f2195d75}
+      \strng{fullhashraw}{578f255e39f325f850cf8fb3f2195d75}
+      \strng{bibnamehash}{578f255e39f325f850cf8fb3f2195d75}
+      \strng{authorbibnamehash}{578f255e39f325f850cf8fb3f2195d75}
+      \strng{authornamehash}{201a77d2862fbe0cbc3a3c790ede1232}
+      \strng{authorfullhash}{578f255e39f325f850cf8fb3f2195d75}
+      \strng{authorfullhashraw}{578f255e39f325f850cf8fb3f2195d75}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{{IEEE Oceanic Engineering Society}}. {{OCEANS}}'98. {{Conference Proceedings}} ({{Cat}}. {{No}}.{{98CH36259}})}
+      \field{eventtitle}{{{IEEE Oceanic Engineering Society}}. {{OCEANS}}'98. {{Conference Proceedings}}}
+      \field{langid}{english}
+      \field{title}{An Inverted Echo Sounder for Monitoring Layer Thickness in Stratified Oceans}
+      \field{volume}{1}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \field{pages}{248\bibrangedash 252}
+      \range{pages}{5}
+      \keyw{ssfinv}
+    \endentry
+    \entry{becker_geoacoustic_2007}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=606a135ef6bc361dccabb73af797391d}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Kyle\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Defense Technical Information Center}%
+      }
+      \list{location}{1}{%
+        {Fort Belvoir, VA}%
+      }
+      \strng{namehash}{606a135ef6bc361dccabb73af797391d}
+      \strng{fullhash}{606a135ef6bc361dccabb73af797391d}
+      \strng{fullhashraw}{606a135ef6bc361dccabb73af797391d}
+      \strng{bibnamehash}{606a135ef6bc361dccabb73af797391d}
+      \strng{authorbibnamehash}{606a135ef6bc361dccabb73af797391d}
+      \strng{authornamehash}{606a135ef6bc361dccabb73af797391d}
+      \strng{authorfullhash}{606a135ef6bc361dccabb73af797391d}
+      \strng{authorfullhashraw}{606a135ef6bc361dccabb73af797391d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{30}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shorttitle}{Geoacoustic {{Inversion}} for {{Spatially}} and {{Temporally Varying Shallow Water Environments}}}
+      \field{title}{Geoacoustic {{Inversion}} for {{Spatially}} and {{Temporally Varying Shallow Water Environments}}:}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \keyw{ssfinv}
+    \endentry
+    \entry{bender_threedimensional_2012}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=a584320cd27feb1644cb7a9aa59e288d}{%
+           family={Bender},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Texas}%
+      }
+      \strng{namehash}{a584320cd27feb1644cb7a9aa59e288d}
+      \strng{fullhash}{a584320cd27feb1644cb7a9aa59e288d}
+      \strng{fullhashraw}{a584320cd27feb1644cb7a9aa59e288d}
+      \strng{bibnamehash}{a584320cd27feb1644cb7a9aa59e288d}
+      \strng{authorbibnamehash}{a584320cd27feb1644cb7a9aa59e288d}
+      \strng{authornamehash}{a584320cd27feb1644cb7a9aa59e288d}
+      \strng{authorfullhash}{a584320cd27feb1644cb7a9aa59e288d}
+      \strng{authorfullhashraw}{a584320cd27feb1644cb7a9aa59e288d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Three-{{Dimensional Geoacoustic Perturbative Inverse Technique}} for the {{Shallow Ocean Water Column}}}
+      \field{type}{mathesis}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \keyw{ssfinv,selec}
+    \endentry
+    \entry{chapeland_highresolution_2022}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=aa3193b104235e1f99fd0cb2ec5d4b58}{%
+           family={Chapeland},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid, Spain / Online, Spain}%
+      }
+      \list{publisher}{1}{%
+        {European Association of Geoscientists \& Engineers}%
+      }
+      \strng{namehash}{aa3193b104235e1f99fd0cb2ec5d4b58}
+      \strng{fullhash}{aa3193b104235e1f99fd0cb2ec5d4b58}
+      \strng{fullhashraw}{aa3193b104235e1f99fd0cb2ec5d4b58}
+      \strng{bibnamehash}{aa3193b104235e1f99fd0cb2ec5d4b58}
+      \strng{authorbibnamehash}{aa3193b104235e1f99fd0cb2ec5d4b58}
+      \strng{authornamehash}{aa3193b104235e1f99fd0cb2ec5d4b58}
+      \strng{authorfullhash}{aa3193b104235e1f99fd0cb2ec5d4b58}
+      \strng{authorfullhashraw}{aa3193b104235e1f99fd0cb2ec5d4b58}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{83rd {{EAGE Annual Conference}} \& {{Exhibition}}}
+      \field{eventtitle}{83rd {{EAGE Annual Conference}} \& {{Exhibition}}}
+      \field{langid}{english}
+      \field{title}{High-{{Resolution Seismic Velocity Inversion}} and {{Imaging}} of the {{Shallow-Subsurface Using}} a {{Combined JMI}}/{{FWI Workflow}}}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \keyw{ssfinv}
+    \endentry
+    \entry{cvetkovic_inverting_2019}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=9ab667b6199576b0c3e794db05984659}{%
+           family={Cvetkovic},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=82314cf12203b3575da7aa6ba3189d4a}{%
+           family={Saint-Andre},
+           familyi={S\bibinithyphendelim A\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0656077561954b083e61c83553fda869}{%
+           family={Blanvillain},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, UK,}%
+      }
+      \list{publisher}{1}{%
+        {European Association of Geoscientists \& Engineers}%
+      }
+      \strng{namehash}{6f502adf723ff2655f279028a99217ae}
+      \strng{fullhash}{ad83e5132cc4848b709dc1f19ea6cd98}
+      \strng{fullhashraw}{ad83e5132cc4848b709dc1f19ea6cd98}
+      \strng{bibnamehash}{ad83e5132cc4848b709dc1f19ea6cd98}
+      \strng{authorbibnamehash}{ad83e5132cc4848b709dc1f19ea6cd98}
+      \strng{authornamehash}{6f502adf723ff2655f279028a99217ae}
+      \strng{authorfullhash}{ad83e5132cc4848b709dc1f19ea6cd98}
+      \strng{authorfullhashraw}{ad83e5132cc4848b709dc1f19ea6cd98}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{81st {{EAGE Conference}} and {{Exhibition}} 2019}
+      \field{eventtitle}{81st {{EAGE Conference}} and {{Exhibition}} 2019}
+      \field{langid}{english}
+      \field{title}{Inverting for {{Water Column Velocities}} in {{Seismic Exploration}}}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \keyw{ssfinv}
+    \endentry
+    \entry{datta_fast_2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c1f1d0ccd6a14e991650adf1002bb606}{%
+           family={Datta},
+           familyi={D\bibinitperiod},
+           given={Debanjan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=12ed40c841fd6872de9037ae4f2dd283}{%
+           family={Jaysaval},
+           familyi={J\bibinitperiod},
+           given={Piyoosh},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0061ec0470c111be22e1ee3e432c7a6a}{%
+           family={Sen},
+           familyi={S\bibinitperiod},
+           given={Mrinal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=09e19599ec9458f663f0d4f1777614ae}{%
+           family={Arnulf},
+           familyi={A\bibinitperiod},
+           given={Adrien\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9efea493df678f35d5768aecc46134e8}
+      \strng{fullhash}{2b8cc402d152f85f650ef82dce3c858c}
+      \strng{fullhashraw}{2b8cc402d152f85f650ef82dce3c858c}
+      \strng{bibnamehash}{2b8cc402d152f85f650ef82dce3c858c}
+      \strng{authorbibnamehash}{2b8cc402d152f85f650ef82dce3c858c}
+      \strng{authornamehash}{9efea493df678f35d5768aecc46134e8}
+      \strng{authorfullhash}{2b8cc402d152f85f650ef82dce3c858c}
+      \strng{authorfullhashraw}{2b8cc402d152f85f650ef82dce3c858c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Geophysics}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Fast {{2D}} Full-Waveform Modeling and Inversion Using the {{Schur}} Complement Approach}
+      \field{volume}{84}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{R783\bibrangedash R792}
+      \range{pages}{-1}
+      \keyw{ssfinv}
+    \endentry
+    \entry{deluca_simultaneous_2022}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=495d34d5425876d77c31b88c4416594c}{%
+           family={De\bibnamedelima Luca},
+           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3fccb36e5916cadce6bbb498226c5288}{%
+           family={Clementi},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8a8a72790be6f50c71a28a29181029c2}{%
+           family={Sirtori},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7d43dbd8d61e7dea2ad4279c050f01e5}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi Acosta},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d8ac6b3461d4dfa85000bac16899dcd0}{%
+           family={Vega},
+           familyi={V\bibinitperiod},
+           given={L.A.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0edee6ac3b88513a5095b794ca1f2c03}{%
+           family={Mayorga},
+           familyi={M\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=76499a09aaa5c2a8e977efd5556d0c01}{%
+           family={Villanueva},
+           familyi={V\bibinitperiod},
+           given={L.L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=535ad4ca3c14ff94a135aa51dfd1753d}{%
+           family={Cantu},
+           familyi={C\bibinitperiod},
+           given={A.V.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid, Spain / Online, Spain}%
+      }
+      \list{publisher}{1}{%
+        {European Association of Geoscientists \& Engineers}%
+      }
+      \strng{namehash}{0c9c0b943d0aabfb89cba827fd98e485}
+      \strng{fullhash}{11fb89b87a41899a506583eb312faf60}
+      \strng{fullhashraw}{11fb89b87a41899a506583eb312faf60}
+      \strng{bibnamehash}{0c9c0b943d0aabfb89cba827fd98e485}
+      \strng{authorbibnamehash}{0c9c0b943d0aabfb89cba827fd98e485}
+      \strng{authornamehash}{0c9c0b943d0aabfb89cba827fd98e485}
+      \strng{authorfullhash}{11fb89b87a41899a506583eb312faf60}
+      \strng{authorfullhashraw}{11fb89b87a41899a506583eb312faf60}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{83rd {{EAGE Annual Conference}} \& {{Exhibition}}}
+      \field{eventtitle}{83rd {{EAGE Annual Conference}} \& {{Exhibition}}}
+      \field{langid}{english}
+      \field{title}{Simultaneous {{Joint Inversion Strengthening Full-Waveform Inversion}} in the {{Southern Gulf}} of {{Mexico}}}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \keyw{ssfinv}
+    \endentry
+    \entry{dosso_joint_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=24137d12456d93bc06546aa56562a093}{%
+           family={Dosso},
+           familyi={D\bibinitperiod},
+           given={Stan\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=63cd92c9be21cffe860315cf95c5a5ac}{%
+           family={Bonnel},
+           familyi={B\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7be9dc63c9793266a51e10db58772e73}
+      \strng{fullhash}{7be9dc63c9793266a51e10db58772e73}
+      \strng{fullhashraw}{7be9dc63c9793266a51e10db58772e73}
+      \strng{bibnamehash}{7be9dc63c9793266a51e10db58772e73}
+      \strng{authorbibnamehash}{7be9dc63c9793266a51e10db58772e73}
+      \strng{authornamehash}{7be9dc63c9793266a51e10db58772e73}
+      \strng{authorfullhash}{7be9dc63c9793266a51e10db58772e73}
+      \strng{authorfullhashraw}{7be9dc63c9793266a51e10db58772e73}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{JASA Express Letters}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Joint Trans-Dimensional Inversion for Water-Column Sound Speed and Seabed Geoacoustic Models}
+      \field{volume}{3}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{060801}
+      \range{pages}{1}
+      \keyw{ssfinv,selec}
+    \endentry
+    \entry{fortin_extracting_2015}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=e70a11eba4187366778cc92bf61f7672}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={W.\bibnamedelimi F.\bibnamedelimi J.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Wyoming}%
+      }
+      \strng{namehash}{e70a11eba4187366778cc92bf61f7672}
+      \strng{fullhash}{e70a11eba4187366778cc92bf61f7672}
+      \strng{fullhashraw}{e70a11eba4187366778cc92bf61f7672}
+      \strng{bibnamehash}{e70a11eba4187366778cc92bf61f7672}
+      \strng{authorbibnamehash}{e70a11eba4187366778cc92bf61f7672}
+      \strng{authornamehash}{e70a11eba4187366778cc92bf61f7672}
+      \strng{authorfullhash}{e70a11eba4187366778cc92bf61f7672}
+      \strng{authorfullhashraw}{e70a11eba4187366778cc92bf61f7672}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Extracting {{Physical Parameters}} from {{Marine Seismic Data}}: {{New}} Methods in Seismic Oceanography and Velocity Inversion}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \keyw{ssfinv}
+    \endentry
+    \entry{gibson_nonlinear_1979}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e8813cc3bdf1a89ed88c8b63ee6d4fe4}{%
+           family={Gibson},
+           familyi={G\bibinitperiod},
+           given={B.\bibnamedelimi S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=dd6171b9ed5b3480c1d97d208a8a0f11}{%
+           family={Odegard},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=57394b48581a0bfa546a545d5030ab44}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{52d9e3a559b933fb2869b3115399ce9a}
+      \strng{fullhash}{3fd0d2b9a8f316f7619655781c33b450}
+      \strng{fullhashraw}{3fd0d2b9a8f316f7619655781c33b450}
+      \strng{bibnamehash}{3fd0d2b9a8f316f7619655781c33b450}
+      \strng{authorbibnamehash}{3fd0d2b9a8f316f7619655781c33b450}
+      \strng{authornamehash}{52d9e3a559b933fb2869b3115399ce9a}
+      \strng{authorfullhash}{3fd0d2b9a8f316f7619655781c33b450}
+      \strng{authorfullhashraw}{3fd0d2b9a8f316f7619655781c33b450}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Geophysics}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Nonlinear Least-Squares Inversion of Traveltime Data for a Linear Velocity-Depth Relationship}
+      \field{volume}{44}
+      \field{year}{1979}
+      \field{dateera}{ce}
+      \field{pages}{185\bibrangedash 194}
+      \range{pages}{10}
+      \keyw{ssfinv,selec}
+    \endentry
+    \entry{hou_velocity_2018}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=6c337cac5417bb6e8eb0eeb0b8332cfe}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=526b88c9a6b307159c585570a483da2f}{%
+           family={Haacke},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3bd11a42664c089aa18148d458f2d618}{%
+           family={Corbett},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cd53836bb6b3e7dae17bf2c464fb2f09}{%
+           family={Wanczuk},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Copenhagen, Denmark}%
+      }
+      \strng{namehash}{a58cb08ba7e5329dc67f0cece0472673}
+      \strng{fullhash}{07d244a0eab835327ef724029053fdc2}
+      \strng{fullhashraw}{07d244a0eab835327ef724029053fdc2}
+      \strng{bibnamehash}{07d244a0eab835327ef724029053fdc2}
+      \strng{authorbibnamehash}{07d244a0eab835327ef724029053fdc2}
+      \strng{authornamehash}{a58cb08ba7e5329dc67f0cece0472673}
+      \strng{authorfullhash}{07d244a0eab835327ef724029053fdc2}
+      \strng{authorfullhashraw}{07d244a0eab835327ef724029053fdc2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{eventtitle}{80th {{EAGE Conference}} and {{Exhibition}} 2018}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Velocity {{Model Building}} with {{Guided Wave Inversion}}}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \keyw{ssfinv}
+    \endentry
+    \entry{lacasse_water_2011}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=f76e48eb483ee74876dea2c9d7d1aaa4}{%
+           family={Lacasse},
+           familyi={L\bibinitperiod},
+           given={Martin-Daniel},
+           giveni={M\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=2063a878409ac90dd2f1e78f0278bee0}{%
+           family={Akcelik},
+           familyi={A\bibinitperiod},
+           given={Volkan},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1c17194ad33ac9f9d395cbc9f5d5d7b9}{%
+           family={Kanevsky},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=01d4949002ad740adce399dfca089011}{%
+           family={Denli},
+           familyi={D\bibinitperiod},
+           given={Huseyin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3f007e3529e22bc9a0f5af5c32902091}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bbd8a3f7f960bae84ed8307040838c72}{%
+           family={Ober},
+           familyi={O\bibinitperiod},
+           given={Curtis\bibnamedelima C},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6d12ac44652391c40d9c4d221932685f}{%
+           family={Waanders},
+           familyi={W\bibinitperiod},
+           given={Bart\bibnamedelimb van\bibnamedelima Bloemen},
+           giveni={B\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=58caf37ac6c044e757854f6de022b404}{%
+           family={Collis},
+           familyi={C\bibinitperiod},
+           given={Samuel\bibnamedelima Scott},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c118b5ed1ed7026a2d5abb2d3ba38855}{%
+           family={Krebs},
+           familyi={K\bibinitperiod},
+           given={Jerome\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{04f65de7d06f3eaabefa7f091f12146f}
+      \strng{fullhash}{628e53483e6b70192f11bce54ad81269}
+      \strng{fullhashraw}{628e53483e6b70192f11bce54ad81269}
+      \strng{bibnamehash}{04f65de7d06f3eaabefa7f091f12146f}
+      \strng{authorbibnamehash}{04f65de7d06f3eaabefa7f091f12146f}
+      \strng{authornamehash}{04f65de7d06f3eaabefa7f091f12146f}
+      \strng{authorfullhash}{628e53483e6b70192f11bce54ad81269}
+      \strng{authorfullhashraw}{628e53483e6b70192f11bce54ad81269}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{On Water Column Effects on Source Signature Inversion in Marine Seismic Acquisition}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \keyw{ssfinv}
+    \endentry
+    \entry{lecerf_water_2022}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=5edfd935187a3256fb12b921edd0ce41}{%
+           family={Lecerf},
+           familyi={L\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c92a442ccdb0c4550788cb246f9903e4}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5ff8a100e7fbc34cf48e6b3bdca31b62}{%
+           family={Oates},
+           familyi={O\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f427e3d6beab1a632f5ca8f27ad7e84e}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Jyoti},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Houston, Texas}%
+      }
+      \list{publisher}{1}{%
+        {Society of Exploration Geophysicists and American Association of Petroleum Geologists}%
+      }
+      \strng{namehash}{3b10a2d5bdd627749be70dad921fc2ab}
+      \strng{fullhash}{c2cfc0697168f326d601da30e9ee6540}
+      \strng{fullhashraw}{c2cfc0697168f326d601da30e9ee6540}
+      \strng{bibnamehash}{c2cfc0697168f326d601da30e9ee6540}
+      \strng{authorbibnamehash}{c2cfc0697168f326d601da30e9ee6540}
+      \strng{authornamehash}{3b10a2d5bdd627749be70dad921fc2ab}
+      \strng{authorfullhash}{c2cfc0697168f326d601da30e9ee6540}
+      \strng{authorfullhashraw}{c2cfc0697168f326d601da30e9ee6540}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Second {{International Meeting}} for {{Applied Geoscience}} \& {{Energy}}}
+      \field{day}{15}
+      \field{eventtitle}{Second {{International Meeting}} for {{Applied Geoscience}} \& {{Energy}}}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{Water Column Corrections}
+      \field{title}{Water Column Corrections: {{Joint}} Water Velocity Inversion for {{4D}} Marine Surveys}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{3404\bibrangedash 3408}
+      \range{pages}{5}
+      \keyw{ssfinv}
+    \endentry
+    \entry{lin_equivalent_2006}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f15742c7d4737d78b123b300f3acc554}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Y.-T.},
+           giveni={Y\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=7eab16f6095021b03624eabed474638e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={C.-F.},
+           giveni={C\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=860715d2ca6ed6c7ac5dc770d3954f32}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={J.F.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6470eb881ef43bca4c731e257178396f}
+      \strng{fullhash}{538c65e02e2778effebde9d10aa940e7}
+      \strng{fullhashraw}{538c65e02e2778effebde9d10aa940e7}
+      \strng{bibnamehash}{538c65e02e2778effebde9d10aa940e7}
+      \strng{authorbibnamehash}{538c65e02e2778effebde9d10aa940e7}
+      \strng{authornamehash}{6470eb881ef43bca4c731e257178396f}
+      \strng{authorfullhash}{538c65e02e2778effebde9d10aa940e7}
+      \strng{authorfullhashraw}{538c65e02e2778effebde9d10aa940e7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Oceanic Engineering}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{IEEE J. Oceanic Eng.}
+      \field{title}{An {{Equivalent Transform Method}} for {{Evaluating}} the {{Effect}} of {{Water-Column Mismatch}} on {{Geoacoustic Inversion}}}
+      \field{volume}{31}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{284\bibrangedash 298}
+      \range{pages}{15}
+      \keyw{ssfinv}
+    \endentry
+    \entry{mallick_prediction_2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=80276cac6a705ef15a3336beeeac664a}{%
+           family={Mallick},
+           familyi={M\bibinitperiod},
+           given={Subhashis},
+           giveni={S\bibinitperiod}}}%
+        {{hash=98769f76dba668d88fce16876cf9b493}{%
+           family={Chakraborty},
+           familyi={C\bibinitperiod},
+           given={Dwaipayan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e515fc378b6a1ff47555570840a1f0f8}
+      \strng{fullhash}{e515fc378b6a1ff47555570840a1f0f8}
+      \strng{fullhashraw}{e515fc378b6a1ff47555570840a1f0f8}
+      \strng{bibnamehash}{e515fc378b6a1ff47555570840a1f0f8}
+      \strng{authorbibnamehash}{e515fc378b6a1ff47555570840a1f0f8}
+      \strng{authornamehash}{e515fc378b6a1ff47555570840a1f0f8}
+      \strng{authorfullhash}{e515fc378b6a1ff47555570840a1f0f8}
+      \strng{authorfullhashraw}{e515fc378b6a1ff47555570840a1f0f8}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Geophysics}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Prediction of the Ocean Water Sound Speeds via Attribute-Guided Seismic Waveform Inversion}
+      \field{volume}{87}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{U67\bibrangedash U79}
+      \range{pages}{-1}
+      \keyw{ssfinv}
+    \endentry
+    \entry{mcmechan_application_1982}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=17348d9238e704a31d26f2bb07ce00d2}{%
+           family={McMechan},
+           familyi={M\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=26dd7f5bc1b005934209d96599b14bab}{%
+           family={Clayton},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=87ab0c70ce96ff3fe39a0524c8cb0376}{%
+           family={Mooney},
+           familyi={M\bibinitperiod},
+           given={Walter\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f42b963c0bf16d2601ee48686dde1b12}
+      \strng{fullhash}{45779f90838ae673ba8ee4d59dc3f505}
+      \strng{fullhashraw}{45779f90838ae673ba8ee4d59dc3f505}
+      \strng{bibnamehash}{45779f90838ae673ba8ee4d59dc3f505}
+      \strng{authorbibnamehash}{45779f90838ae673ba8ee4d59dc3f505}
+      \strng{authornamehash}{f42b963c0bf16d2601ee48686dde1b12}
+      \strng{authorfullhash}{45779f90838ae673ba8ee4d59dc3f505}
+      \strng{authorfullhashraw}{45779f90838ae673ba8ee4d59dc3f505}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Journal of Geophysical Research: Solid Earth}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{B2}
+      \field{shortjournal}{J. Geophys. Res.}
+      \field{title}{Application of Wave Field Continuation to the Inversion of Refraction Data}
+      \field{volume}{87}
+      \field{year}{1982}
+      \field{dateera}{ce}
+      \field{pages}{927\bibrangedash 935}
+      \range{pages}{9}
+      \keyw{ssfinv}
+    \endentry
+    \entry{michalopoulou_environmental_2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=840c41eb95cbb15615d4f17f23020cef}{%
+           family={Michalopoulou},
+           familyi={M\bibinitperiod},
+           given={Zoi-Heleni},
+           giveni={Z\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=c5e1c8181d94bb92857e9d36ebc59d72}{%
+           family={Aunsri},
+           familyi={A\bibinitperiod},
+           given={Nattapol},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{098c0699b36784cec8cb8219928f65e6}
+      \strng{fullhash}{098c0699b36784cec8cb8219928f65e6}
+      \strng{fullhashraw}{098c0699b36784cec8cb8219928f65e6}
+      \strng{bibnamehash}{098c0699b36784cec8cb8219928f65e6}
+      \strng{authorbibnamehash}{098c0699b36784cec8cb8219928f65e6}
+      \strng{authornamehash}{098c0699b36784cec8cb8219928f65e6}
+      \strng{authorfullhash}{098c0699b36784cec8cb8219928f65e6}
+      \strng{authorfullhashraw}{098c0699b36784cec8cb8219928f65e6}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Environmental Inversion Using Dispersion Tracking in a Shallow Water Environment}
+      \field{volume}{143}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{EL188\bibrangedash EL193}
+      \range{pages}{-1}
+      \keyw{ssfinv}
+    \endentry
+    \entry{mitchell_optical_2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=11847432f0028bc8dc42f8a79dd237bd}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c5103e7fc0ba809928caab1deadb0423}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={Howard\bibnamedelima R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ca74b2b420b9b762ea9b148cf5ef71cb}{%
+           family={Bowler},
+           familyi={B\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+        {{hash=85a78478496d209e41b2e24fdd8c801e}{%
+           family={Drapeau},
+           familyi={D\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6ecc6d60ff72dad2b554a466fb48c7c0}{%
+           family={Balch},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{96f11204e03715c6eb5cefc6a95b6950}
+      \strng{fullhash}{2da00f0576ffb4e2fdc9b59cb3e7e5d2}
+      \strng{fullhashraw}{2da00f0576ffb4e2fdc9b59cb3e7e5d2}
+      \strng{bibnamehash}{2da00f0576ffb4e2fdc9b59cb3e7e5d2}
+      \strng{authorbibnamehash}{2da00f0576ffb4e2fdc9b59cb3e7e5d2}
+      \strng{authornamehash}{96f11204e03715c6eb5cefc6a95b6950}
+      \strng{authorfullhash}{2da00f0576ffb4e2fdc9b59cb3e7e5d2}
+      \strng{authorfullhashraw}{2da00f0576ffb4e2fdc9b59cb3e7e5d2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Optics Express}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{25}
+      \field{shortjournal}{Opt. Express}
+      \field{title}{Optical Inversions of the Water Column Based on Glider Measurements}
+      \field{volume}{26}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{32824}
+      \range{pages}{1}
+      \keyw{ssfinv}
+    \endentry
+    \entry{radhakrishnan_inversion_2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=948af1750e4964a95066e27cbed31964}{%
+           family={Radhakrishnan},
+           familyi={R\bibinitperiod},
+           given={Sreeram},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d417c07224e21a6dfadb2f999036da50}{%
+           family={K},
+           familyi={K\bibinitperiod},
+           given={Anilkumar},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{08cdf8ac90fb0ac6ac8665d305f0e507}
+      \strng{fullhash}{08cdf8ac90fb0ac6ac8665d305f0e507}
+      \strng{fullhashraw}{08cdf8ac90fb0ac6ac8665d305f0e507}
+      \strng{bibnamehash}{08cdf8ac90fb0ac6ac8665d305f0e507}
+      \strng{authorbibnamehash}{08cdf8ac90fb0ac6ac8665d305f0e507}
+      \strng{authornamehash}{08cdf8ac90fb0ac6ac8665d305f0e507}
+      \strng{authorfullhash}{08cdf8ac90fb0ac6ac8665d305f0e507}
+      \strng{authorfullhashraw}{08cdf8ac90fb0ac6ac8665d305f0e507}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Inversion for Water Column Sound Speed Profile from Acoustic Travel Times Using Empirical Orthogonal Functions}
+      \field{volume}{156}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{4061\bibrangedash 4072}
+      \range{pages}{12}
+      \keyw{ssfinv,selec}
+    \endentry
+    \entry{ritter_water_2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=424e77943a015acf077114edcaff6732}{%
+           family={Ritter},
+           familyi={R\bibinitperiod},
+           given={Gerson\bibnamedelimb Luis\bibnamedelimb Da\bibnamedelima Silva},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{424e77943a015acf077114edcaff6732}
+      \strng{fullhash}{424e77943a015acf077114edcaff6732}
+      \strng{fullhashraw}{424e77943a015acf077114edcaff6732}
+      \strng{bibnamehash}{424e77943a015acf077114edcaff6732}
+      \strng{authorbibnamehash}{424e77943a015acf077114edcaff6732}
+      \strng{authornamehash}{424e77943a015acf077114edcaff6732}
+      \strng{authorfullhash}{424e77943a015acf077114edcaff6732}
+      \strng{authorfullhashraw}{424e77943a015acf077114edcaff6732}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Geophysics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Water Velocity Estimation Using Inversion Methods}
+      \field{volume}{75}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{U1\bibrangedash U8}
+      \range{pages}{-1}
+      \keyw{ssfinv,selec}
+    \endentry
+    \entry{takeuchi_development_1993}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=e15fb4a790bcafecb654e96bf8c74e24}{%
+           family={Takeuchi},
+           familyi={T\bibinitperiod},
+           given={Tomoyoshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4267107ae27ae147e620be8a1207985e}{%
+           family={Taira},
+           familyi={T\bibinitperiod},
+           given={Keisuke},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{862de203cdc98357f4a3f8995a919796}
+      \strng{fullhash}{862de203cdc98357f4a3f8995a919796}
+      \strng{fullhashraw}{862de203cdc98357f4a3f8995a919796}
+      \strng{bibnamehash}{862de203cdc98357f4a3f8995a919796}
+      \strng{authorbibnamehash}{862de203cdc98357f4a3f8995a919796}
+      \strng{authornamehash}{862de203cdc98357f4a3f8995a919796}
+      \strng{authorfullhash}{862de203cdc98357f4a3f8995a919796}
+      \strng{authorfullhashraw}{862de203cdc98357f4a3f8995a919796}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Elsevier {{Oceanography Series}}}
+      \field{langid}{english}
+      \field{title}{Development of {{Multipaths Inverted Echosounder}}}
+      \field{volume}{59}
+      \field{year}{1993}
+      \field{dateera}{ce}
+      \field{pages}{375\bibrangedash 382}
+      \range{pages}{8}
+      \keyw{ssfinv}
+    \endentry
+    \entry{taroudakis_tomographic_2001}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=632380e77119618e8d7e6ea588d80674}{%
+           family={Taroudakis},
+           familyi={T\bibinitperiod},
+           given={Michael\bibnamedelima I},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=990d9c9038caf5ece9a185a795f69e8c}{%
+           family={Markaki},
+           familyi={M\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{40bb6f0279a8c45dd97ae42af0951087}
+      \strng{fullhash}{40bb6f0279a8c45dd97ae42af0951087}
+      \strng{fullhashraw}{40bb6f0279a8c45dd97ae42af0951087}
+      \strng{bibnamehash}{40bb6f0279a8c45dd97ae42af0951087}
+      \strng{authorbibnamehash}{40bb6f0279a8c45dd97ae42af0951087}
+      \strng{authornamehash}{40bb6f0279a8c45dd97ae42af0951087}
+      \strng{authorfullhash}{40bb6f0279a8c45dd97ae42af0951087}
+      \strng{authorfullhashraw}{40bb6f0279a8c45dd97ae42af0951087}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{{TOMOGRAPHIC INVERSIONS IN SHALLOW WATER}}, {{USING MODAL TRAVEL TIME MEASUREMENTS}}}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \keyw{ssfinv}
+    \endentry
+    \entry{vadapalli_application_2012}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4de15d61b1899f3b7bb97074aadf7c63}{%
+           family={Vadapalli},
+           familyi={V\bibinitperiod},
+           given={Uma},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{4de15d61b1899f3b7bb97074aadf7c63}
+      \strng{fullhash}{4de15d61b1899f3b7bb97074aadf7c63}
+      \strng{fullhashraw}{4de15d61b1899f3b7bb97074aadf7c63}
+      \strng{bibnamehash}{4de15d61b1899f3b7bb97074aadf7c63}
+      \strng{authorbibnamehash}{4de15d61b1899f3b7bb97074aadf7c63}
+      \strng{authornamehash}{4de15d61b1899f3b7bb97074aadf7c63}
+      \strng{authorfullhash}{4de15d61b1899f3b7bb97074aadf7c63}
+      \strng{authorfullhashraw}{4de15d61b1899f3b7bb97074aadf7c63}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Application of {{Gauss-Newton}} Tomographic Inversion to Seawater Velocity Estimation}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \keyw{ssfinv}
+    \endentry
+    \entry{voort_inversion_2022}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{useprefix=false,hash=98233d8be0c3bbb153ef796f93b008e2}{%
+           family={Voort},
+           familyi={V\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod},
+           prefix={van\bibnamedelima de},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {TU Delft}%
+      }
+      \list{location}{1}{%
+        {Delft, NL}%
+      }
+      \strng{namehash}{98233d8be0c3bbb153ef796f93b008e2}
+      \strng{fullhash}{98233d8be0c3bbb153ef796f93b008e2}
+      \strng{fullhashraw}{98233d8be0c3bbb153ef796f93b008e2}
+      \strng{bibnamehash}{98233d8be0c3bbb153ef796f93b008e2}
+      \strng{authorbibnamehash}{98233d8be0c3bbb153ef796f93b008e2}
+      \strng{authornamehash}{98233d8be0c3bbb153ef796f93b008e2}
+      \strng{authorfullhash}{98233d8be0c3bbb153ef796f93b008e2}
+      \strng{authorfullhashraw}{98233d8be0c3bbb153ef796f93b008e2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inversion {{Methods}} of the {{Sound Velocity Profile}} for {{Improving}} the {{Accuracy}} of the {{USBL Positioning System}}}
+      \field{type}{phdthesis}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \keyw{ssfinv}
+    \endentry
+    \entry{wellington_2d_2015}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=32fb50338b49768aca992f0e75f91056}{%
+           family={Wellington},
+           familyi={W\bibinitperiod},
+           given={P.J.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2fe0ed546932a2873274ca20d5a84b75}{%
+           family={Brossier},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=af6a718063e9d6817ec07b25615b85d9}{%
+           family={Garambois},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=01da5f2c8fa1cf6ce8f8f42b88728be4}{%
+           family={Virieux},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid, Spain}%
+      }
+      \strng{namehash}{52e521fc1f71d1dae36a1806fa6aacbf}
+      \strng{fullhash}{11fa68e905704e9934c8da8121fa04f2}
+      \strng{fullhashraw}{11fa68e905704e9934c8da8121fa04f2}
+      \strng{bibnamehash}{11fa68e905704e9934c8da8121fa04f2}
+      \strng{authorbibnamehash}{11fa68e905704e9934c8da8121fa04f2}
+      \strng{authornamehash}{52e521fc1f71d1dae36a1806fa6aacbf}
+      \strng{authorfullhash}{11fa68e905704e9934c8da8121fa04f2}
+      \strng{authorfullhashraw}{11fa68e905704e9934c8da8121fa04f2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{eventtitle}{77th {{EAGE Conference}} and {{Exhibition}} 2015}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{{{2D Acoustic Time Domain Full Waveform Inversion}} - {{A Broadband Application}} in the {{Carnarvon Basin}}, {{Australia}}}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \keyw{ssfinv}
+    \endentry
+    \entry{wong_leastsquares_2011}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=dcaa8a8fa26245e5f15a4d0c81935a06}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Mandy},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f1f7048c5c74ab7b6a987be5533ca854}{%
+           family={Ronen},
+           familyi={R\bibinitperiod},
+           given={Shuki},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d069ceef1d7c9572f68f93916d7eb6f4}{%
+           family={Biondi},
+           familyi={B\bibinitperiod},
+           given={Biondo},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Society of Exploration Geophysicists}%
+      }
+      \strng{namehash}{1b69578a4cd376d87253fd377a1ceb6e}
+      \strng{fullhash}{bde4b26f80edff472af62bd4870d4b93}
+      \strng{fullhashraw}{bde4b26f80edff472af62bd4870d4b93}
+      \strng{bibnamehash}{bde4b26f80edff472af62bd4870d4b93}
+      \strng{authorbibnamehash}{bde4b26f80edff472af62bd4870d4b93}
+      \strng{authornamehash}{1b69578a4cd376d87253fd377a1ceb6e}
+      \strng{authorfullhash}{bde4b26f80edff472af62bd4870d4b93}
+      \strng{authorfullhashraw}{bde4b26f80edff472af62bd4870d4b93}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{{{SEG Technical Program Expanded Abstracts}} 2011}
+      \field{eventtitle}{{{SEG Technical Program Expanded Abstracts}} 2011}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{Least‐squares Reverse Time Migration/Inversion for Ocean Bottom Data}
+      \field{title}{Least‐squares Reverse Time Migration/Inversion for Ocean Bottom Data: {{A}} Case Study}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{2369\bibrangedash 2373}
+      \range{pages}{5}
+      \keyw{ssfinv}
+    \endentry
+    \entry{wu_inversion_2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=8ee2464c666949638e7727e1d1d00985}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6c7b966fbc085a5f96e22a3828065593}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jianguo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=31a9a5b88922c4f3757622440bc2097f}{%
+           family={Shan},
+           familyi={S\bibinitperiod},
+           given={Gangyi},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a2740d3d7035633ab52a6cf9d45f1c95}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Zhangqing},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0d0e006f08862b5af7333424ab8c2554}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Puli},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ebbcc8245cef1383573a249552ba1c9}
+      \strng{fullhash}{4fe76c991eed43500756df0e146d9db4}
+      \strng{fullhashraw}{4fe76c991eed43500756df0e146d9db4}
+      \strng{bibnamehash}{4fe76c991eed43500756df0e146d9db4}
+      \strng{authorbibnamehash}{4fe76c991eed43500756df0e146d9db4}
+      \strng{authornamehash}{3ebbcc8245cef1383573a249552ba1c9}
+      \strng{authorfullhash}{4fe76c991eed43500756df0e146d9db4}
+      \strng{authorfullhashraw}{4fe76c991eed43500756df0e146d9db4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{shorttitle}{Inversion of {{Deep-Water Velocity Using}} the {{Munk Formula}} and the {{Seabed Reflection Traveltime}}}
+      \field{title}{Inversion of {{Deep-Water Velocity Using}} the {{Munk Formula}} and the {{Seabed Reflection Traveltime}}: {{An Inversion Scheme That Takes}} the {{Complex Seabed Topography Into Account}}}
+      \field{volume}{61}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \keyw{ssfinv,selec}
+    \endentry
+    \entry{barata_moore_2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=81e3e94e3df3065205620e3e898a09ef}{%
+           family={Barata},
+           familyi={B\bibinitperiod},
+           given={João\bibnamedelimb Carlos\bibnamedelima Alves},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b9aa4609e5fa4a55824dc68a54cfe28d}{%
+           family={Hussein},
+           familyi={H\bibinitperiod},
+           given={Mahir\bibnamedelima Saleh},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{babb59bef8433dbff44259649773452e}
+      \strng{fullhash}{babb59bef8433dbff44259649773452e}
+      \strng{fullhashraw}{babb59bef8433dbff44259649773452e}
+      \strng{bibnamehash}{babb59bef8433dbff44259649773452e}
+      \strng{authorbibnamehash}{babb59bef8433dbff44259649773452e}
+      \strng{authornamehash}{babb59bef8433dbff44259649773452e}
+      \strng{authorfullhash}{babb59bef8433dbff44259649773452e}
+      \strng{authorfullhashraw}{babb59bef8433dbff44259649773452e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Brazilian Journal of Physics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{1--2}
+      \field{shortjournal}{Braz J Phys}
+      \field{shorttitle}{The {{Moore}}–{{Penrose Pseudoinverse}}}
+      \field{title}{The {{Moore}}–{{Penrose Pseudoinverse}}: {{A Tutorial Review}} of the {{Theory}}}
+      \field{volume}{42}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{146\bibrangedash 165}
+      \range{pages}{20}
+      \keyw{ttt}
+    \endentry
+    \entry{golub_calculating_1965}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=30158b4fc9162dd081269fa31a18c4ca}{%
+           family={Golub},
+           familyi={G\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a5e6aab28c90e5493de4671e6e61d5a8}{%
+           family={Kahan},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ccc9bcf443d934ddcbe0097b7713224}
+      \strng{fullhash}{0ccc9bcf443d934ddcbe0097b7713224}
+      \strng{fullhashraw}{0ccc9bcf443d934ddcbe0097b7713224}
+      \strng{bibnamehash}{0ccc9bcf443d934ddcbe0097b7713224}
+      \strng{authorbibnamehash}{0ccc9bcf443d934ddcbe0097b7713224}
+      \strng{authornamehash}{0ccc9bcf443d934ddcbe0097b7713224}
+      \strng{authorfullhash}{0ccc9bcf443d934ddcbe0097b7713224}
+      \strng{authorfullhashraw}{0ccc9bcf443d934ddcbe0097b7713224}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Society for Industrial and Applied Mathematics Series B Numerical Analysis}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shortjournal}{Journal of the Society for Industrial and Applied Mathematics Series B Numerical Analysis}
+      \field{title}{Calculating the {{Singular Values}} and {{Pseudo-Inverse}} of a {{Matrix}}}
+      \field{volume}{2}
+      \field{year}{1965}
+      \field{dateera}{ce}
+      \field{pages}{205\bibrangedash 224}
+      \range{pages}{20}
+      \keyw{ttt}
+    \endentry
+    \entry{brand_fast_2006}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fed0c52d7ec9db48839dce3be96f9103}{%
+           family={Brand},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fed0c52d7ec9db48839dce3be96f9103}
+      \strng{fullhash}{fed0c52d7ec9db48839dce3be96f9103}
+      \strng{fullhashraw}{fed0c52d7ec9db48839dce3be96f9103}
+      \strng{bibnamehash}{fed0c52d7ec9db48839dce3be96f9103}
+      \strng{authorbibnamehash}{fed0c52d7ec9db48839dce3be96f9103}
+      \strng{authornamehash}{fed0c52d7ec9db48839dce3be96f9103}
+      \strng{authorfullhash}{fed0c52d7ec9db48839dce3be96f9103}
+      \strng{authorfullhashraw}{fed0c52d7ec9db48839dce3be96f9103}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linear Algebra and its Applications}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{Linear Algebra and its Applications}
+      \field{title}{Fast Low-Rank Modifications of the Thin Singular Value Decomposition}
+      \field{volume}{415}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{20\bibrangedash 30}
+      \range{pages}{11}
+      \keyw{ttt}
+    \endentry
+    \entry{chen_treatment_2006}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=54fd94f665f4c33a4d2c26d151ac037a}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=d21b3139162ca6485dec28492df74568}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={I.\bibnamedelimi L.},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a3f08d383f46ad93058a4db847ff593b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={K.\bibnamedelimi H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3de617cc117df8e10fc1a58f300c53c7}
+      \strng{fullhash}{1785c17e316be3e5f88dab442c228604}
+      \strng{fullhashraw}{1785c17e316be3e5f88dab442c228604}
+      \strng{bibnamehash}{1785c17e316be3e5f88dab442c228604}
+      \strng{authorbibnamehash}{1785c17e316be3e5f88dab442c228604}
+      \strng{authornamehash}{3de617cc117df8e10fc1a58f300c53c7}
+      \strng{authorfullhash}{1785c17e316be3e5f88dab442c228604}
+      \strng{authorfullhashraw}{1785c17e316be3e5f88dab442c228604}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computational Acoustics}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{02}
+      \field{shortjournal}{J. Comp. Acous.}
+      \field{title}{{{TREATMENT OF RANK DEFICIENCY IN ACOUSTICS USING SVD}}}
+      \field{volume}{14}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{157\bibrangedash 183}
+      \range{pages}{27}
+      \keyw{ttt}
+    \endentry
+    \entry{zhang_nonlinear_1998}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=2f4cc163c8766d4437008ea260208de8}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8a7899e69a3466543daa0c9d5194a155}{%
+           family={Ten\bibnamedelima Brink},
+           familyi={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Uri\bibnamedelima S.},
+           giveni={U\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5c311033508dd572cb88c2fcb5f137b6}{%
+           family={Toksöz},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi Nafi},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{7cf8eaf74a2659f76a70a943f2d3282a}
+      \strng{fullhash}{50885a638f7ec6a132c50b342e15b0d3}
+      \strng{fullhashraw}{50885a638f7ec6a132c50b342e15b0d3}
+      \strng{bibnamehash}{50885a638f7ec6a132c50b342e15b0d3}
+      \strng{authorbibnamehash}{50885a638f7ec6a132c50b342e15b0d3}
+      \strng{authornamehash}{7cf8eaf74a2659f76a70a943f2d3282a}
+      \strng{authorfullhash}{50885a638f7ec6a132c50b342e15b0d3}
+      \strng{authorfullhashraw}{50885a638f7ec6a132c50b342e15b0d3}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Journal of Geophysical Research: Solid Earth}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{B12}
+      \field{shortjournal}{J. Geophys. Res.}
+      \field{title}{Nonlinear Refraction and Reflection Travel Time Tomography}
+      \field{volume}{103}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \field{pages}{29743\bibrangedash 29757}
+      \range{pages}{15}
+      \keyw{ttt}
+    \endentry
+    \entry{delprat-jannaud_illposed_1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7b1220b1c6b36af083a320a4cded78ef}{%
+           family={Delprat‐Jannaud},
+           familyi={D\bibinithyphendelim J\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d29ea5fa7e4c1983d1994890ef24728a}{%
+           family={Lailly},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dba0f2ff6d52b5c5254e14f5a5cad4a}
+      \strng{fullhash}{8dba0f2ff6d52b5c5254e14f5a5cad4a}
+      \strng{fullhashraw}{8dba0f2ff6d52b5c5254e14f5a5cad4a}
+      \strng{bibnamehash}{8dba0f2ff6d52b5c5254e14f5a5cad4a}
+      \strng{authorbibnamehash}{8dba0f2ff6d52b5c5254e14f5a5cad4a}
+      \strng{authornamehash}{8dba0f2ff6d52b5c5254e14f5a5cad4a}
+      \strng{authorfullhash}{8dba0f2ff6d52b5c5254e14f5a5cad4a}
+      \strng{authorfullhashraw}{8dba0f2ff6d52b5c5254e14f5a5cad4a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Journal of Geophysical Research: Solid Earth}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{B4}
+      \field{shortjournal}{J. Geophys. Res.}
+      \field{title}{Ill‐posed and Well‐posed Formulations of the Reflection Travel Time Tomography Problem}
+      \field{volume}{98}
+      \field{year}{1993}
+      \field{dateera}{ce}
+      \field{pages}{6589\bibrangedash 6605}
+      \range{pages}{17}
+      \keyw{ttt}
+    \endentry
+    \entry{meyerholtz_convolutional_1989}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f83f6ed3b79423852436b01bb137e211}{%
+           family={Meyerholtz},
+           familyi={M\bibinitperiod},
+           given={Keith\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0f1d13c19fd3d7466f6acbdfb6fb2ee9}{%
+           family={Pavlis},
+           familyi={P\bibinitperiod},
+           given={Gary\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0653f21bccee952919eb516ab2787aee}{%
+           family={Szpakowski},
+           familyi={S\bibinitperiod},
+           given={Sally\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{756dc2a6938e5e09dfcb2d9603f772c4}
+      \strng{fullhash}{cb0dbd69f2ba14b1d7415ed74d094d9d}
+      \strng{fullhashraw}{cb0dbd69f2ba14b1d7415ed74d094d9d}
+      \strng{bibnamehash}{cb0dbd69f2ba14b1d7415ed74d094d9d}
+      \strng{authorbibnamehash}{cb0dbd69f2ba14b1d7415ed74d094d9d}
+      \strng{authornamehash}{756dc2a6938e5e09dfcb2d9603f772c4}
+      \strng{authorfullhash}{cb0dbd69f2ba14b1d7415ed74d094d9d}
+      \strng{authorfullhashraw}{cb0dbd69f2ba14b1d7415ed74d094d9d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GEOPHYSICS}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{GEOPHYSICS}
+      \field{title}{Convolutional Quelling in Seismic Tomography}
+      \field{volume}{54}
+      \field{year}{1989}
+      \field{dateera}{ce}
+      \field{pages}{570\bibrangedash 580}
+      \range{pages}{11}
+      \keyw{ttt}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

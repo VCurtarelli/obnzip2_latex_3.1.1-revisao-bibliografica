@@ -1,0 +1,52 @@
+%\section{Mindmap}
+%\vfill
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[
+			mindmap,
+			text width=2.5cm,
+			align=center,
+			every node/.style={concept},
+			concept color=green!20!white!85!black,
+			level 1/.append style={
+				level distance=5cm,
+				minimum size=3cm,
+				text width=2.8cm,
+				font=\large,
+			},
+			level 2/.append style={
+				level distance=3.5cm,
+				minimum size=2cm,
+				text width=1.8cm
+			},
+			]
+			
+			\node[minimum size=4.5cm, text width=4.3cm, line width=6pt, fill=green!10!white!95!black] (TTT) {\Large\textbf{Estimação do \textsl{Sound Speed Field}}}
+			child[concept color=yellow!10!white!95!black,grow=45] { 
+				node (fundamentos) {\textbf{Fundamentos}}
+				child[grow=150] { node{Distribuição\\de dispositivos} }
+				child[grow=30] { node{Discretização\\espacial} }
+				child[grow=-30] { node{Princípio\\de Fermat} }
+				child[grow=-90] { node (tt) at (fundamentos|-TTT) {Tempo de\\trânsito} }
+			}
+			child[concept color=teal!10,grow=315] { 
+				node (probinv) {\textbf{Problema\\inverso}}				
+				child[grow=-30] { node{Otimização\\quadrática} }
+				child[grow=30] { node{Regularização} }
+				child[concept color=yellow!10!white!95!black] { node at (tt) {Tempo de trânsito}}
+				child[concept color=orange!10] { node (solucaoeikonal) at (TTT|-probinv) {Solução\\Eikonal} }
+				child[grow=225] { node (estimssf) {Estimação\\do SSF} }
+			}
+			child[concept color=orange!10,grow=225] { 
+				node (probdir) {\textbf{Problema\\direto}} 
+				child[grow=300] { node{\textsl{Ray-tracing}} }
+				child[grow=240] { node{FMM/FSM} }
+				child { node at (solucaoeikonal) {Solução\\Eikonal} }
+				child[concept color=teal!10] { node at (estimssf) {Estimação\\do SSF} }
+%				child[concept color=teal!10,grow=315, level distance=5cm] { node(estssf) {} }
+			}
+			;	
+	\end{tikzpicture}
+	\caption{\textsl{Mindmap} da \cref{sec:travel-time_tomography}.}
+	\label{fig:mindmap_sec2}
+\end{figure}

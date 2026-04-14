@@ -1,0 +1,460 @@
+\section{Análise comparativa entre os artigos revisados}
+\label{sec:cp}
+
+Seguindo as revisões estabelecidas nas \cref{sec_rt,sec_rssfi}, algumas possíveis frentes para pesquisa, implementação virtual e, posteriormente, implementação prática, podem ser estabelecidas. Aqui não serão discutidos ou reapresentados os artigos da \cref{sec:travel-time_tomography}, dado que os artigos lá mostrados são muito semelhantes entre si, e usados para estabelecer o modelo-padrão da \cref{subsec:sec2:modelo-padrao} e \cref{app:modelo-padrão-TTT}.
+
+Uma delas é adotar uma abordagem diferente para o problema de inversão. Embora o TTT tradicional seja a técnica mais comum para realizar inversão utilizando somente informação de tempo de trânsito, ela não é a única capaz disso. Estas abordagens alternativas são extraídas dos artigos selecionados anteriormente nas \cref{sec_rssfi:subsec_deeper-analysis,sec_rt:subsec_deeper-analysis}. Enquanto os artigos na \cref{sec_rt} utilizam estritamente informações de tempo de trânsito (embora não necessariamente utilizando a estrutura da TTT), os da \cref{sec_rssfi} são muito mais amplos, possivelmente utilizando diferentes informações para a inversão; embora os selecionados na \cref{sec_rssfi:subsec_deeper-analysis} sejam baseados apenas em dados de tempo de percurso.
+
+\subsection{Classificação dos artigos/técnicas}
+\label{subsec:cp_classif}
+
+Todos os artigos revisados (não somente os destacados) serão classificados, conforme as características dos métodos propostos e empregados, tipos de dados usados, entre outras categorias. Todos os artigos\footnote{Os artigos da \cref{sec_rt} estarão em azul, os da \cref{sec_rssfi} em vermelho; os artigos selecionados de cada seção estarão em negrito.} serão caracterizados pelas seguintes informações:
+\begin{enumerate}[itemsep=-1ex, partopsep=0pt]
+	\item Abordagem ou método (modelo direto, funções-base, parametrização, \textit{machine learning})
+	\item Dimensão da aplicação (1D $\sim$ 4D)
+	\item Aplicação (acústica submarina rasa, acústica submarina profunda, estruturas geológicas, biomédica)
+	\item Dados de entrada (tempo de trânsito, forma de onda, modelo inicial)
+	\item Parâmetros ajustáveis (vagarosidade, pesos de funções-base, parâmetros)
+	\item Métrica de erro ou método de avaliação
+\end{enumerate}
+
+\begingroup
+\definecolor{tomographycolor}{RGB}{0, 0, 255}
+\definecolor{ssfinvcolor}{RGB}{255, 0, 0}
+
+\renewcommand{\arraystretch}{1.5}
+
+\begin{table}[H]
+	\def\seleccite{\bfseries}
+	\centering
+	\caption{Abordagem ou método}
+	\begin{tabular}{C{0.3\linewidth} C{0.5\linewidth}}
+		\textbf{Características} & \textbf{Trabalhos} \\
+		\ttline
+		%		\vphantom{\rule{0.4pt}{1.2em}}
+		TTT & 
+		\cite{bao_online_2020}
+		\cite{djikpesse_reducing_2010}
+		\cite{goyal_ultrasound_2025}
+		\cite{gras_practical_2022}
+		\cite{othmani_acoustic_2024}
+		\cite{shin_distributed_2022}
+		\cite{wo_firstarrival_2024}
+		\cite{zhang_optimization_2023}
+		\cite{mcmechan_application_1982}
+		\cite{takeuchi_development_1993}
+		\cite{vadapalli_application_2012}
+		\cite{wellington_2d_2015}
+		\\\tline
+		Outros modelos diretos &
+		\cite{gras_practical_2022}
+		\cite{li_multiscale_2024}
+		\cite{chapeland_highresolution_2022}
+		\cite{datta_fast_2019}
+		\cite{deluca_simultaneous_2022}
+		\cite{gibson_nonlinear_1979}
+		\cite{mallick_prediction_2022}
+		\cite{michalopoulou_environmental_2018}
+		\cite{wong_leastsquares_2011} 
+		\cite{zhang_inversion_2016}
+		\\\tline
+		Modelagem estatística &
+		\cite{agata_bayesian_2023}
+		\cite{dosso_joint_2023}
+		\\\tline
+		Funções-base &
+		\cite{yu_krylov_2021}
+		\cite{radhakrishnan_inversion_2024}
+		\cite{taroudakis_tomographic_2001}
+		\\\tline
+		Parametrização &  
+		\cite{carriere_featureoriented_2013}
+		\cite{ritter_water_2010}
+		\cite{wu_inversion_2023}
+		\\\tline
+		\textit{Machine Learning} &
+		\cite{agata_bayesian_2023}
+		\cite{jo_seismic_2023}
+		\cite{jo_seismic_2024}
+		\cite{mei_uncertainty_2025}
+		\cite{wang_seismic_2024} 
+		\cite{zhang_nonlinear_2022}
+		\cite{mallick_prediction_2022}
+		\\\tline
+		Outros & 
+		\cite{han_realtime_2014}
+		\cite{amini_joint_2016}
+		\cite{ashley_inverted_1998}
+		\cite{becker_geoacoustic_2007}
+		\cite{bender_threedimensional_2012}
+		\cite{mitchell_optical_2018}
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\def\seleccite{\bfseries}
+	\centering
+	\caption{Dimensão da aplicação}
+	\begin{tabular}{C{0.3\linewidth} C{0.5\linewidth}}
+		\textbf{Características} & \textbf{Trabalhos} \\
+		\ttline
+		1D & 
+		\cite{carriere_featureoriented_2013}
+		\cite{djikpesse_reducing_2010}
+		\cite{amini_joint_2016}
+		\cite{dosso_joint_2023}
+		\cite{gibson_nonlinear_1979}
+		\\\tline
+		2D, 3D, ou 4D &
+		\cite{agata_bayesian_2023}
+		\cite{bao_online_2020}
+		\cite{goyal_ultrasound_2025}
+		\cite{gras_practical_2022}
+		\cite{han_realtime_2014}
+		\cite{jo_seismic_2023}
+		\cite{jo_seismic_2024}
+		\cite{li_multiscale_2024}
+		\cite{mei_uncertainty_2025}
+		\cite{othmani_acoustic_2024}
+		\cite{shin_distributed_2022}
+		\cite{wang_seismic_2024}
+		\cite{wo_firstarrival_2024}
+		\cite{yu_krylov_2021}
+		\cite{zhang_optimization_2023}
+		\cite{zhang_nonlinear_2022}
+		\cite{bender_threedimensional_2012}
+		\cite{chapeland_highresolution_2022}
+		\cite{datta_fast_2019}
+		\cite{deluca_simultaneous_2022}
+		\cite{hou_velocity_2018}
+		\cite{lin_equivalent_2006}
+		\cite{mallick_prediction_2022}
+		\cite{mcmechan_application_1982}
+		\cite{michalopoulou_environmental_2018}
+		\cite{mitchell_optical_2018}
+		\cite{radhakrishnan_inversion_2024}
+		\cite{ritter_water_2010}
+		\cite{takeuchi_development_1993}
+		\cite{taroudakis_tomographic_2001}
+		\cite{vadapalli_application_2012}
+		\cite{voort_inversion_2022}
+		\cite{wellington_2d_2015}
+		\cite{wong_leastsquares_2011}
+		\cite{wu_inversion_2023}
+		\cite{zhang_inversion_2016}
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\def\seleccite{\bfseries}
+	\centering
+	\caption{Aplicação}
+	\label{table:cp_classif_aplicacao}
+	\begin{tabular}{C{0.3\linewidth} C{0.5\linewidth}}
+		\textbf{Características} & \textbf{Trabalhos} \\
+		\ttline
+		Acústica submarina rasa & 
+		\cite{abakumov_timelapse_2019}
+		\cite{amini_joint_2016}
+		\cite{deluca_simultaneous_2022}
+		\cite{dosso_joint_2023}
+		\cite{hou_velocity_2018}
+		\cite{mallick_prediction_2022}
+		\cite{radhakrishnan_inversion_2024}
+		\cite{taroudakis_tomographic_2001}
+		\cite{voort_inversion_2022}
+		\cite{wu_inversion_2023}
+		\cite{zhang_inversion_2016}
+		\\\tline
+		Acústica submarina profunda &
+		\cite{agata_bayesian_2023}
+		\cite{amini_joint_2016}
+		\cite{datta_fast_2019}
+		\cite{ritter_water_2010}
+		\cite{takeuchi_development_1993}
+		\cite{vadapalli_application_2012}
+		\\\tline
+		Estruturas geológicas & 
+		\cite{agata_bayesian_2023}
+		\cite{djikpesse_reducing_2010}
+		\cite{gras_practical_2022}
+		\cite{han_realtime_2014}
+		\cite{jo_seismic_2023}
+		\cite{jo_seismic_2024}
+		\cite{li_multiscale_2024}
+		\cite{mei_uncertainty_2025}
+		\cite{shin_distributed_2022}
+		\cite{wang_seismic_2024}
+		\cite{wo_firstarrival_2024}
+		\cite{becker_geoacoustic_2007}
+		\cite{chapeland_highresolution_2022}
+		\cite{gibson_nonlinear_1979}
+		\cite{hou_velocity_2018}
+		\cite{lin_equivalent_2006}
+		\cite{mcmechan_application_1982}
+		\cite{michalopoulou_environmental_2018}
+		\cite{wellington_2d_2015}
+		\cite{wong_leastsquares_2011}
+		\\\tline
+		Biomédica &
+		\cite{goyal_ultrasound_2025}
+		\\\tline
+		Termometria &
+		\cite{bao_online_2020}
+		\cite{carriere_featureoriented_2013}
+		\cite{othmani_acoustic_2024}
+		\cite{yu_krylov_2021}
+		\cite{zhang_nonlinear_2022}
+		\\\tline
+		Outros &
+		\cite{zhang_optimization_2023}
+		\cite{mitchell_optical_2018}
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\def\seleccite{\bfseries}
+	\centering
+	\caption{Dados de entrada (*tempo de trânsito bidirecional)}
+	\label{table:cp_classif_dados-entrada}
+	\begin{tabular}{C{0.3\linewidth} C{0.5\linewidth}}
+		\textbf{Características} & \textbf{Trabalhos} \\
+		\ttline
+		Tempo de trânsito & 
+		\cite{agata_bayesian_2023}
+		\cite{bao_online_2020}
+		\cite{djikpesse_reducing_2010}
+		\cite{goyal_ultrasound_2025}
+		\cite{gras_practical_2022}
+		\cite{jo_seismic_2023}
+		\cite{jo_seismic_2024}
+		\cite{li_multiscale_2024}
+		\cite{mei_uncertainty_2025}
+		\cite{othmani_acoustic_2024}
+		\cite{shin_distributed_2022}
+		\cite{wang_seismic_2024}
+		\cite{wo_firstarrival_2024}
+		\cite{yu_krylov_2021}
+		\cite{zhang_optimization_2023}
+		\cite{zhang_nonlinear_2022}
+		\cite{amini_joint_2016}
+		\cite{ashley_inverted_1998}*	
+		\cite{gibson_nonlinear_1979}*
+		\cite{lin_equivalent_2006}
+		\cite{mcmechan_application_1982}
+		\cite{radhakrishnan_inversion_2024}
+		\cite{ritter_water_2010}*
+		\cite{takeuchi_development_1993}*
+		\cite{vadapalli_application_2012}*
+		\cite{wu_inversion_2023}*
+		\cite{voort_inversion_2022}*
+		\\\tline
+		Modelo inicial &
+		\cite{agata_bayesian_2023}
+		\cite{bao_online_2020}
+		\cite{shin_distributed_2022}
+		\cite{amini_joint_2016}
+		\cite{datta_fast_2019}
+		\cite{ritter_water_2010}
+		\\\tline
+		Forma de onda & 
+		\cite{gras_practical_2022}
+		\cite{han_realtime_2014}
+		\cite{becker_geoacoustic_2007}
+		\cite{bender_threedimensional_2012}
+		\cite{chapeland_highresolution_2022}
+		\cite{datta_fast_2019}
+		\cite{deluca_simultaneous_2022}
+		\cite{hou_velocity_2018}
+		\cite{lin_equivalent_2006}
+		\cite{mallick_prediction_2022}
+		\cite{mcmechan_application_1982}
+		\cite{michalopoulou_environmental_2018}
+		\cite{taroudakis_tomographic_2001}
+		\cite{wellington_2d_2015}
+		\cite{wong_leastsquares_2011}
+		\cite{zhang_inversion_2016}
+		\\\tline
+		Outros/Incerto &
+		\cite{carriere_featureoriented_2013}
+		\cite{dosso_joint_2023}
+		\cite{lin_equivalent_2006}
+		\cite{mitchell_optical_2018}
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\def\seleccite{\bfseries}
+	\centering
+	\caption{Dados estimados}
+	\begin{tabular}{C{0.3\linewidth} C{0.5\linewidth}}
+		\textbf{Características} & \textbf{Trabalhos} \\
+		\ttline
+		Velocidades/imageamento & 
+		\cite{bao_online_2020}
+		\cite{djikpesse_reducing_2010}
+		\cite{goyal_ultrasound_2025}
+		\cite{gras_practical_2022}
+		\cite{li_multiscale_2024}
+		\cite{othmani_acoustic_2024}
+		\cite{shin_distributed_2022}
+		\cite{wo_firstarrival_2024}
+		\cite{zhang_optimization_2023}
+		\cite{zhang_nonlinear_2022}
+		\cite{bender_threedimensional_2012}
+		\cite{chapeland_highresolution_2022}
+		\cite{datta_fast_2019}
+		\cite{deluca_simultaneous_2022}
+		\cite{mallick_prediction_2022}
+		\cite{ritter_water_2010}
+		\cite{takeuchi_development_1993}
+		\cite{taroudakis_tomographic_2001}
+		\cite{vadapalli_application_2012}
+		\cite{voort_inversion_2022}
+		\cite{wellington_2d_2015}
+		\cite{wong_leastsquares_2011}
+		\\\tline
+		Pesos de funções-base & 
+		\cite{carriere_featureoriented_2013}
+		\cite{han_realtime_2014}
+		\cite{yu_krylov_2021}
+		\cite{becker_geoacoustic_2007}
+		\cite{lin_equivalent_2006}
+		\cite{radhakrishnan_inversion_2024}
+		\cite{zhang_inversion_2016}
+		\\\tline
+		Parâmetros de funções/NN &
+		\cite{agata_bayesian_2023}
+		\cite{jo_seismic_2023}
+		\cite{jo_seismic_2024}
+		\cite{mei_uncertainty_2025}
+		\cite{wang_seismic_2024}
+		\cite{gibson_nonlinear_1979}
+		\cite{mitchell_optical_2018}
+		\cite{wu_inversion_2023}
+		\\\tline
+		Incerto &
+		\cite{abakumov_timelapse_2019}
+		\cite{amini_joint_2016}
+		\cite{ashley_inverted_1998}
+		\cite{dosso_joint_2023}
+		\cite{hou_velocity_2018}
+		\cite{mcmechan_application_1982}
+		\cite{michalopoulou_environmental_2018}
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\def\seleccite{\bfseries}
+	\centering
+	\caption{Métrica de erro e método de avaliação}
+	\begin{tabular}{C{0.3\linewidth} C{0.5\linewidth}}
+		\textbf{Características} & \textbf{Trabalhos} \\
+		\ttline
+		Erro global & 
+		\cite{agata_bayesian_2023}
+		\cite{bao_online_2020}
+		\cite{jo_seismic_2023}
+		\cite{jo_seismic_2024}
+		\cite{li_multiscale_2024}
+		\cite{mei_uncertainty_2025}
+		\cite{othmani_acoustic_2024}
+		\cite{shin_distributed_2022}
+		\cite{wang_seismic_2024}
+		\cite{yu_krylov_2021}
+		\cite{zhang_nonlinear_2022}
+		\cite{datta_fast_2019}
+		\cite{deluca_simultaneous_2022}
+		\cite{gibson_nonlinear_1979}
+		\cite{hou_velocity_2018}
+		\cite{vadapalli_application_2012}
+		\cite{wong_leastsquares_2011}
+		\cite{wu_inversion_2023}
+		\\\tline
+		Comparação de SSF/SSP &
+		\cite{agata_bayesian_2023}
+		\cite{bao_online_2020}
+		\cite{gras_practical_2022}
+		\cite{mei_uncertainty_2025}
+		\cite{wang_seismic_2024}
+		\cite{zhang_optimization_2023}
+		\cite{zhang_nonlinear_2022}
+		\cite{amini_joint_2016}
+		\cite{bender_threedimensional_2012}
+		\cite{deluca_simultaneous_2022}
+		\cite{dosso_joint_2023}
+		\cite{lin_equivalent_2006}
+		\cite{mallick_prediction_2022}
+		\cite{mcmechan_application_1982}
+		\cite{mitchell_optical_2018}
+		\cite{radhakrishnan_inversion_2024}
+		\cite{ritter_water_2010}
+		\cite{voort_inversion_2022}
+		\cite{wu_inversion_2023}
+		\cite{zhang_inversion_2016}
+		\\\tline
+		Análise qualitativa & 
+		\cite{djikpesse_reducing_2010}
+		\cite{goyal_ultrasound_2025}
+		\cite{jo_seismic_2023}
+		\cite{jo_seismic_2024}
+		\cite{li_multiscale_2024}
+		\cite{mei_uncertainty_2025}
+		\cite{othmani_acoustic_2024}
+		\cite{shin_distributed_2022}
+		\cite{wang_seismic_2024}
+		\cite{yu_krylov_2021}
+		\cite{zhang_nonlinear_2022}
+		\cite{bender_threedimensional_2012}
+		\cite{chapeland_highresolution_2022}
+		\cite{datta_fast_2019}
+		\cite{dosso_joint_2023}
+		\cite{hou_velocity_2018}
+		\cite{lin_equivalent_2006}
+		\cite{mallick_prediction_2022}
+		\cite{taroudakis_tomographic_2001}
+		\cite{vadapalli_application_2012}
+		\cite{voort_inversion_2022}
+		\cite{wellington_2d_2015}
+		\cite{wong_leastsquares_2011}
+		\cite{wu_inversion_2023}
+		\cite{zhang_inversion_2016}
+		\\\tline
+		Outro/Incerto &
+		\cite{carriere_featureoriented_2013}
+		\cite{han_realtime_2014}
+		\cite{mei_uncertainty_2025}
+		\cite{zhang_optimization_2023}
+		\cite{ashley_inverted_1998}
+		\cite{becker_geoacoustic_2007}
+		\cite{cvetkovic_inverting_2019}
+		\cite{gibson_nonlinear_1979}
+		\cite{lin_equivalent_2006}
+		\cite{michalopoulou_environmental_2018}
+		\cite{takeuchi_development_1993}
+		\cite{wu_inversion_2023}
+	\end{tabular}
+\end{table}
+
+Dadas as categorias especificadas anteriormente, e a classificação dos artigos dentro de cada uma, foram elencadas duas categorias (aplicação [\cref{table:cp_classif_aplicacao}], e dados de entrada [\cref{table:cp_classif_dados-entrada}]) como as duas mais importantes, e que possuem mais regência sobre as técnicas que podem ser posteriormente utilizadas. Dessas duas categorias, foi montada uma tabela de classificação (\cref{table:cp_classif_aplicacao-vs-dados}) que separa os artigos escolhidos dentro dessas duas classificações.
+
+\begin{table}[H]
+	\def\seleccite{\bfseries}
+	\centering
+	\caption{Dados de entrada (*bidirecional) $\times$ Aplicação}
+	\label{table:cp_classif_aplicacao-vs-dados}
+	\begin{tabular}{C{0.16\linewidth} C{0.16\linewidth} C{0.16\linewidth} C{0.16\linewidth} C{0.16\linewidth}}
+		& Tempo de trânsito & Modelo inicial & Forma de onda & Outros/Incerto \\\ttline
+		Acústica submarina rasa & \cite{amini_joint_2016}, \cite{radhakrishnan_inversion_2024}, \cite{voort_inversion_2022}*, \cite{wu_inversion_2023}* & \cite{amini_joint_2016} & \cite{deluca_simultaneous_2022}, \cite{hou_velocity_2018}, \cite{mallick_prediction_2022}, \cite{taroudakis_tomographic_2001}, \cite{zhang_inversion_2016} & \cite{dosso_joint_2023} \\\tline
+		Acústica submarina profunda & \cite{agata_bayesian_2023}, \cite{amini_joint_2016}, \cite{ritter_water_2010}*, \cite{takeuchi_development_1993}*, \cite{vadapalli_application_2012}* & \cite{agata_bayesian_2023}, \cite{amini_joint_2016}, \cite{datta_fast_2019}, \cite{ritter_water_2010}* & \cite{datta_fast_2019} &  \\\tline
+		Estruturas geológicas & \cite{agata_bayesian_2023}, \cite{djikpesse_reducing_2010}, \cite{gras_practical_2022}, \cite{jo_seismic_2023}, \cite{jo_seismic_2024}, \cite{li_multiscale_2024}, \cite{mei_uncertainty_2025}, \cite{shin_distributed_2022}, \cite{wang_seismic_2024}, \cite{wo_firstarrival_2024}, \cite{gibson_nonlinear_1979}*, \cite{lin_equivalent_2006}, \cite{mcmechan_application_1982} & \cite{agata_bayesian_2023}, \cite{shin_distributed_2022} & \cite{gras_practical_2022}, \cite{han_realtime_2014}, \cite{becker_geoacoustic_2007}, \cite{chapeland_highresolution_2022}, \cite{hou_velocity_2018}, \cite{lin_equivalent_2006}, \cite{mcmechan_application_1982}, \cite{michalopoulou_environmental_2018}, \cite{wellington_2d_2015}, \cite{wong_leastsquares_2011} & \cite{lin_equivalent_2006} \\\tline
+		Biomédica & \cite{goyal_ultrasound_2025} &  &  &  \\\tline
+		Termometria & \cite{bao_online_2020}, \cite{othmani_acoustic_2024}, \cite{yu_krylov_2021}, \cite{zhang_nonlinear_2022} & \cite{bao_online_2020} &  & \cite{carriere_featureoriented_2013} \\\tline
+		Outros & \cite{zhang_optimization_2023} &  &  & \cite{mitchell_optical_2018}
+	\end{tabular}
+\end{table}
+
+\endgroup
+
+
+

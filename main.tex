@@ -1,0 +1,27 @@
+\documentclass{setup/obnzip2}
+
+\usepackage[math,bold,env]{curtatex}
+\usepackage{siunitx}
+\usepackage{titlesec}
+\usepackage{float}
+\usetikzlibrary{positioning,trees,mindmap}
+
+
+\input{setup/commands.tex}
+
+\let\gls\textsc
+\let\ingles\textsl
+
+\begin{document}	
+	\input{parts/1.Intro}
+	\input{parts/2.Revisao_TTT}
+	\input{parts/3.Revisão_invTT}
+	\input{parts/4.Revisao_iSSF}
+	\input{parts/5.Analise_revs}
+	\printbibliography[]	
+	\appendix
+	\crefalias{section}{appendix}
+	\crefname{appendix}{Apêndice}{Apêndices}
+	\input{parts/A.ModeloPadrao_TTT}
+\end{document}
+

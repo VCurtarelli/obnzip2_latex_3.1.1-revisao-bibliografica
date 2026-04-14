@@ -1,0 +1,45 @@
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[
+		mindmap,
+		text width=2.5cm,
+		align=center,
+		every node/.style={concept},
+		concept color=gray!50,
+		level 1/.append style={
+			level distance=5cm,
+			minimum size=3cm,
+			text width=2.8cm,
+			font=\large,
+		},
+		level 2/.append style={
+			level distance=3.5cm,
+			minimum size=2cm,
+			text width=1.8cm
+		},
+		]
+		
+		\node (root) [minimum size=4.5cm, text width=4.3cm, line width=6pt, fill=gray!30]{\Large\textbf{\textsl{Sound Speed Field (SSF)}}}
+		child[concept color=red!10, grow=30,] {
+			node{\textbf{Princípios}}
+			child[grow=0] { node{Parâmetros \\ TPS} }
+			child[grow=-45] { node{Refração \\ (Snell)} }
+		}
+		child[concept color=green!10!white!95!black, grow=-30] {
+			node{\textbf{Métodos de\\estimação}}
+			child[grow=315] { node{FWI} }
+			child[grow=360] { node{MFI} }
+			child[grow=270] { node (ttt) {TTT}} 
+		}
+		child[concept color=blue!10, grow=-90] {
+			node{\textbf{Limitações\\do projeto}}
+			child[grow=-45] { node{Fontes} }
+			child[grow=-90] { node{Receptores} }
+			child[grow=-135] { node{Comunicação} }
+			child[grow=-180] { node{Informação\\obtida} }
+		}
+		;	
+	\end{tikzpicture}
+	\caption{\textsl{Mindmap} da \cref{sec:campo_de_velocidade_do_som}.}
+	\label{fig:mindmap_sec1}
+\end{figure}
