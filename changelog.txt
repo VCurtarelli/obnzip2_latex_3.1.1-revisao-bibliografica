@@ -6,3 +6,4 @@ v1.0.260415
 	Removida parte de modelo-padrão de TTT (a ser incluído no 3.2.2).
 	Adicionadas Sec. 3, Sec. 4, Sec. 5, Sec. 6.
 	Alterados título, autor, e resumo.
+	Adicionado package e arquivo latexmkrc.
