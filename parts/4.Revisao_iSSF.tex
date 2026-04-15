@@ -1,6 +1,6 @@
 \section{Revisão bibliográfica da inversão de SSF/SSP na coluna d'água}
 \label{sec_rssfi}
-Como também sugerido em reuniões, outra revisão foi conduzida, agora buscando na literatura ferramentas tecnológicas e matemáticas dentro da inversão da velocidade do som na coluna d'água. Especificamente, buscamos diferentes abordagens para o problema de alocação de dispositivos que surge ao lidar com águas profundas, diferentes tipos de informação --- e, portanto, diferentes técnicas --- que são usadas nesta inversão, e outros insights que possam ser úteis e importantes neste cenário. Nesta revisão, uma busca geral foi feita no Google Scholar, procurando pelo termo \quote{water column velocity inversion}. Dos primeiros (mais relevantes) 100 artigos da busca no Google Scholar, 30 foram pré-selecionados por terem potencial e, destes, 7 foram selecionados por estarem relacionados à pesquisa atual.
+Como também sugerido em reuniões, outra revisão foi conduzida, agora buscando na literatura ferramentas tecnológicas e matemáticas dentro da inversão da velocidade do som na coluna d'água. Especificamente, buscamos diferentes abordagens para o problema de alocação de dispositivos que surge ao lidar com águas profundas, diferentes tipos de informação --- e, portanto, diferentes técnicas --- que são usadas nesta inversão, e outros insights que possam ser úteis e importantes neste cenário. Nesta revisão, uma busca geral foi feita no Google Scholar, procurando pelo termo \quote{\textsl{water column velocity inversion}}. Dos primeiros (mais relevantes) 100 artigos da busca no Google Scholar, 30 foram pré-selecionados por terem potencial e, destes, 7 foram selecionados por estarem relacionados à pesquisa atual.
 
 \subsection{Leitura superficial nos artigos selecionados}
 
@@ -16,10 +16,9 @@ Como também sugerido em reuniões, outra revisão foi conduzida, agora buscando
 	\citem{deluca_simultaneous_2022} - Emprega FWI para inversão de subsuperfície em águas rasas.
 	\citem*{dosso_joint_2023} - Usa inversão estatística (Bayesiana) para estimar conjuntamente as estruturas de velocidade da coluna d'água e da subsuperfície. Pode ser relevante.
 	\citem{fortin_extracting_2015} - Estima turbulência oceânica, usa \ingles{prestacking FWI} para imageamento de subsuperfície, e alguns outros estudos. Não parece relacionado.
-	\citem*{gibson_nonlinear_1979} - Usa informações de tempo de percurso refletidas e refratadas para inversão de SSF por mínimos quadrados não lineares. Pode ser útil.
 	\citem{hou_velocity_2018} - Estima separadamente a coluna d'água (rasa) e o solo próximo à superfície, usando outros dados (temperatura, salinidade) para a porção da coluna d'água. Não detalha os processos de inversão.
 	\citem{lacasse_water_2011} - Estuda os efeitos de fontes de erros sistemáticos (erro de posicionamento e efeitos do SSF) na aquisição de dados e inversão. Não estuda a inversão de SSF.
-	\citem{lecerf_water_2022} - Ainda não entendo qual é o objetivo deles ou o que eles estão realmente fazendo.
+%	\citem{lecerf_water_2022} - Ainda não entendo qual é o objetivo deles ou o que eles estão realmente fazendo.
 	\citem{lin_equivalent_2006} - Quantifica discrepâncias no SSF e estuda seus efeitos na inversão geoacústica.
 	\citem{mallick_prediction_2022} - Propõe uma nova inversão de forma de onda para gerar modelos iniciais para estimativa de SSF e, posteriormente, para estimativa de parâmetros (temperatura e salinidade).
 	\citem{mcmechan_application_1982} - Verifica o uso do método de \ingles{downward contribuition} para abordar a inversão sísmica usando dados de refração.
@@ -61,10 +60,6 @@ Este artigo \cite{dosso_joint_2023} utiliza inversão estatística e Bayesiana d
 	\item Utiliza informações de forma de onda acústica (indisponíveis para nós)
 \end{itemize}
 
-\papersec{\citeay*{gibson_nonlinear_1979}}
-
-Neste artigo \cite{gibson_nonlinear_1979}, eles lidam com o problema não linear da inversão do tempo de percurso. Discretizam o ambiente em camadas, assumindo que a variação dentro de cada camada é linear e que a velocidade na superfície entre camadas é contínua. Também consideram um ponto de reflexão no solo, de modo que a fonte e o receptor estão ambos na superfície (semelhante ao problema tratado por nós). Parece ser mais um trabalho geométrico do que de engenharia.
-
 \papersec{\citeay*{radhakrishnan_inversion_2024}}
 
 Aqui \cite{radhakrishnan_inversion_2024}, eles propõem o uso de funções ortogonais empíricas (EOFs) como base, com as quais o SSF objetivo invertido é uma combinação linear ao longo desta base. Eles usam informações de tempo de percurso de múltiplos caminhos (multipath) em relação aos sinais (o que requer pelo menos algum nível de gravação acústica) para estimar a resposta ao impulso do canal e, a partir disso, inverter o SSF. Finalmente, eles usam essas possíveis soluções geradas por EOF para alimentar um algoritmo evolutivo, que refinará a saída.
@@ -79,19 +74,18 @@ Neste artigo \cite{wu_inversion_2023}, em vez de estimar o SSF em cada ponto/cé
 
 Não está claro se o artigo considera um ambiente 3D ou apenas uma variação 1D --- trabalhando sob uma suposição estratificada (cada profundidade tem a mesma velocidade) --- em seu desenvolvimento matemático, mas mesmo no último caso ainda seria viável aplicá-lo a um ambiente 3D, adaptando a formulação.
 
-\subsection{Considerações práticas}
-
-Dos artigos lidos, encontramos algumas abordagens diferentes, desde o uso de informações completas da forma de onda (e, assim, empregando FWI ou outras técnicas semelhantes), até diferentes abordagens de modelagem (paramétrica em vez de inversão direta). Diferentes problemas também foram tratados e, embora a maioria possa ser adaptada para o cenário 3D que está sendo estudado, alguns são inerentemente unidimensionais e, portanto, incompatíveis com o problema em questão.
-
-Entre os artigos escolhidos, \cite{bender_threedimensional_2012} é interessante, pois utiliza informações de tempo de percurso, mas a partir de um ponto de partida muito diferente. \cite{wu_inversion_2023} também pode ser útil, pois eles otimizam os parâmetros do perfil de Munk para se ajustarem aos dados adquiridos, o que poderia ser proveitoso, especialmente em ambientes mais profundos.
-
-Estes artigos, aliados aos apresentados na \cref{sec_rt}, poderiam ajudar a desenvolver uma nova técnica matemática capaz de lidar com o problema em questão, que já se mostrou (em outros documentos) insolúvel apenas com a técnica de TTT, sem novos desenvolvimentos práticos consideráveis e/ou uso de informações (atualmente não disponíveis) sobre pressão, temperatura e salinidade, ou de caras expedições de ROV ao longo do perfil vertical.
-
-
-%\subsection{Practical considerations}
+%\subsection{Considerações práticas}
 %
-%From the read papers, we find a few different approaches taken, from using full waveform information (and thus employing FWI or other similar techniques), to different modeling approaches (parametric instead of direct inversion). Different problems were also treated, and even though most can be adapted to the 3D scenario that is being studied, some are inherently one-dimensional and thus incompatible with the problem at hand.
+%Dos artigos lidos, encontramos algumas abordagens diferentes, desde o uso de informações completas da forma de onda (e, assim, empregando FWI ou outras técnicas semelhantes), até diferentes abordagens de modelagem (paramétrica em vez de inversão direta). Diferentes problemas também foram tratados e, embora a maioria possa ser adaptada para o cenário 3D que está sendo estudado, alguns são inerentemente unidimensionais e, portanto, incompatíveis com o problema em questão.
 %
-%Among the chosen papers, \cite{bender_threedimensional_2012} is interesting as it uses travel-time information but from a very different starting point. \cite{wu_inversion_2023} can also be useful, as they optimize the Munk profile's parameters to fit the acquired data, which could be useful, specially in deeper environments.
+%Entre os artigos escolhidos, \cite{bender_threedimensional_2012} é interessante, pois utiliza informações de tempo de percurso, mas a partir de um ponto de partida muito diferente. \cite{wu_inversion_2023} também pode ser útil, pois eles otimizam os parâmetros do perfil de Munk para se ajustarem aos dados adquiridos, o que poderia ser proveitoso, especialmente em ambientes mais profundos.
 %
-%These papers, allied with the ones presented in \cref{sec_rt}, could help develop a new mathematical technique that is able to deal with the problem at hand, which has already been shown (in other documents) to be unsolvable with only the TTT technique, without considerable new practical developments and/or use of (currently not available) information regarding pressure, temperature and salinity, or the of expensive ROV trips along the vertical profile.
+%Estes artigos, aliados aos apresentados na \cref{sec_rt}, poderiam ajudar a desenvolver uma nova técnica matemática capaz de lidar com o problema em questão, que já se mostrou (em outros documentos) insolúvel apenas com a técnica de TTT, sem novos desenvolvimentos práticos consideráveis e/ou uso de informações (atualmente não disponíveis) sobre pressão, temperatura e salinidade, ou de caras expedições de ROV ao longo do perfil vertical.
+
+\input{figures/4.Mindmap}
+
+\subsection{\textsl{Mindmap} e conclusões}
+
+A \cref{fig:mindmap_sec4} mostra um \textsl{mindmap} resumindo a revisão dos artigos apresentados em relação aos métodos utilizados, às aplicações, e aos tipos de dados de entrada que cada artigo utiliza. Novamente, o número em cada nó indica a quantidade de artigos relacionados, com essas classificações sendo revisitadas e mais profundamente detalhadas na \cref{sec:cp}.
+
+Dada a liberdade quanto ao método de inversão dos artigos selecionados nessa revisão, uma boa parte deles utilizou informações de forma de onda do sinal, e não somente tempo de trânsito, como o dado adquirido nos receptores. Em função disso, uma boa parte dos artigos também realizou inversões baseadas em dados de forma de onda (como FWI, AFM, e JMI). Interessantemente, mesmo com dados de tempo de trânsito disponíveis, poucos realizaram inversão baseada diretamente na TTT. Além disso, a aplicação de uma boa parte deles se restringia à acústica submarina rasa (até $\sim500\si{\meter}$) e à geologia, com poucas aplicações na acústica submarina profunda. Não está claro se esse escopo de aplicação se deve a limitações do método, ou não-aplicação dos resultados à estimação de campos de velocidade em grandes profundidades.

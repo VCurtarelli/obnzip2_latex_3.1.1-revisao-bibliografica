@@ -27,7 +27,7 @@ Como determinado anteriormente, a técnica de TTT é versátil devido à sua sim
 %
 A \cref{table:fttt_revisao_temas} compila uma lista dos temas em comum apresentados nos diferentes artigos, e um pequeno comentário sobre os aspectos ou considerações que mais destacam cada. Note que em todos os artigos apresentados, assume-se a discretização do espaço. Nem todos consideram efeitos de curvatura das ondas (\ingles{ray-bending}), dependendo da aplicação; alguns realizam minimização iterativa através do gradiente conjugado, enquanto outros buscam uma formulação fechada para o problema inverso. A maioria utiliza alguma forma de regularização na minimização, e alguns também propõem o uso de \ingles{blur}, dispersando os raios estimados.
 
-\begin{table}[H]\small\centering
+\begin{table}[!t]\small\centering
 	\caption{Tabela comparativa dos artigos analisados. CG - Gradiente Conjugado (para minimização); $P_{\alpha}$ - Regularização; $\bvB{i}$ - Suavização do SSF.}
 	\label{table:fttt_revisao_temas}
 	\begin{tabular}{l c c c c c l}
@@ -70,15 +70,15 @@ A \cref{fig:mindmap_sec2} apresenta um \textsl{mindmap} dos conceitos expostos a
 
 \input{figures/2.Mindmap}
 
-\subsection{Modelo-padrão para TTT}
-\label{subsec:sec2:modelo-padrao}
-
-No \cref{app:modelo-padrão-TTT}, é apresentado um modelo-padrão matemático para a TTT, estabelecendo o método mediano entre os artigos apresentados, e uma discussão de todas as considerações relevantes e razões para a modelagem matemática tomada.
-
-De maneira sucinta, seja $\bvR{i}$ a solução Eikonal da $i$-ésima iteração dos problemas direto e inverso (essa sendo uma matriz com as distâncias percorridas por cada raio, em cada célula); $\bvt{\obs}$ o vetor de tempos de trânsito observados (contendo o tempo de primeira chegada de cada raio produzido); e $\bvD$ uma matriz de regularização (geralmente utilizada como regularização Tikhonov), com parâmetro $\alpha$. Então, a solução para o problema inverso $\bvs{i+1}$ na $(i+1)$-ésima iteração ($\bvs{i+1}$ é um vetor de vagarosidades em cada célula) será
-\begin{equation}
-	\bvs{i+1} = \inv*{\bvR[T]{i} \bvR{i} + \alpha^2 \bvD[T] \bvD} \bvR[T]{i} \bvt{\obs}
-\end{equation}
-
-A solução apresentada aqui não inclui o \textsl{blur} ou regularizações secundárias, ambos discutidos no apêndice.
+%\subsection{Modelo-padrão para TTT}
+%\label{subsec:sec2:modelo-padrao}
+%
+%No \cref{app:modelo-padrão-TTT}, é apresentado um modelo-padrão matemático para a TTT, estabelecendo o método mediano entre os artigos apresentados, e uma discussão de todas as considerações relevantes e razões para a modelagem matemática tomada.
+%
+%De maneira sucinta, seja $\bvR{i}$ a solução Eikonal da $i$-ésima iteração dos problemas direto e inverso (essa sendo uma matriz com as distâncias percorridas por cada raio, em cada célula); $\bvt{\obs}$ o vetor de tempos de trânsito observados (contendo o tempo de primeira chegada de cada raio produzido); e $\bvD$ uma matriz de regularização (geralmente utilizada como regularização Tikhonov), com parâmetro $\alpha$. Então, a solução para o problema inverso $\bvs{i+1}$ na $(i+1)$-ésima iteração ($\bvs{i+1}$ é um vetor de vagarosidades em cada célula) será
+%\begin{equation}
+%	\bvs{i+1} = \inv*{\bvR[T]{i} \bvR{i} + \alpha^2 \bvD[T] \bvD} \bvR[T]{i} \bvt{\obs}
+%\end{equation}
+%
+%A solução apresentada aqui não inclui o \textsl{blur} ou regularizações secundárias, ambos discutidos no apêndice.
 

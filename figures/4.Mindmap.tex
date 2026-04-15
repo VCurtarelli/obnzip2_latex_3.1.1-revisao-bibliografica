@@ -1,0 +1,50 @@
+%\section{Mindmap}
+%\vfill
+\begin{figure}[!t]
+	\centering
+	\begin{tikzpicture}[
+		mindmap,
+		text width=2.5cm,
+		align=center,
+		every node/.style={concept},
+		concept color=gray!30,
+		level 1/.append style={
+			level distance=5cm,
+			minimum size=3cm,
+			text width=2.8cm,
+			font=\large,
+		},
+		level 2/.append style={
+			level distance=3.5cm,
+			minimum size=2cm,
+			text width=1.8cm
+		},
+		]
+		
+		\node[minimum size=4.5cm, text width=4.3cm, line width=6pt, fill=gray!10] (TTT) { \Large\textbf{Estimação do SSF na coluna d'água} }
+		child[concept color=olive!10,grow=150] { 
+			node {\textbf{Método}} 
+			child[grow=75] { node {FWI e AFM/JMI \\(6)} }
+			child[grow=120] { node {TTT \\(5)} }
+			child[grow=225] { node {Parame\-trização \\(3)} }
+			child[grow=270] { node {Outros \\(6)} }
+		}
+		child[concept color=purple!10, grow=330] {
+			node {\textbf{Aplicação}}
+			child[grow=90] { node {Acústica submarina rasa \\(11)} }
+			child[grow=30] { node {Acústica submarina profunda \\(5)} }
+			child[grow=210] { node {Geologia \\(8)} }
+			child[grow=330] {node {Outros \\(1)} }
+		}
+		child[concept color=brown!10, grow=90] {
+			node {\textbf{Dados de entrada}} 
+			child[grow=105] { node {Tempo de trânsito \\(10)} }
+			child[grow=60] { node {Formas de onda \\(14)} }
+			child[grow=15] { node {Modelo inicial \\(3)} }
+			child[grow=-30] { node {Outros \\(3)}}
+		}
+		;	
+	\end{tikzpicture}
+	\caption{\textsl{Mindmap} da \cref{sec_rssfi}.}
+	\label{fig:mindmap_sec4}
+\end{figure}
