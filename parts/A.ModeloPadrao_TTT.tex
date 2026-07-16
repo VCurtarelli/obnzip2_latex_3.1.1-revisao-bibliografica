@@ -1,0 +1,110 @@
+\section{Método padrão para \textsl{Travel-Time Tomography}}
+\label{app:modelo-padrão-TTT}
+
+Aqui será descrito um método padrão para a TTT, seguindo os artigos citados como guia. Diferenças em relação aos artigos podem surgir, como ignorar efeitos de \textsl{ray bending}, tipo de regularização empregada, quantidade e posição dos dispositivos, propósito da técnica, ou outras particularidades.
+
+Nesses quesitos, os artigos mais completos são \cite{ali_opensource_2019,phillips_traveltime_1991,hormati_robust_2010}, onde eles consideram regularização, \textsl{ray bending}, e uma grande quantidade de dispositivos. Agora será estabelecido o terreno comum entre os artigos apresentados, as considerações medianas da modelagem, e algumas distinções importantes que são compartilhadas entre alguns deles. A estrutura apresentada aqui não será idêntica a nenhum dos artigos citados, e busca destacar as similaridades e o ponto em comum deles.
+
+\subsection{Estrutura básica}
+Assumamos que o ambiente (assumido 2D por simplicidade, mas a formulação se aplica a 3D ou até 4D) modelado é divido em uma grade de células $\sz{N_{\z}}{N_{\x}}$, com um total de $N = N_{\z} \cdot N_{\x}$ células ($N_{\z}$ divisões verticais, $N_{\x}$ divisões horizontais). Entre todas as fontes e receptores (ou entre algumas), um total de $M$ raios são produzidos e mensurados. Denota-se $\bvs \in \re^{\sz{N}{1}}$ como um vetor positivo representando a vagarosidade (\textsl{slowness}) em cada célula, e $\bvr{m}(\bvs) \in \re^{\sz{N}{1}}$ um vetor positivo, em que o $i$-ésimo valor de $\bvr{m}(\bvs)$ representa a distância percorrida pelo $m$-ésimo raio na $i$-ésima célula. O vetor $\bvr{m}(\bvs)$ é geralmente obtido externamente por meio de algum solver da Equação Eikonal, considerando o princípio de Fermat de tempo mínimo, e a lei de Snell; ou obtido quase diretamente se for considerado um SSF com perturbações pequenas, em que efeitos de \textsl{ray bending} podem ser ignorados, e assume-se um trajeto retilíneo entre fonte e receptor.
+
+O tempo de viagem  $t_m(\bvs)$ para o $m$-ésimo raio é dado por
+\begin{equation}
+	t_m(\bvs) = \bvr[T]{m}(\bvs) \bvs.
+\end{equation}
+
+Note que tanto o vetor de distâncias $\bvr{m}(\bvs)$ e o tempo de viagem $t_m(\bvs)$ dependem do SSF $\bvs$, já que um campo diferente levaria a caminhos diferentes, e também a um tempo de trânsito diferente.
+
+Agora nós consideramos todos os $M$ raios disponíveis, do qual define-se $\bvt(\bvs) \in \re^{\sz{M}{1}}$ como um vetor dos tempos de viagem para o modelo $\bvs$ atual; e $\bvR{\bvs} \in \re^{\sz{M}{N}}$ uma matrix, em que a sua $m$-ésima linha é $\bvr[T]{m}(\bvs)$. Nós também denotamos $\bvt{\obs}$ como o vetor observado de tempo de trânsito, obtido a partir dos raios medidos. Com essas variáveis, o problema de minimização basal torna-se minimizar a função custo $E(\bvs)$, isso traduzindo-se em
+\begin{equation}
+	\opt{\bvs} = \arg\min_{\bvs} E(\bvs) = \norm{\bvR(\bvs) \bvs - \bvt{\obs}}^2
+	\label{eq:sec2:def_minimization_bvz}
+\end{equation}
+em que $\opt{\bvs}$ é a solução ótima para a minimização estabelecida.
+
+Note que esse problema é não-linear e recursivo: $\bvR(\bvs)$ depende do campo $\bvs$, e o modelo do campo $\bvs$ depende do resultado obtido pelo solver Eikonal $\bvR(\bvs)$. Posto isso, a solução é geralmente buscada iterativamente. O problema inverso é resolvido por meio da minimização
+\begin{subgather}{eqs:sec2:iterative_minimization}
+	\bvs{i+1} = \arg\min_{\bvs{i+1}} E(\bvs{i+1}) = \norm{\bvR(\bvs{i}) \bvs{i+1} - \bvt{\obs}}^2 
+	\label{subeq:sec2:iterative_minimization:eq1}\\
+	\nabla E(\bvs{i+1}) = 2\tr{\bvR}(\bvs{i}) \pts{\bvR(\bvs{i}) \bvs{i+1} - \bvt{\obs}}
+	\label{subeq:sec2:iterative_minimization:eq2}
+\end{subgather}
+em que, na $(i+1)$-ésima iteração, $\bvs{i}$ (e disso $\bvR(\bvs{i})$) é tratado como constante, e o gradiente é tomado em relação a $\bvs{i+1}$. O problema direto (estimar $\bvR(\bvs{i})$ a partir de $\bvs{i}$) é resolvido com algum solver Eikonal externamente. Assumindo invertibilidade de $\bvR[T](\bvs{i})\bvR(\bvs{i})$, então a solução da minimização --- o que se traduz em $\nabla E(\bvs{i+1}) = \bv0$ --- é
+\begin{subgather}{eqs:sec2:inversion_zi+1}
+	\bvs{i+1} = \bvG(\bvs{i}) \bvt{\obs} \\
+	\bvG(\bvs{i}) = \inv*{\tr{\bvR}(\bvs{i}) \bvR(\bvs{i})} \tr{\bvR}(\bvs{i})
+\end{subgather}
+
+Como $\bvR(\bvs{i})$ é atualizado repetitivamente, $\bvG(\bvs{i})$ também será, com uma solução iterativa. Embora $\bvR(\bvs{i})$ dependa diretamente do SSF estimado, a dependência no iterador $i$ é muito mais prevalente no problema de minimização. Por isso, por questão de notação, denotaremos $\bvR{i} \equiv \bvR(\bvs{i})$, e $\bvG{i} = \bvG(\bvs{i})$.
+
+\subsection{Minimização com posto deficiente}
+Para a \cref{eqs:sec2:inversion_zi+1}, é crucial que $\bvR[T]{i}\bvR{i}$ seja uma matriz inversível. Dado que $\bvR{i} \in \re^{\sz{M}{N}}$, então $\bvR[T]{i}\bvR{i} \in \re^{\sz{N}{N}}$; é trivial que $\rank{\bvR{i}} = N$ e $N \leq M$ são condições necessárias e suficientes para a inversão ser possível. Intuitivamente, isso traduz-se em haver mais medições $M$ do que variáveis $N$, que ao menos $N$ medições sejam significativas, e que cada célula seja representada (visitada) por ao menos um raio. Essas condições, embora factíveis, não são práticas ou por vezes verificáveis, e portanto não é seguro assumir que a inversão seja viável.
+
+Nessas situações, algumas alternativas já foram apresentadas na literatura. As mais populares são a solução indireta com gradiente descendente \cite{ali_opensource_2019,hormati_robust_2010,zhang_inversion_2016,tang_travel_2024}, ou uso de funções de regularização \cite{ali_opensource_2019,hormati_robust_2010,tang_travel_2024,zhang_inversion_2016}. Outra opção, que ainda não foi explorada na literatura no contexto de TTT, é utilizando a decomposição em valores singulares (SVD) \cite{barata_moore_2012,golub_calculating_1965} para a inversão \cite{brand_fast_2006,chen_treatment_2006}.
+
+A partir daqui, será assumido que o kernel de inversão (modificado com regularização ou outros métodos) é invertível; situações em que isso não se aplica devem ser tratadas com inversões indiretas.
+
+\subsection{Esparsidade da matriz de distâncias}
+
+Além da inversão de $\bvR[T]{i} \bvR{i}$ necessitar que $\bvR{i}$ seja posto-cheio, outro problema que pode surgir é devido a essa matriz ser esparsa. Assumindo que as ondas percorram caminhos bem comportados (monótonos, sem considerar reflexões), uma onda atravessará no máximo $N_{\x} + N_{\z}$ células, das $N_{\x}\cdot N_{\z}$ presentes no ambiente. Supondo que $N_{\x}$ e $N_{\z}$ sejam da mesma ordem de grandeza (com $N_{\x} \approx N_{\y} \approx \sqrt{N}$, então em cada linha de $\bvR{i}$ (correspondendo a cada trajeto fonte-receptor) a proporção de células travessadas para as não-travessadas será de $1:\frac{1}{2}\sqrt{N}$; essa proporção também valendo para $\bvR{i}$ num todo, e não somente para cada linha. Portanto, quanto maior o número de células, maior será a esparsidade da matriz $\bvR{i}$.
+
+$\bvR{i}$ ser uma matriz esparsa pode causar uma série de problemas. Por exemplo, se determinada célula não for visitada por nenhum raio, a sua respectiva coluna em $\bvR{i}$ será $0$, fazendo com que essa matriz não seja posto-cheio, e portanto será não-inversível; a esparsidade de $\bvR{i}$ aumenta a possibilidade de isso acontecer. Além disso, o número de condicionamento (que mede o quão instável é o problema linear definido por uma matriz) de uma matriz esparsa pode ser muito grande (se não infinito), o que acarreta em um problema muito sensível a pequenos erros na estimação das distâncias percorridas por cada raio.
+
+\subsection{Adição de regularização}
+
+Como citado, comumente o problema de estimação do SSF será um problema de inversão mal-posto; isso tanto para o caso $M > N$ ($\bvR[T]{i}\bvR{i}$ não é inversível), quanto por considerar que $\bvR{i}$ é esparsa ($\bvR[T]{i}\bvR{i}$ não é inversível, ou a inversão é instável). Uma alternativa para tratar essas adversidades é a adição de regularização, simultaneamente aumentando as chances de uma solução estável e única ser encontrada, e melhorando alguma condição secundária, como suavidade, erro em comparação a um modelo-base, e outras métricas. Escolher uma regularização adequada também pode ajudar a generalizar a solução encontrada para o caso contínuo, separando o problema de minimização da discretização espacial escolhida \cite{zhang_nonlinear_1998,delprat-jannaud_illposed_1993}.
+
+A partir de \cref{eq:sec2:def_minimization_bvz}, podemos adicionar um termo de regularização na forma de $P_{\alpha}(\bvs{i+1})$, de modo que a forma iterativa de $\bvs{i+1}$ de \cref{eqs:sec2:iterative_minimization} se torne
+\begin{subgather}		{eqs:sec2:iterative_minimization_Ezi}
+	\bvs{i+1} = \arg\min_{\bvs{i+1}} E(\bvs{i+1}) = \norm{\bvR{i} \bvs{i+1} - \bvt{\obs}}^2 + P_\alpha(\bvs{i+1})\\		
+	\nabla E(\bvs{i+1}) = 2\bvR[T]{i} \pts{\bvR{i} \bvs{i+1} - \bvt{\obs}} + \nabla P_{\alpha}(\bvs{i+1})
+\end{subgather}
+com $\alpha$ sendo um parâmetro de controle. O modelo mais comum para a função de regularização é da forma $P_{\alpha}(\bvs{i+1}) = \alpha^2\norm{\bvD\bvs{i+1}}^2$, onde $\bvD$ é uma matriz quadrada; e disso, a solução é
+\begin{equation}
+	\bvG{i} = \inv*{\tr{\bvR{i}} \bvR{i} + \alpha^2 \tr{\bvD}\bvD} \bvR[T]{i}
+	\label{eq:sec2:solution_regularization-problem_simple}
+\end{equation}
+
+Para que esta etapa de inversão seja possível, basta que $\bvD$ seja uma matriz de posto completo\footnote{\label{footnote:positive-definite_inversion}Por definição, $\bvR[T]{i} \bvR{i}$ é uma matriz semidefinida positiva, $\bvD$ é definida positiva se $\bvD$ for uma matriz quadrada de posto completo, e a soma de uma matriz semidefinida positiva com uma matriz definida positiva é sempre definida positiva; esta sendo uma condição suficiente para a invertibilidade.}.
+
+A matriz de regularização $\bvD$ pode ser escolhida para melhorar uma série de métricas. Escolher $\bvD = \Id$ (identidade) \cite{phillips_traveltime_1991} resulta na minimização considerando também a raiz quadrada média (RMS) do vetor de vagarosidade; isso é equivalente a considerar a presença de ruído branco nas medições e trocar a precisão do modelo pela rejeição de ruído. Escolher $\bvD z \approx \nabla^2 s(x,y)$, aproximando (discretamente) o Laplaciano do SSF \cite{zhang_nonlinear_1998,ali_opensource_2019}, resulta em uma minimização que penaliza o Laplaciano do campo de vagarosidade obtido; isto é, uma solução que também considera a curvatura/saltos no SSF, buscando um campo mais suave.
+
+\citet{zhang_nonlinear_1998} também comenta brevemente sobre o uso de derivadas de terceiro grau em vez de derivadas de segundo grau (sendo estas últimas a regularização Laplaciana), o que também poderia resultar em uma boa suavização do campo de velocidade. \citet{hormati_robust_2010} propõe uma função de regularização baseada na representação ortonormal da distribuição de vagarosidade e nas normas $L_0$ ou $L_1$.
+
+Outra possibilidade que ainda está em aberto para exploração é o uso de múltiplas funções de regularização. Por exemplo, o uso combinado das duas funções apresentadas anteriormente (regularização de ruído branco e penalização Laplaciana) pode levar a uma boa suavidade na função de distribuição de vagarosidade, mantendo um kernel invertível garantido. Ou seja, dizemos que
+\begin{equation}	
+	E(\bvs{i+1}) = \norm{\bvR{i} \bvs{i+1} - \bvt{\obs}}^2 + \alpha^2\norm{\bvD\bvs{i+1}}^2 + \beta^2 \norm{\bvs{i+1}}^2
+\end{equation}
+para o qual
+\begin{equation}	
+	\bvG{i} = \inv*{\tr{\bvR{i}} \bvR{i} + \alpha^2 \tr{\bvD}\bvD + \beta^2 \Id} \bvR[T]{i}
+\end{equation}
+O termo entre colchetes é garantidamente definido positivo (\cref{footnote:positive-definite_inversion}), e, portanto, invertível com segurança.
+
+\subsection{Média convolucional/suavização por desfoque}
+
+Outra ferramenta interessante encontrada na literatura \cite{phillips_traveltime_1991,meyerholtz_convolutional_1989} é o uso de um desfoque no gradiente. Essa média convolucional (também chamada de média convolucional, ou alargamento de raios) pode auxiliar na busca de soluções ao dispersar os raios e espalhar os caminhos percorridos para células vizinhas, lidando assim com o problema de algumas células não serem atravessadas por nenhum raio. Ou seja, usamos $\bvR[d]{i} = \bvR{i} \bvB{i}$, em que $\bvB$ é uma matriz de desfoque (baseada em um desfoque Gaussiano, ou qualquer outro kernel de interesse), responsável por espalhar a informação de cada célula de $\bvR{i}$ para as células vizinhas.
+
+Disso, o problema matemático se torna
+\begin{equation}	
+	E(\bvs{i+1}) = \norm{\bvR[d]{i} \bvs[d]{i+1} - \bvt{\obs}}^2 + P_\alpha(\bvs[d]{i+1})
+\end{equation}
+onde $\bvs[d]{i+1} = \inv{\bvB{i}} \bvs{i+1}$, para que a solução se mantenha no mesmo domínio que a original. Neste cenário, a solução $\bvs{i+1}$ é
+\begin{equation}	
+	\bvG{i} = \bvB{i} \inv*{\tr{\bvB{i}} \tr{\bvR{i}} \bvR{i} \bvB{i} + \alpha^2 \tr{\bvD}\bvD} \tr{\bvB{i}} \bvR[T]{i}
+\end{equation}
+
+Para alcançar isso, a função de regularização precisa ser adaptada, de modo que $P_{\alpha}(\bvs{i+1}) = \alpha^2 \norm{\bvD \inv{\bvB{i}} \bvs{i+1}}^2$; isso significa que a regularização é aplicada ao sinal $\bvs[d]{i+1}$. A dependência de $\bvB{i}$ em relação ao iterador $i$ indica que o raio de desfoque pode variar com $i$, geralmente diminuindo conforme iterações passam, levando a um menor desfoque (e uma solução mais refinada).
+
+Em \cite{ali_opensource_2019}, uma estrutura de desfoque semelhante é proposta, mas esse desfoque é aplicado diretamente ao gradiente, de modo que
+\begin{equation}	
+	\nabla E(\bvs{i+1}) = 2 \bvB{k} \bvR[T]{i}\pts{\bvR{i} \bvs{i+1} - \bvt{\obs}} + 2 \alpha^2 \tr{\bvD}\bvD \bvs{i+1}
+\end{equation}
+
+Como no artigo citado a solução $\bvs{i+1}$ é encontrada pelo método do gradiente conjugado (iterativo), e não por inversão, a matriz de desfoque é variável dentro da busca iterativa do gradiente conjugado pela inversa (com iterador $k$), em vez do processo iterativo de resolução de Eikonal (iterador $i$). Assumindo invertibilidade, a solução pode ser obtida diretamente através de
+\begin{equation}		
+	\bvG{i} = \inv*{\bvB{i} \bvR[T]{i} \bvR{i} + \tr{\bvD}\bvD}\bvB{i} \bvR[T]{i}
+\end{equation}
+situação em que o desfoque pode ser atenuado em cada iteração de $i$, ou mesmo mantido constante.
+
+Note que ambas as estruturas de suavização apresentadas requerem a presença de um termo de regularização (caso contrário, o termo inverso pode ser expandido e os termos $\bvB{i}$ serão cancelados); ou que o sistema seja suficientemente mal condicionado de forma que uma minimização direta não seja possível, caso em que o efeito de suavização não se cancela necessariamente com seu inverso.
