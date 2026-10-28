@@ -1,50 +1,52 @@
 %% Requires:
 % PGFPlots
 
-\tikzexternalize[prefix=./figures/pgfexternal/]
-\NewDocumentCommand{\colorbar}{m}{%
-	\tikzexternaldisable \ref{#1} \tikzexternalenable%
-}
 \pgfplotsset{compat=1.18}
+%\tikzexternalize[prefix=./figures/pgfexternal/]
+\NewDocumentCommand{\colorbar}{m}{%
+	\tikzexternaldisable%
+	\ref*{#1}%
+	\tikzexternalenable%
+}
 
 %BEGIN_FOLD
 \usepgfplotslibrary{colorbrewer}
 \NewDocumentEnvironment{heatmap}{m O{} O{}}{
 	\begin{axis}[
 		colormap/viridis,
-		colorbar horizontal,
-		colorbar style={
-			colormap/viridis,
-			width=0.75\linewidth,
-			height=12pt,
-			%			xlabel = Beampattern,
-			xtick = {0.5*(\zmin+\zmax)},
-			xticklabel style={
-				/pgf/number format/.cd,
-				fixed,
-				%title=,
-				precision=0,
-				fixed zerofill,
-				%				opacity=1
-			},
-			tick label style={opacity=1},
-			major tick length=4pt,
-			xtick style={black},
-			xtick pos=top,
-			extra x ticks = {\zmin,\zmax},
-			extra x tick style = {major x tick style={draw=none}},
-			point meta min=\zmin,
-			point meta max=\zmax,
-			#3
-		},
-		width=0.9\linewidth,
-		height=0.9\linewidth,
+%		colorbar horizontal,
+%		colorbar style={
+%			colormap/viridis,
+%			width=0.75\linewidth,
+%			height=12pt,
+%			%			xlabel = Beampattern,
+%			xtick = {0.5*(\zmin+\zmax)},
+%			xticklabel style={
+%				/pgf/number format/.cd,
+%				fixed,
+%				%title=,
+%				precision=0,
+%				fixed zerofill,
+%				%				opacity=1
+%			},
+%			tick label style={opacity=1},
+%			major tick length=4pt,
+%			xtick style={black},
+%			xtick pos=top,
+%			extra x ticks = {\zmin,\zmax},
+%			extra x tick style = {major x tick style={draw=none}},
+%			point meta min=\zmin,
+%			point meta max=\zmax,
+%			#3
+%		},
+		width=0.8\linewidth,
+		height=0.8\linewidth,
 		point meta min=\zmin,
 		point meta max=\zmax,
 		mesh/cols=#1,
 		xlabel style = {anchor=north, yshift=0.9\linewidth-1.5em},
 		view={0}{90},
-		grid style = {draw=none},
+		grid style = {thin,light gray},
 		ylabel style={anchor=center, yshift=-0.9\linewidth+1.5em},
 		major tick length=2pt,
 		ytick style = {black},
@@ -60,24 +62,50 @@
 \NewDocumentCommand{\plotheatmap}{O{\ncols} O{\nrows} m O{}}{%
 	\addplot3[surf,mesh/cols={#1}, mesh/rows={#2}, opacity=1, draw opacity=0.0, #4] table[x=x,y=y,z=val,col sep=comma] {#3};%
 }
+
+\pgfplotsset{colorbarstyle/.style={
+    colorbar horizontal,
+    colorbar style={
+		colormap/viridis,
+		width=0.75\linewidth,
+		height=12pt,
+		xtick = {0.5*(\zmin+\zmax)},
+		xticklabel style={
+			/pgf/number format/.cd,
+			fixed,
+			precision=0,
+			fixed zerofill,
+		},
+		tick label style={opacity=1},
+		major tick length=4pt,
+		xtick style={black},
+		xtick pos=top,
+		extra x ticks = {\zmin,\zmax},
+		extra x tick style = {major x tick style={draw=none}},
+		point meta min=\zmin,
+		point meta max=\zmax,
+		fill opacity=0.8,
+  	},
+}}
 %END_FOLD
 
 %BEGIN_FOLD
 \NewDocumentEnvironment{lineplot}{O{axis} m m O{}}{ % xlabel | ylabel | other arguments
 	\begin{#1}[
-		width=0.9\linewidth,
+		width=0.78\linewidth,
 		height=0.7\linewidth,
 		%
 		%		xtick = {1, 2 ,..., 7},
 		xtick align=outside,
 		xtick pos=bottom,
 		ytick align=outside,
-		ytick pos=right,
+		ytick pos=left,
 		%
 		xlabel = #2,
 		ylabel = #3,
+		ylabel near ticks,
 		%		yticklabel style={text width=\wdtwenty, align=right},
-		ylabel style={yshift=-2em},
+		ylabel style={yshift=-3pt},
 		% xlabel style={yshift=0.5em},
 		%
 		%
@@ -94,13 +122,14 @@
 			legend columns=2,
 			/tikz/every even column/.append style={column sep=1em}
 		},
-		yticklabel pos=right,
-		yticklabel style={
-			text width=2em,
-			anchor=west,
-			align=left,
-			% xshift=-0.2em,
-		},
+%		yticklabel pos=right,
+%		yticklabel style={
+%			text width=2em,
+%			anchor=west,
+%			align=left,
+%			% xshift=-0.2em,
+%		},
+		scale only axis,
 		#4,
 		]
 		%		\draw[thin, dash pattern = {on 4pt off 1pt}] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},0) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},0);
@@ -166,6 +195,7 @@ thick, ColE, dash pattern = {on 3pt off 1pt},
 mark=triangle*, mark size=1.5, mark options={
 	rotate=180,
 	solid,
+	fill opacity=0.5
 }
 ]
 \tikzstyle{resF} = [
@@ -173,7 +203,8 @@ thick, ColF, dash pattern = {on 3pt off 2pt},
 mark=x, mark size=2, mark options={
 	rotate=0,
 	solid,
-	very thick
+	very thick,
+	fill opacity=0.5
 }
 ]
 \tikzstyle{resG} = [
@@ -181,7 +212,8 @@ thick, ColG, dash pattern = {on 3pt off 4pt},
 mark=+, mark size=2, mark options={
 	rotate=0,
 	solid,
-	very thick
+	very thick,
+	fill opacity=0.5
 }
 ]
 %END_FOLD

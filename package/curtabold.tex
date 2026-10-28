@@ -41,6 +41,8 @@
 \providecommand{\tr}[1]{#1^T\setboldmathwarning}
 \providecommand{\he}[1]{#1^H\setboldmathwarning}
 \providecommand{\opt}[1]{#1^{\star}\setboldmathwarning}
+\providecommand{\pinv}[1]{#1^{\dagger}\setboldmathwarning}
+\providecommand{\inv}[1]{#1^{-1}\setboldmathwarning}
 
 \NewDocumentCommand{\@myh}{m}{\hat{#1}}
 \NewDocumentCommand{\@myt}{m}{\tilde{#1}}
@@ -51,6 +53,7 @@
 \NewDocumentCommand{\@myT}{m}{\tr{#1}}
 \NewDocumentCommand{\@myH}{m}{\he{#1}}
 \NewDocumentCommand{\@myo}{m}{\opt{#1}}
+\NewDocumentCommand{\@myi}{m}{\inv{#1}}
 \NewDocumentCommand{\@myn}{m}{#1}
 \makeatother
 
@@ -167,7 +170,7 @@
 \newbv[varep]{\upvarepsilon}
 \newbv[varth]{\upvartheta}
 \newbv[varpi]{\upvarpi}
-\newbv[varrho]{\uprho}
+\newbv[varrho]{\upvarrho}
 \newbv[varsi]{\upsigma}
 \newbv[varphi]{\upvarphi}
 

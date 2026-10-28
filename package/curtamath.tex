@@ -1,3 +1,4 @@
+
 \NewDocumentCommand{\MakeSymbol}{m m}{
 	\ABD{\DeclareDocumentCommand{#1}{}{#2}}
 }
@@ -29,7 +30,7 @@
 }
 
 % Misc symbols
-\AtBeginDocument{\def\-{\text{-}}}
+\AtBeginDocument{\def\myminus{\text{-}}}
 \def\dg{^{\symsfup{o}}}
 \def\dd{\symsfup{d}}
 \def\div{\mathbin{//}}
@@ -41,6 +42,7 @@
 \def\Nu{\mathcal{V}}
 \def\pos{{}^{+}}
 \def\neg{{}^{-}}
+\def\around{{\scriptstyle\sim}}
 
 % Misc commands
 \let\nfrac\nicefrac
@@ -55,12 +57,12 @@
 	\left#1 #2 \right#3%
 }%
 
-% My matrix operators
 \makeatletter
+% My matrix operators
 \newcommand{\Sym@tr}{\symsfup{T}}
 \newcommand{\Sym@he}{\symsfup{H}}
 \NewDocumentCommand{\Sym@inv}{O{1}}{
-	\-\mkern-2mu\symsfup{#1}
+	\mkern2mu\myminus\mkern-2mu\symsfup{#1}
 }
 \NewDocumentCommand{\Sym@pinv}{O{}}{%
 	\dagger%
@@ -115,6 +117,7 @@
 \NewDocumentCommand{\kernel}{m}{\Kern\pts{#1}}
 
 \NewDocumentCommand{\var}{m}{\phi_{#1}}
+\NewDocumentCommand{\std}{m}{\sigma_{#1}}
 \NewDocumentCommand{\Corr}{m}{\bv{\Phi}_{#1}}
 
 \def\mtimes{\mkern-3mu\mathbin{\scalebox{0.7}{$\times$}}\mkern-3mu}
@@ -143,3 +146,50 @@
 \DeclareMathOperator{\End}{end}
 \DeclareMathOperator{\src}{src}
 %\newcommand{\argmin}{\Argmin\limits}
+
+% Partial derivative
+\ExplSyntaxOn
+
+% Define local variables
+\clist_new:N \l_pdv_vars_clist  % List of partial-derivative variables
+\clist_new:N \l_pdv_exps_clist  % List of partial-derivative exponents
+\int_new:N   \l_pdv_index_int   % Partial-derivative index
+\tl_new:N    \l_pdv_exp_tl      % New tokenlist (string block) of current exponent
+
+% Usage: \pdv{f}[order]{variables}[exponents]
+% #1: Function (Mandatory)
+% #2: Total order (Optional, default: empty)
+% #3: Variable list (Mandatory)
+% #4: Exponents list (Optional, default: empty)
+\NewDocumentCommand{\pdv}{ m O{} m O{} }
+{
+	\frac
+	{
+		\partial \tl_if_blank:nF {#2} { ^{#2} } {#1}  % If token list of #2 is empty, prints nothing
+	}
+	{
+		\clist_set:Nn \l_pdv_vars_clist {#3}  % Passes #3 to comma-separated list of variables
+		\clist_set:Nn \l_pdv_exps_clist {#4}  % Passes #4 to comma-separated list of exponents
+		\int_zero:N \l_pdv_index_int 		  % Reading index
+		
+		\clist_map_inline:Nn \l_pdv_vars_clist  % For each element in variables list
+		{
+			\int_incr:N \l_pdv_index_int  % Increments reading index
+			
+			\tl_set:Nx \l_pdv_exp_tl  % Sets the exponent as the index-element of exponent list
+			{ \clist_item:Nn \l_pdv_exps_clist { \l_pdv_index_int } }
+			
+			\partial ##1
+			\bool_if:nT  % If boolean is empty or equal to 1, skip
+			{
+				! \tl_if_blank_p:V \l_pdv_exp_tl
+				&& ! \str_if_eq_p:Vn \l_pdv_exp_tl { 1 }
+			}
+			{ ^{\l_pdv_exp_tl} }
+		}
+	}
+}
+
+\ExplSyntaxOff
+
+\NewDocumentCommand{\dv}{O{} m m}{\frac{\dd^{#1}#2}{\dd#3^{#1}}}
