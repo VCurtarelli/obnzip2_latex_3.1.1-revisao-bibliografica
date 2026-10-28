@@ -34,19 +34,19 @@
 				child[grow=-30] { node{Otimização\\quadrática} }
 				child[grow=30] { node{Regularização} }
 				child[concept color=yellow!10!white!95!black] { node at (tt) {Tempo de trânsito}}
-				child[concept color=orange!10] { node (solucaoeikonal) at (TTT|-probinv) {Solução\\Eikonal} }
+				child[concept color=orange!10] { node (solucaoeikonal) at (TTT|-probinv) {Solução\\eikonal} }
 				child[grow=225] { node (estimssf) {Estimação\\do SSF} }
 			}
 			child[concept color=orange!10,grow=225] { 
 				node (probdir) {\textbf{Problema\\direto}} 
 				child[grow=300] { node{\textsl{Ray-tracing}} }
 				child[grow=240] { node{FMM/FSM} }
-				child { node at (solucaoeikonal) {Solução\\Eikonal} }
+				child { node at (solucaoeikonal) {Solução\\eikonal} }
 				child[concept color=teal!10] { node at (estimssf) {Estimação\\do SSF} }
 %				child[concept color=teal!10,grow=315, level distance=5cm] { node(estssf) {} }
 			}
 			;	
 	\end{tikzpicture}
-	\caption{\textsl{Mindmap} da \cref{sec:travel-time_tomography}.}
+	\caption[\textsl{Mindmap} da \cref{sec:travel-time_tomography}.]{\textsl{Mindmap} da \cref{sec:travel-time_tomography} sobre a tomografia de tempo de trânsito.}
 	\label{fig:mindmap_sec2}
 \end{figure}

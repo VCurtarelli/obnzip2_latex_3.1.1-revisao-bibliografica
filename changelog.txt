@@ -7,3 +7,6 @@ v1.0.260415
 	Adicionadas Sec. 3, Sec. 4, Sec. 5, Sec. 6.
 	Alterados título, autor, e resumo.
 	Adicionado package e arquivo latexmkrc.
+v1.0.261028
+	Atualização para o novo template de relatório do projeto.
+	Alterações textuais mínimas.
