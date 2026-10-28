@@ -1,85 +1,96 @@
 \section{Campo de Velocidade do Som}
 \label{sec:campo_de_velocidade_do_som}
 
-Embora seja comum considerar a velocidade do som na água como uma constante, em torno de $1500 \si{\meter/\second}$, essa aproximação é inválida para ambientes de grande escala \cite{kieffer_sound_1977,trusler_determination_2017,li_sound_2015,pinson_sound_2010}. Muitas propriedades podem afetar a velocidade do som na água, como temperatura, pressão, e salinidade, além de correntes marítimas \cite{wilson_speed_1959,medwin_fundamentals_1999,mcdougall_getting_2011,delgrosso_new_1974}. à medida que essas propriedades variam na massa de água, a velocidade também varia, criando um \gls{campo de velocidade do som} (SSF, do inglês \ingles{Sound Speed Field}) na massa de água. Embora o termo \textsc{perfil de velocidade do som} (SSP, do inglês \ingles{Sound Speed Profile}) \cite{li_acoustic_2019,li_sound_2015,pinson_sound_2010} também seja comumente usado, ele geralmente se refere ao cenário de estimativa 1D.
+Embora seja comum considerar a velocidade do som na água como uma constante, em torno de $1500 \si{\meter/\second}$, essa aproximação é inválida para ambientes de grande escala \cite{kieffer_sound_1977,trusler_determination_2017,li_sound_2015,pinson_sound_2010}. Muitas propriedades podem afetar a velocidade do som na água, como temperatura, pressão estática, e salinidade, além de correntes marítimas \cite{wilson_speed_1959,medwin_fundamentals_1999,mcdougall_getting_2011,delgrosso_new_1974}. À medida que essas propriedades variam na massa de água, a velocidade também varia, criando um \gls{campo de velocidade do som} (SSF, do inglês \ingles{Sound Speed Field}) na massa de água. Embora o termo \textsc{perfil de velocidade do som} (SSP, do inglês \ingles{Sound Speed Profile}) \cite{li_acoustic_2019,li_sound_2015,pinson_sound_2010} também seja comumente usado, ele geralmente se refere ao cenário de estimativa 1D.
 
 %\subsection{Propagação sonora na água}
-\subsection{Princípios físicos}
+\subsection{Princípios}
 
 O conhecimento da velocidade do som em cada ponto de uma massa de água permite o conhecimento das propriedades --- como caminho, fase, amplitude, e tempo de trânsito --- de uma onda que se propaga por esse meio.
 
-\subsubsection*{Parâmetros TPS}
+\subsubsection*{Relação do SSF com parâmetros TPS}
 
-Como já citado, as propriedades de temperatura, pressão, e salinidade (essas 3 sendo abreviadas TPS) afetam a velocidade do som na água, atuando de maneiras diferentes. Essa relação é conhecida, e trabalhos iniciais que tratavam da reconstrução do SSF visavam estimar essas propriedades principais, bem como a relação entre elas e a velocidade do som. Trabalhos como \cite{wilson_speed_1959,medwin_fundamentals_1999,mcdougall_getting_2011,delgrosso_new_1974,chen_speed_1977,wong_speed_1995,roquet_accurate_2015,mackenzie_nineterm_1981,wilson_equation_1960} operaram dentro dessa estrutura, alguns ainda sendo usados atualmente para modelar o comportamento de correntes marítimas em escala global.
+Como já citado, as propriedades de temperatura, pressão estática, e salinidade (essas 3 sendo abreviadas TPS) afetam a velocidade do som na água, atuando de maneiras diferentes. Essa relação é conhecida, e trabalhos iniciais que tratavam da reconstrução do SSF visavam estimar essas propriedades principais, bem como a relação entre elas e a velocidade do som. Trabalhos como \cite{wilson_speed_1959,medwin_fundamentals_1999,mcdougall_getting_2011,delgrosso_new_1974,chen_speed_1977,wong_speed_1995,roquet_accurate_2015,mackenzie_nineterm_1981,wilson_equation_1960} operaram dentro dessa estrutura, alguns ainda sendo usados atualmente para modelar o comportamento de correntes marítimas em escala global.
 
-Modelos como os desenvolvidos por \cite{wilson_equation_1960,mackenzie_nineterm_1981,delgrosso_new_1974} relacionam diretamente as variáveis de TPS com a velocidade do som por meio de funções polinomiais, tendo sido obtidas numericamente.
+Modelos como os desenvolvidos por \cite{wilson_equation_1960,mackenzie_nineterm_1981,delgrosso_new_1974} relacionam diretamente as variáveis de TPS com a velocidade do som por meio de funções polinomiais, tendo sido obtidas empiricamente com base em expedições de medição dos parâmetros TPS, e da velocidade do som. Estes modelos são considerações formulações fechadas, pois a SSF pode ser calculada usando um número finito de operações padrão.
 
-O modelo TEOS-10 \cite{mcdougall_getting_2011} é outro método para estimação do SSF, resolvendo equações químico-termodinâmicas para encontrar a distribuição de velocidade adequada. Também baseia-se em parâmetros de TPS, porém o seu tratamento não é fechado.
+O modelo TEOS-10 \cite{mcdougall_getting_2011} é outro método para estimação do SSF, resolvendo equações químico-termodinâmicas para determinar a distribuição de velocidade adequada, em função da energia. Na modelagem são resolvidas uma série de equações interconectadas que envolvem a composição química detalhada da água e o equilíbrio térmico. Também baseia-se em parâmetros de TPS modificados (temperatura conservativa, pressão hidrostática e salinidade absoluta), mas não é uma formulação fechada (como nos modelos desenvolvidos por \cite{wilson_equation_1960,mackenzie_nineterm_1981,delgrosso_new_1974}).
 
-\subsubsection*{Lei de Snell}
+\subsubsection*{Refração}
 
-Pela lei de Snell, uma mudança na velocidade de propagação de uma onda também afeta sua direção. Portanto, uma onda que se propaga por um corpo d'água suficientemente grande, tal que a velocidade mude de maneira significativa, não seguirá um caminho retilíneo; isso resulta em curvas, refrações, reflexões, e formação/dissolução de feixes.
+Um efeito importante, quando tratando de ondas sonoras que atravessam um ambiente com velocidade sonora variável, é o efeito da refração, em que o caminho que a onda percorre não é necessariamente retilíneo. Por estarmos trabalhando com corpos d'água de grandes dimensões (podendo chegar à casa de quilômetros de largura e/ou profundidade), a velocidade do som também pode variar muito e de forma imprevisível ao longo do corpo d'água, necessitando que a refração seja considerada.
 
-Conhecendo a perfil de velocidade do som, é possível determinar a trajetória de uma onda unidirecional. Ao tratar uma onda omnidirecional como um conjunto de ondas unidirecionais (sendo produzidas por uma fonte sonora), é possível calcular o tempo de propagação entre a fonte e qualquer ponto do meio, bem como o perfil da frente de onda.
+Esse efeito está fortemente ligado ao \gls{princípio de Fermat de tempo mínimo} \cite{se-yuen_closer_1986}, que dita que uma onda (modelada por um raio) que atravessa um meio sempre buscará o menor tempo de viagem. Isso faz com que conhecer o SSF torna o tempo de primeira chegada da onda previsível. Se assumirmos que o SSF varie discretamente de velocidade (uma aproximação que será explorada adiante), o princípio de Fermat pode ser representado pela \gls{lei de Snell} \cite{perrine_fermats_1961}, descrevendo a mudança de ângulo (refração) da onda ao atingir uma interface (discreta) entre dois meios com velocidade do som diferentes.
+
+Por outro lado, a refração pode ser tratada pelo \gls{princípio de Huygens}, \cite{bormann_seismic_2012}, que modela cada ponto em uma frente de onda como uma fonte sonora secundária. A interação entre essas fontes sonoras virtuais produz o envelope da onda ao longo do tempo e, com isso, gera os mesmos efeitos de refração.
 
 \subsection{Estimação do SSF por inversão}
+\label{subsec:sec1:estimacao_ssf_por_inversao}
 
-Embora seja matematicamente possível modelar o SSF a partir dos parâmetros de TPS, a estimação --- ou obtenção através de expedições --- desses parâmetros é muitas vezes inviável na prática. Disso, a maioria das abordagens modernas para reconstrução do SSF evita estimar essas propriedades, e trata a estimação como um problema de inversão. Parte-se do princípio de que, como o conhecimento do SSF permite calcular a trajetória e as propriedades de uma onda que atravessa o meio; então o conhecimento dos caminhos (e/ou das propriedades) permite estimar o SSF.
+Como discutido, é possível modelar o SSF a partir dos parâmetros de TPS. Contudo, a estimação desses parâmetros é muitas vezes inviável na prática. Dessa forma, a maioria das abordagens modernas para a reconstrução do SSF evita estimar essas propriedades e trata a estimação como um problema de \gls{inversão}. Parte-se do princípio de que, como o conhecimento do SSF permite calcular a trajetória e as propriedades de uma onda que atravessa o meio; então o conhecimento dos caminhos (e/ou das propriedades) permite estimar o SSF.
 
 A maioria das técnicas utiliza fontes e receptores sonoros dentro do corpo d'água e, comparando as propriedades das ondas produzidas e recebidas, estima o caminho das ondas; e, a partir disso, obtém uma reconstrução para o SSF. Diferentes técnicas tratam esse problema de inversão usando uma vasta gama de tipos de dados e medições, bem como abordagens matemáticas e modelagens distintas.
 
-\subsubsection*{\textsl{Travel-Time Tomography}}
+\subsubsection*{\ingles{Travel-Time Tomography}}
 
-A \gls{Tomografia de Tempo de Trânsito} (TTT, em inglês \ingles{Travel-Time Tomography}) \cite{bormann_seismic_2012,stefanov_travel_2019} é um dos métodos mais simples para estimativa do SSF. Ela utiliza a diferença no tempo de chegada dos sinais acústicos nos sensores, exigindo uma distribuição espacial de fontes e receptores para resolução espacial suficiente.
+A \gls{Tomografia de Tempo de Trânsito} (TTT, em inglês \ingles{Travel-Time Tomography}) \cite{bormann_seismic_2012,stefanov_travel_2019} é um dos métodos de inversão mais simples para estimativa do SSF. Ela utiliza a diferença no tempo de chegada dos sinais acústicos nos sensores, exigindo uma distribuição espacial de fontes e receptores para resolução espacial suficiente.
 
 Ela se baseia em uma discretização espacial do SSF em células (ou às vezes camadas), em que a velocidade do som é considerada constante dentro de cada célula; e no princípio de Fermat de tempo mínimo, relacionando o SSF ao tempo de primeira chegada da frente de onda em cada ponto do espaço.
 
-No processo iterativo que rege a TTT, calcula-se o comprimento dos percurso das ondas em cada célula, resultando em um sistema de equações usado para estimar/iterar o SSF. Adaptações do TTT incluem a hipótese de ele se aproximar de um modelo conhecido, isso sendo inserido como uma regularização, parametrização, ou permitindo uma decomposição modal.
+No processo iterativo que rege a TTT, calcula-se o comprimento dos percurso das ondas em cada célula, resultando em um sistema de equações usado para estimar/iterar o SSF. Adaptações do TTT incluem a hipótese de o SSF se comportar aproximadamente como conhecido, isso sendo inserido como uma regularização, parametrização, ou permitindo uma decomposição modal.
 
 Suas principais vantagens são robustez, simplicidade, e eficiência computacional, a último permitindo implementação em tempo real. No entanto, a TTT depende de um posicionamento e sincronização exata dos dispositivos (fontes e receptores), e sua suposição de discretização resulta em resolução limitada.
 
-\subsubsection*{\textsl{Matched Field Inversion}}
+\subsubsection*{\ingles{Matched Field Inversion}}
 
-Na técnica \gls{Matched Field Inversion} (MFI) \cite{dosso_bayesian_2011} (similarmente, há também a \textsl{Matched Field Processing} (MFP) \cite{gemba_adaptive_2017}), é utilizada a informação de pressão sonora medida nos receptores. Essa informação é comparada com modelos de pressão acústica para diferentes SSFs, e esses SSFs são adaptados e iterados de forma a minimizar o erro entre os dados de pressão sonora obtidos e a pressão sonora estimada.
+Na técnica \gls{Matched Field Inversion} (MFI) \cite{dosso_bayesian_2011} (similarmente, há também a \textsl{Matched Field Processing} (MFP) \cite{gemba_adaptive_2017}), é utilizada (primariamente) a informação de pressão sonora medida nos receptores. Essa informação é comparada com modelos de pressão acústica para diferentes SSFs, e esses SSFs são adaptados e iterados de forma a minimizar o erro entre os dados de pressão sonora obtidos e a pressão sonora estimada.
 
 Essas técnicas são semelhantes à formação de feixe (\textsl{beamforming}), utilizada em diversas áreas como acústica e processamento de sinais \cite{schmidt_environmentally_1990,brienzo_broadband_1993}, sendo que ambas --- MFI e \textsl{beamforming} --- exploram a correlação espacial entre os receptores e suas medições, modelando o campo acústico dessa modelagem espacial.
 
-O MFI também empregam a decomposição modal dos sinais, com cada modo se comportando de maneira diferente na água. Dessa forma, ela incorpora informações mais complexas sobre os sinais, como amplitude e fase, dependendo não apenas do tempo de trânsito. Entre suas vantagens destacam-se o melhor aproveitamento dos dados obtidos, a resolução espacial aprimorada (em comparação com o TTT) e a maior robustez ao ruído devido ao processamento coerente entre receptores. No entanto, ela requer informações espaço-temporais sobre a fonte e os receptores, como diretividade e comportamento da potência em função da frequência. Além disso, não é adequada para corpos d'água muito grandes, visto que um corpo maior resultaria em um modelo de pressão sonora exponencialmente mais complexo. Essa técnica também é computacionalmente muito custosa.
+O MFI também emprega a decomposição modal dos sinais, com cada modo se comportando de maneira diferente na água. Dessa forma, ela incorpora informações mais complexas sobre os sinais, como amplitude e fase, dependendo não apenas do tempo de trânsito. Entre suas vantagens destacam-se o melhor aproveitamento dos dados obtidos, a resolução espacial aprimorada (em comparação com o TTT) e a maior robustez ao ruído devido ao processamento coerente dos sinais obtidos nos receptores. No entanto, ela requer informações espaço-temporais sobre a fonte e os receptores, como diretividade e comportamento da potência em função da frequência. Além disso, não é adequada para corpos d'água muito grandes, visto que um corpo maior resultaria em um modelo de pressão sonora com uma quantidade exponencialmente maior de parâmetros. Essa técnica também é computacionalmente muito custosa.
 
-\subsubsection*{\textsl{Full-Waveform Inversion}}
+\subsubsection*{\ingles{Full-Waveform Inversion}}
 
 As técnicas de \textsc{Full Waveform Inversion} (FWI) \cite{virieux_overview_2009,fichtner_multiscale_2013} visam a reconstrução da forma de onda (podendo operar no tempo ou na frequência) dos sinais presentes no SSF, considerando diversos comportamentos que são negligenciados pelas técnicas mencionadas anteriormente. Nesse método, o erro entre as formas de onda estimadas e medidas é minimizado iterativamente, buscando o SSF que melhor represente os dados obtidos.
 
-Dado isso, a técnica FWI está entre as que melhor utilizam os dados disponíveis dos receptores, resultando no SSF mais fiel, além de aproveitar ao máximo os sinais disponíveis. Entretanto, devido à consideração de interações complexas entre os sinais e múltiplos caminhos de onda, há um aumento significativo na complexidade matemática e computacional. Isso, aliado à não linearidade do problema, resulta em uma técnica muito complexa e por vezes inviável, que também requer uma estimativa inicial adequada dos parâmetros para sua robustez e convergência.
+Dado isso, a técnica FWI está entre as que melhor utilizam os dados disponíveis nos receptores, resultando no SSF mais fiel, além de aproveitar ao máximo os sinais disponíveis. Entretanto, devido à consideração de interações complexas entre os sinais e múltiplos caminhos de onda, há um aumento significativo na complexidade matemática e computacional. Isso, aliado à não linearidade do problema, resulta em uma técnica muito complexa e por vezes inviável, que também requer uma estimativa inicial adequada dos parâmetros para sua robustez e convergência.
 
-\subsection{Limitações do projeto}
+\subsection{Limitações do projeto relevantes à estimação do SSF}
 
 Dentro do presente projeto do OBNZip 2, surgiram algumas restrições quanto aos dispositivos (fontes e receptores) que serão utilizados, e tipo de informação que pode ser obtida.
 
 \begin{enumerate}[itemsep=0pt]
-	\item Fontes são alocadas ao longo do leito oceânico.
-	\item Receptores são alocados próximos à superfície.
-	\item Fontes se comunicam com receptores, e o tempo de trânsito dessa comunicação é medido.
-	\item Apenas a informação de tempo de trânsito é obtida na comunicação.
+	\item Transceptores são alocadas ao longo do leito oceânico.
+	\item Transceptores são alocados próximo à superfície, em profundidades não superiores a $500\si{\meter}$ em situações de água profunda.
+	\item Fontes se comunicam acusticamente com receptores, e o tempo de trânsito dessa comunicação é medido.
+	\item Apenas a informação de tempo de trânsito é obtida na comunicação (considerando os dispositivos atualmente alocados).
 \end{enumerate}
 
-\subsubsection*{Fontes}
+Embora os dispositivos alocados no leito e na superfície são ambos transceptores (isto é, ambos emitem e recebem comunicação), será convencionado que os dispositivos no leito oceânico serão \gls{fontes}, e os na superfície serão \gls{receptores}. Isso simplifica o modelo matemático e a descrição do problema, e deve ser considerado futuramente ao utilizar os desenvolvimentos apresentados.
 
-É desejado utilizar os \ingles{Ocean Bottom Nodes} (OBNs) que já estão dispostos no leito oceânico como as fontes, de forma a não necessitar a construção e implantação de novos equipamentos. Isso leva a outras restrições, como quanto às frequências sonoras que podem ser utilizadas (limitadas às produzidas pelos OBNs).
+\subsubsection*{Fontes sonoras}
+
+É desejado utilizar os \ingles{Ocean Bottom Nodes} (OBNs) (inclusive especificamente ODOBNs da Sonardyne) que já estão dispostos no leito oceânico como as fontes sonoras, de forma a não necessitar a construção e implantação de novos equipamentos.% Isso leva a outras restrições, como quanto às frequências sonoras que podem ser utilizadas (limitadas às produzidas pelos OBNs).
 
 \subsubsection*{Receptores}
 
-Os receptores serão implementados por meio de viagens com \ingles{streamers}, veículos operados remotamente (ROVs, do inglês \ingles{Remotely Operated Vehicles}) ou outros dispositivos, em que esses se comunicam com os OBNs. Embora o problema seja matematicamente modelado como utilizando diversos receptores, na prática isso é implementado como um único (ou alguns poucos) receptor, com esse sendo alocado em posições diferentes.
+Os receptores serão implementados por meio de expedições com \ingles{streamers}, veículos operados remotamente (ROVs, do inglês \ingles{Remotely Operated Vehicles}) ou outros dispositivos, em que esses se comunicam com os OBNs. Embora o problema seja matematicamente modelado como utilizando diversos receptores, na prática isso é implementado como um único (ou alguns poucos) receptor(es), com esse sendo alocado em posições diferentes.
 
-Uma restrição relacionada aos receptores é quanto ao seu posicionamento: dado que o custo de uma expedição está atrelado à profundidade que os receptores serão utilizados (mais caro levá-los até áreas mais profundas, além de uma complexidade maior), deseja-se limitar a profundidade na qual eles podem ser utilizados.
+Uma restrição relacionada aos receptores é quanto ao seu posicionamento: dado que o custo de uma expedição está atrelado à profundidade que os receptores serão utilizados (mais caro levá-los até áreas mais profundas, além de uma complexidade maior), deseja-se limitar a profundidade na qual eles podem ser utilizados. Em específico, é de interesse que os receptores estejam limitados a profundidades de $500\si{\meter}$, como alinhado com a Petrobras. %TODO: Conferir essa informação, ou buscar uma referência.
 
 \subsubsection*{Comunicação e tempo de trânsito}
 
-Como o interesse principal no projeto é a utilização da comunicação acústica entre os dispositivos (ao menos nesse primeiro momento), a informação disponível que pode ser utilizada é o tempo de trânsito entre fontes e receptores.
+Como o interesse inicial é a utilização da comunicação acústica entre os dispositivos (ao menos nesse primeiro momento), a informação disponível que pode ser utilizada é restrita ao tempo de trânsito entre fontes e receptores.
 
 Tecnicamente, o esquema que será utilizado envolve dispositivos transceptores, operando simultaneamente como fonte e receptor: o dispositivo A emite o sinal; o disp. B recebe, processa, e responde; e o disp. A recebe essa resposta, medindo o tempo de viagem A--B--A. Contudo, por questões de simplificação da modelagem, assume-se que o tempo de viagem A--B é igual ao tempo de viagem B--A, bem como que o disp. B é a fonte, e o disp. A é o receptor.
 
 Também é assumido que não ocorra comunicação entre fonte-fonte (não se sabe o tempo de trânsito entre OBNs), nem entre receptor-receptor; apenas fontes e receptores.
+
+\subsection{Diferenças entre os casos 1D e multi-dimensionais} % Adicionado por sugestão do Luis
+
+Anteriormente, foram apresentados os casos 1D e multi-dimensionais, sem que esses forem profundamente tratados, em particular quanto às suas peculiaridades. Trivialmente, a passagem do caso 1D para o 2D (e do 2D para o 3D, e desse para o 4D) leva a um aumento na complexidade do problema, atrelado tanto ao aumento do número de unidades a serem estimadas no ambiente; mas também um aumento na complexidade das interações entre as ondas que trafegam o ambiente e as células que o compõem, com essas podendo viajar em mais direções, e podendo tomar caminhos diferentes.
+
+Além disso, a alocação de dispositivos está intimamente ligada à estrutura que pode ser estimada. Por exemplo, em um caso com dispositivos alocados em uma única coluna e alinhados verticalmente, não haverá medições do ambiente além dessa coluna (em particular de informações de tempo de primeira chegada), impossibilitando qualquer tipo de estimação que não seja uni-dimensional. Portanto, de maneira geral, a dimensionalidade da estimação está limitada à dimensionalidade da alocação dos dispositivos.
 
 \subsection{\textsl{Mindmap}}
 

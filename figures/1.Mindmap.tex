@@ -15,7 +15,14 @@
 		level 2/.append style={
 			level distance=3.5cm,
 			minimum size=2cm,
-			text width=1.8cm
+			text width=1.8cm,
+            font=\footnotesize
+		},
+		level 3/.append style={
+			level distance=3.5cm,
+			minimum size=2cm,
+			text width=1.8cm,
+            font=\footnotesize
 		},
 		]
 		
@@ -23,20 +30,22 @@
 		child[concept color=red!10, grow=30,] {
 			node{\textbf{Princípios}}
 			child[grow=0] { node{Parâmetros \\ TPS} }
-			child[grow=-45] { node{Refração \\ (Snell)} }
+			child[grow=-45] { node (refracao) {Refração} }
 		}
 		child[concept color=green!10!white!95!black, grow=-30] {
 			node{\textbf{Métodos de\\estimação}}
-			child[grow=315] { node{FWI} }
-			child[grow=360] { node{MFI} }
-			child[grow=270] { node (ttt) {TTT}} 
+			child[grow=315] { node{FWI e MFI \\(Huygens)} }
+			child[grow=270] { node (ttt) {TTT \\ (Fermat)} } 
+            child[concept color=red!10] {node at (refracao) {Refração} }
 		}
 		child[concept color=blue!10, grow=-90] {
 			node{\textbf{Limitações\\do projeto}}
-			child[grow=-45] { node{Fontes} }
-			child[grow=-90] { node{Receptores} }
-			child[grow=-135] { node{Comunicação} }
-			child[grow=-180] { node{Informação\\obtida} }
+			child[grow=-195] { node{Fontes} }
+			child[grow=-150] { node{Receptores} }
+			child[grow=-105] { node{Comunicação} }
+			child[grow=-60] { node{Info. de tempo\\de trânsito}
+                child[concept color=green!10!white!95!black] { node at (ttt) {TTT \\ (Fermat)} }
+            }
 		}
 		;	
 	\end{tikzpicture}

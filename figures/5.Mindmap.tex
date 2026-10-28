@@ -1,0 +1,53 @@
+%\section{Mindmap}
+%\vfill
+\begin{figure}[!t]
+	\centering
+	\begin{tikzpicture}[
+		mindmap,
+		text width=2.5cm,
+		align=center,
+		every node/.style={concept},
+		concept color=gray!30,
+		level 1/.append style={
+			level distance=5cm,
+			minimum size=3cm,
+			text width=2.8cm,
+			font=\large,
+		},
+		level 2/.append style={
+			level distance=3.5cm,
+			minimum size=2cm,
+			text width=1.8cm
+		},
+		]
+		
+		\node[minimum size=4.5cm, text width=4.3cm, line width=6pt, fill=gray!10] (TTT) { \Large\textbf{PVPS} }
+		child[concept color=blue!10,grow=210] { 
+			node {\textbf{Revisão bibliográfica}} 
+			child[grow=75] { node {Métodos de estimação} }
+			child[grow=120] { node {Estimação com restrições} }
+			child[grow=240] { node {Tempo de trânsito} }
+		}
+		child[concept color=red!10, grow=270] {
+			node {\textbf{\ingles{Travel-Time Tomography}}}
+			child[grow=270] { node {Aplicações} }
+			child[grow=15] { node {Adaptações} }
+			child[grow=225] { node {Possíveis expansões (SVD)} }
+			child[grow=330] {node {Outros temas} }
+		}
+		child[concept color=green!10, grow=0] {
+			node {\textbf{Análise estatística}} 
+			child[grow=105] {
+                node {Bancos de dados}
+                % child[grow=]
+            }
+			child[grow=60] { node {\ingles{Framework} avaliativo} }
+            child[grow=-60] { node{\ingles{Packages} de manipulação de dados} }
+			% child[grow=15] { node {Modelo inicial \\(3)} }
+			% child[grow=-30] { node {Outros \\(3)}}
+		}
+		;	
+	\end{tikzpicture}
+	\caption{\textsl{Mindmap} da \cref{sec_rssfi}.}
+	\label{fig:mindmap_sec4}
+\end{figure}
